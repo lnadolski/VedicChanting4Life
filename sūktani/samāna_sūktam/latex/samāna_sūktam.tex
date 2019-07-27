@@ -1,0 +1,71 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=18]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+
+\usepackage{xcolor} % writing in color
+
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% Requires font Nakula by John Smith,
+% see http://bombay.indology.info/software/fonts/devanagari/indexḥtml
+\newcommand\skt{\catcode`\~=12
+           \fontspec[Script=Devanagari,Mapping=velthuis-sanskrit]{Chandas}}
+\newfontfamily
+  \sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sanskrit 2003}
+%  \sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+%\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Devanagari Sangam ṁN}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+\begin{document}
+
+
+\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+\textbf{{\Huge ॥\,samāna sūktam\,॥} \LARGE\let\thefootnote\relax\footnote{ \color{lightgray} Document written using \XeLaTeX{} and chandas font, LSN, version 17/01/2016.}}
+\end{center}
+\Large
+
+\centering
+%\raggedright
+
+\vspace{0.5cm}
+
+
+॥\, HYMN 191 (RV Book 10) \,॥
+
+
+oṁ saṁsa॒midyu̍vase vṛṣa॒nnagne॒ viśvā̎nya॒rya ā\,। \\
+i॒ḷaspa॒desami̍dhyase॒ sa no॒ vasū॒nyā bha̍ra  ॥\,1\,॥ \par
+
+saṁ ga̍tchadhva॒ṁ saṁ va̍dadhva॒ṁ saṁ vo॒ manā̎ṁsi jānatām\,। \\
+de॒vā bhā॒gaṁ yathā॒ pūrve̎ saṁjānā॒nā u॒pāsa̍te  ॥\,2\,॥ \par
+
+sa॒mā॒no mantra॒ḥ sami̍tiḥ samā॒nī sa̍mā॒naṁ mana̍ḥ sa॒ha ci॒ttame̎ṣām\,। \\
+sa॒mā॒naṁ mantra̍ma॒bhi man̎traye vaḥ samā॒nena̍ voha॒viṣā̎ juhomi  ॥\,3\,॥ \par
+
+sa॒mā॒nī va॒ ākū̎tiḥ samā॒nā hṛda̍yāni vaḥ\,। \\
+sa॒mā॒nama̍stu vo॒mano॒ yathā̎ va॒ḥ susa॒hāsa̍ti  ॥\,4\,॥ \par
+
+%%\vspace{0.5cm}
+
+ 
+\vspace{0.5cm}
+ 
+\begin{center}
+ ॥\,oṁ śānti॒ḥ śānti॒ḥ śānti̍ḥ\,॥
+\end{center}
+
+\vspace{1.5cm}
+
+\end{document}

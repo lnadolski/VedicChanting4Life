@@ -1,0 +1,153 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=14]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+\usepackage{fancyhdr} % header
+
+\usepackage{xcolor} % writing in color
+
+\renewcommand{\baselinestretch}{1.2}% interligne + 20%
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+%\setmainfont[Ligatures=TeX]{uttara}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+
+% add a small titleḥ name of the file + initials
+\pagestyle{fancy}
+\lhead{\color{lightgray} nakṣatra sūktam}
+%\lhead{\color{lightgray} īśopaniṣat}
+\rhead{\color{lightgray} LSN}
+
+\setkomafont{pagenumber}{\normalfont\bfseries}
+\pagenumbering{roman}
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+% see command for footmark without numbering
+\textbf{{\Huge॥\,~nakṣatra sūktam~॥  \LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font,  version 14/07/2019, LSN.}}}
+\end{center}
+\Large
+
+{%\centering	
+%\raggedright
+
+%ṛgvedaḥ: mam.-10, sū.-163, ṛṣiḥ vivṛhā kāśyapaḥ yakṣmanāśanam anuṣṭup
+\vspace{0.5cm}
+
+\Large
+\vspace{1.5cm}
+
+kṛttikā \\
+a̱gnir na̍ḥ pātu̱ kṛtti̍kāḥ~|  nakṣa̍traṃ de̱vam-i̍ndri̱yam~|  i̱dam-ā̍sāṃ vicakṣa̱ṇam~|  ha̱vir-ā̱saṃ ju̍hotana~|  yasya̱ bhānti̍ ra̱śmayo̱ yasya̍ ke̱tava̍ḥ~|  yasye̱mā viśvā̱ bhuva̍nāni̱ sarvā̎~|  sa kṛtti̍kābhir a̱bhisa̱ṃ-vasā̍naḥ~|  a̱gnir no̍ de̱vas su̍vi̱te da̍dhātu\,॥ \\
+\vspace{0.5cm}
+
+rohini \\ 
+pra̱jāpa̍te rohi̱ṇī ve̍tu patnī̎~|  vi̱śva-rū̍pā bṛha̱tī ci̱tra bhā̍nuḥ~|  sā no̍ ya̱jñasya̍ suvi̱ te da̍dhātu~|  yathā̱ jīve̍ma śa̱rada̱s-savī̍rāḥ~|  ro̱hi̱ṇī de̱vyuda̍gāt pu̱rastā̎t~|  viśvā̍ ṛū̱pāṇi̍ prati̱-moda̍mānā~|  pra̱jāpa̍tiguṁ ha̱viṣā̍ va̱rdhaya̍ntī~|  pri̱yā de̱vānā̱m upa̍yātu ya̱jñam~\,॥\,2\,॥ \\
+
+mṛga \\ 
+somo̱ rājā̍ mṛgaśī̱ṟṣeṇa̱ āgann̍~|  śi̱vaṃ nakṣa̍traṃ pri̱yam a̍sya̱ dhāma̍~|  ā̱pyāya̍māno bahu̱dhā jane̍ṣu~|  reta̍ḥ pra̱jāṃ yaja̍māne dadhātu~|  yatte̱ nakṣa̍traṃ mṛgaśī̱ṟṣam asti̍~|  pri̱yaguṁ rā̍jan pri̱yata̍maṃ pri̱yāṇā̎m~|  tasmai̍ te soma ha̱viṣā̍ vidhema~|  śanna̍ edhi dvi̱pade̱ śaṃ catu̍ṣpāde~\,॥\,3\,॥ \\
+
+ārdra \\ 
+ā̱rdrayā̍ ru̱draḥ pratha̍mā na eti~|  śreṣṭho̍ de̱vānā̱ṃ pati̍raghni̱yānā̎m~|  nakṣa̍tram asya ha̱viṣā̍ vidhema~|  mā na̍ḥ pra̱jāguṁ rī̍riṣa̱n mota vī̱rān~|  he̱tī ru̱drasya̱ pari̍ṇo vṛṇaktu~|  ā̱rdrā nakṣa̍traṃ juṣatāguṁ ha̱vir na̍ḥ~|  pra̱mu̱ñcāmā̍nau duri̱tāni̱ viśvā̎~|  apā̱ghaśagu̍ṁ sannudatā̱m arā̍tim~\,॥\,4\,॥ \\
+
+punarvasū  \\
+puna̍r no de̱vya'di̍tis spṛṇotu~|  puna̍r vasū na̎ḥ puna̱r etā̍ṃ yajñam~|  puna̍r no de̱vā a̱bhi-ya̍ntu̱ sarve̎~|  puna̍ḥ punar vo ha̱viṣā̍ yajāmaḥ~|  e̱vā na de̱vyadi̍tir ana̱rvā~|  viśva̍sya bha̱rtrī jaga̍taḥ prati̱ṣṭhā~|  puna̍r-vasū ha̱viṣā̍ va̱rdhaya̍ntī~|  pri̱yaṃ de̱vānā̱m apye̍tu̱ pātha̍ḥ~\,॥\,5\,॥ \\
+
+puṣya \\ 
+bṛha̱spati̍ḥ pratha̱maṃ jāya̍mānaḥ~|  ti̱ṣya̍ṁ nakṣa̍tram a̱bhi saṁba̍bhūva~|  śreṣṭho̍ de̱vānā̱ṃ pṛta̍nāsu ji̱ṣṇuḥ~|  di̱śo 'nu̱ sarvā̱ abha̍yan no astu~|  ti̱ṣya̍ḥ pu̱rastā̍d uta ma̍dhya̱to na̍ḥ~|  bṛha̱spati̍r na̱ḥ pari̍pātu pa̱ścāt~|  bādhe̍tā̱n dveṣo̱ abha̍yaṃ kṛṇutām~|  su̱vīrya̍sya̱ pata̍yas syāma~\,॥\,6\,॥ \\
+
+aśleṣa \\ 
+i̱daguṁ sa̱rpebhyo̍ ha̱vir a̍stu̱ juṣṭam̎~|  ā̱śre̱ṣeṣā yeṣā̍m anu̱yanti̱ ceta̍ḥ~|  ye a̱ntari̍kṣaṃ pṛthi̱vīṃ kṣi̱yanti̍~|  te na̍s sa̱rpāso̱ hava̱m āga̍miṣṭhāḥ~|  ye ro̍ca̱ne sūrya̱syāpi̍ sa̱rpāḥ~|  ye diva̍ṁ de̱vīm anu̍sa̱ñcara̍nti~|  yeṣā̍m āśre̱ṣā a̍nu̱yanti̱ kāmam̎~|  tebhya̍s sa̱rpebhyo̱ madhu̍maj-juhomi~\,॥\,7\,॥ \\
+
+magha \\ 
+upa̍hūtāḥ pi̱taro̱ ye ma̱ghāsu̍~|  mano̍-javasas su̱kṛta̍s su̱kṛ̱tyāḥ~|  te no̱ nakṣa̍tre̱ hava̱m āga̍miṣṭhāḥ~|  sva̱dhābhi̍r ya̱jñaṃ praya̍taṃ juṣantām~|  ye a̍gni da̱gdhā ye'na̍gni-dagdhāḥ~|  ye̍'mullo̱kaṃ pi̱tara̍ḥ kṣi̱yanti̍~|  yāggaśca̍ vi̱dma yāguṁ u̍ ca̱ na pra̍vidma~|  ma̱ghāsu̍ ya̱jñaguṁ sukṛ̍taṃ juṣantām~\,॥\,8\,॥ \\
+
+purva \\ 
+phalgunī gavā̱ṃ pati̱ḥ phalgu̍nīnām asi̱ tvam~|  tad a̍ryaman varuṇa mitra̱ cāru̍~|  taṃ tvā̍ va̱yaguṁ sa̍nitāragu̍ṁ sanī̱nām~|  jī̱vā jīva̍nta̱m upa̱ saṃvi̍śema~|  yene̱mā viśvā̱ bhuva̍nāni̱ sañji̍tā~|  yasya̍ de̱vā a̍nusa̱ṃyanti̱ ceta̍ḥ~|  a̱rya̱mā rājā̱'jara̱stu vi̍ṣmān~|  phalgu̍nīnām ṛṣa̱bho ro̍ravīti~\,॥\,9\,॥ \\
+
+uttara \\
+phalgunī śreṣṭho̍ de̱vānā̎ṁ bhagavo bhagāsi~|  tattvā̍ vidu̱ḥ phalgu̍nī̱s tasya̍ vittāt~|  a̱smabhya̍ṃ kṣa̱tram a̱jaragu̍ṁ su̱vīryam̎~|  goma̱d-aśva̍-va̱du-pa̱sannu̍de̱ha bhago̍ ha dā̱tā bhaga itpra̍dā̱tā~|  bhago̍ de̱vīḥ phalgu̍nī̱r āvi̍veśa~|  bhaga̱syettaṃ pra̍sa̱vaṃ ga̍mema~|  yatra̍ de̱vais sa̍dha̱m āda̍ṃ madema~\,॥\,10\,॥ \\
+
+hasta  \\
+āyā̍tu de̱vas-sa̍vi̱ttopa̍yātu~|  hi̱ra̱ṇyaye̍na su̱vṛtā̱ rathe̍na~|  vaha̱n hastagu̍ṁ subhagu̍ṁ vidma̱n-āpa̍sam~|  prayaccha̍nta̱ṃ papu̍ri̱ṃ puṇya̱maccha̍~|  hasta̱ḥ praya̍ccha tva̱mṛta̱ṃ vasī̍yaḥ~|  dakṣi̍ṇena̱ prati̍gṛbhṇīma enat~|  dā̱tāra̍m a̱dya sa̍vi̱tā vi̍deya~|  yo no̱ hastā̍ya prasu̱vāti̍ ya̱jñam~\,॥\,11\,॥ \\
+
+citra  \\
+tvaṣṭā̱ nakṣa̍tram a̱bhye̍ti ci̱trām~|  su̱bhaguṁ sa̍saṃyuv̱atiguṁ roca̍mānām~|  ni̱ve̱śaya̍nn-a̱mṛtā̱n martyāgu̍ṁśca~|  ṛū̱pāṇi̍ pi̱gu̎ṁśan bhuva̍nāni̱ viśvā̎~|  tan na̱s tvaṣṭā̱ tad u̍ ci̱trā vica̍ṣṭām~|  tan nakṣa̍traṃ bhūri̱ dā a̍stu̱ mahyam̎~|  tan na̍ḥ pra̱jāṃ vī̱rava̍tīguṁ sanotu~|  gobhi̍r no aśvai̱s-sama̍naktu yajñam~\,॥\,12\,॥ \\
+
+svāti  \\
+vā̱yur nakṣa̍tram a̱bhye̍ti̱ niṣṭyā̎m~|  ti̱gma-śṛṅ̍go vṛṣa̱bho roru̍vāṇaḥ~|  sa̱mī̱raya̱n bhuva̍nā māta̱riśvā̎~|  apa̱ dveṣāgu̍ṁsi nudatā̱m arā̍tīḥ~|  tan no̍ vā̱yus tad u̱ niṣṭyā̍ śṛṇotu~|  tan nakṣa̍tram bhūri̱ dā a̍stu̱ mahyam̎~|  tan no̍ de̱vāso̱ anu̍ jānantu̱ kāmam̎~|  yathā̱ tare̍ma duri̱tāni̱ viśvā̎~\,॥\,13\,॥ \\
+
+viśākha  \\
+dū̱ram a̱smac-chatra̍vo yantu bhī̱tāḥ~|  tad i̍ndrā̱gnī kṛ̍ṇutā̱ṃ tad viśā̍khe~|  tan no̍ de̱vā anu̍madantu ya̱jñam~|  pa̱ścāt pu̱rastā̱d abhaya̍n no astu~|  nakṣa̍trāṇā̱m adhi̍ patnī̱ viśā̍khe~|  śreṣṭhā̍v-indrā̱gnī bhuva̍nasya go̱pau~|  viṣū̍ca̱ś-śatrū̍n apa̱bādha̍mānau~|  apa̱ kṣudha̍nn udatā̱m arā̍tim~\,॥\,14\,॥ \\
+
+pūrṇimā  \\
+pū̱rṇā pa̱ścād u̱ta pū̱rṇā pu̱rastā̎t~|  unma̍dhya̱taḥ pa̎urṇamā̱sī ji̍gāya~|  tasyā̎ṃ de̱vā adhi̍ sa̱ṃvasa̍ntaḥ~|  u̱tta̱me nāka̍ i̱ha mā̍dayantāṃ~|  pṛ̱thivī su̱varcā̍ yuva̱tiḥ sa̱joṣā̎ḥ~|  pau̱rṇa̱mā̱syudyagā̱c-chobha̍mānā~|  ā̱pyā̱yaya̍ntī duri̱tāni̱ viśvā̎~|  u̱ruṁ duhā̱ṃ yaja̍mānāya ya̱jñam~\,॥\,15\,॥ \\
+
+anurādhā  \\
+ṛdhyāsma̍ ha̱vyair nama̍sopa̱sadya̍~|  mi̱traṁ de̱vaṁ mi̍tra̱-dheya̍n no astu~|  a̱nu̱rā̱dhān ha̱viṣā̍ va̱rdhaya̍ntaḥ~|  śa̱taṁ jī̍vema śa̱rada̱s-savī̍rāḥ~|  ci̱traṁ nakṣa̍tra̱m uda̍gāt pu̱rastā̎t~|  a̱nū̱rā̱dhā sa̱ iti̱ yad vada̍nti~|  tan mi̱tra e̍ti pa̱thibhir deva̱-yānai̎ḥ~|  hi̱ra̱ṇyayai̱r vita̍tair a̱ntari̍kṣe~\,॥\,16\,॥ \\
+
+jyeṣṭha  \\
+indro̎ jye̱ṣṭāmanu̱ naksa̍tram eti~|  yasm̍n vṛ̱traṁ vṛ̍tra̱ tūrye̍ ta̱tāra̍~|  tasmi̍n va̱yam a̱mṛta̱m duhā̍nāḥ~|  kṣudha̍n tarema duri̍ti̱ṁ duri̍ṣṭam~|  pu̱ra̱nda̱rāya̍ vṛṣa̱bhāya̍ dhṛ̱ṣṇave̎~|  āṣā̍ḍhāya̱ saha̍mānāya mīḍhuṣe~|  indrā̍ya jye̱ṣṭhā madhu̍m u̱dduhā̍nā~|  u̱ruṁ kṛ̍ṇotu̱ yaja̍mānāya lo̱kam~\,॥\,17\,॥ \\
+
+mūla  \\
+mūla̍ṃ pra̱jāṃ vī̱rava̍tīṃ videya~|  parā̎cyetu̱ nirṛ̍tiḥ parā̱cā~|  gobhi̱r nakṣa̍traṃ pa̱śubhi̱s-sama̍ktam~|  aha̍r-bhūyā̱d yaja̍mānāya̱ mahyam̎~|  aha̍rno a̱dya su̍vi̱te da̍dhātu~|  mūla̱ṃ nakṣa̍tra̱m iti̱ yad vada̍nti~|  parā̍cīṃ vā̱cā nirṛ̍tiṃ nudāmi~|  śi̱vaṃ pra̱jāyai̍ śi̱vam a̍stu̱ mahyam̎~\,॥\,18~\,॥\,75
+
+pūrva  \\
+aṣāḍha yā di̱vyā āpa̱ḥ paya̍sā saṁbabhū̱vaḥ~|  yā a̱ntari̍kṣa u̱ta pārthi̍-vī̱ryāḥ~|  yāsā̎m aṣā̱ḍhā a̍nu̱yanti̱ kāmam̎~|  tā na̱ āpa̱ś śaguṁ syo̱nā bha̍vantu~|  yāśca̱ kūpyā̱ yāśca̍ nā̱dyā̎s samu̱driyā̎ḥ~|  yāśca̍ vaiśa̱ntīr uta prā̍sa̱cīryāḥ~|  yāsā̍m aṣā̱ḍhā madhu̍ bha̱kṣaya̍nti~|  tā na̱ āpa̱ḥ śagg syo̱nā bha̍vantu~\,॥\,19\,॥ \\
+
+uttara  \\
+aṣāḍha tanno̱ viśve̱ upa̍ śṛṇvantu de̱vāḥ~|  tad a̍ṣā̱ḍhā a̱bhisaṃya̍ntu ya̱jñam~|  tan nakṣa̍traṃ prathatāṃ pa̱śubhya̍ḥ~|  kṛ̱ṣir-vṛ̱ṣṭir yaja̍mānāya kalpatām~|  śu̱bhrāḥ ka̱nyā̍ yuva̱taya̍s su̱peśa̍saḥ~|  ka̱rma̱ kṛta̍s su̱kṛto̍ vī̱ryā̍vatīḥ~|  viśvā̎n de̱vān ha̱viṣā̍ va̱rdhaya̍ntīḥ~|  a̱ṣā̱ḍhāḥ kāma̱m upā̍yantu ya̱jñam~\,॥\,20~\,॥\,
+
+abhijit  \\
+yasmi̱n brahmā̱bhya ja̍ya̱t sarva̍m e̱tat~|  a̱muñca̍ lo̱kam i̱damū̍ca̱ sarvam̎~|  tan no̱ nakṣa̍tram abhi̱jid vi̱jitya̍~|  śriya̍ṃ dadhā̱tv-ahṛ̍ṇīyamānam~|  u̱bhau lo̱kau brahma̍ṇā̱ sañji̍te̱mau~|  tanno̱ nakṣa̍tram abhi̱jid vica̍ṣṭām~|  tasmi̍n va̱yaṃ pṛta̍nā̱s-sañja̍yema~|  tanno̍ de̱vāso̱ anu̍jānantu̱ kāmam̎~\,॥\,21\,॥ \\
+
+śravana  \\
+śṛ̱ṇvanti̍ śro̱ṇām a̱mṛta̍sya go̱pām~|  puṇyā̍m asyā̱ upa̍śṛṇomi̱ vācam̎~|  ma̱hīṃ de̱vīṃ viṣṇu̍-patnīm ajū̱ryām~|  pra̱tīcī̍ menāguṃ ha̱viṣā̍ yajāmaḥ~|  tre̱dhā viṣṇu̍r urugā̱yo vica̍krame~|  ma̱hīṃ diva̍ṃ pṛthi̱vīm a̱ntari̍kṣam~|  tac-chro̱ṇaiti śrava̍-i̱cchamā̍nā~|  puṇya̱gg śloka̱ṃ yaja̍mānāya kṛṇva̱tī~\,॥\,22\,॥ \\
+
+dhaniṣṭha  \\
+a̱ṣṭau de̱vā vasa̍vas so̱myāsa̍ḥ~|  cata̍sro de̱vīr a̱jarā̱ḥ śravi̍ṣṭhāḥ~|  te ya̱jñaṃ pā̎ntu̱ raja̍saḥ pu̱rastā̎t~|  sa̱ṃva̱tsa̱rīṇa̍m a̱mṛtagg̍ sva̱sti~|  ya̱jñaṃ na̍ḥ pāntu̱ vasa̍vaḥ pu̱rastā̎t~|  da̱kṣi̱ṇa̱to̍'bhiya̍ntu̱ śravi̍ṣṭhāḥ~|  puṇya̱n nakṣa̍tram a̱bhi saṃvi̍śāma~|  mā no̱ arā̍tir a̱ghaśa̱gu̱ṃ sā'gann̍~\,॥\,23\,॥ \\
+
+śatabhiṣak  \\
+kṣa̱trasya̱ rājā̱ varu̍ṇo'dhirā̱jaḥ~|  nakṣa̍trāṇāguṃ śa̱tabhi̍ṣag vasi̍ṣṭhaḥ~|  tau de̱vebhya̍ḥ kṛṇuto dī̱rghamāyu̍ḥ~|  śa̱taguṃ sa̱hasrā̍ bheṣa̱jāni̍ dhattaḥ~|  ya̱jñan no̱ rājā varu̍ṇa̱ upa̍yātu~|  tanno̱ viśve̍ a̱bhi saṃya̍ntu de̱vāḥ~|  tanno̱ nakṣa̍traguṃ śa̱tabhi̍ṣag juṣā̱ṇam~|  dī̱rgham āyu̱ḥ prati̍rad bheṣa̱jāni̍~\,॥\,24\,॥ \\
+
+pūrva  \\
+bhadra a̱ja eka̍pā̱d uda̍gāt pu̱rastā̎t~|  viśvā̍ bhū̱tāni̍ prati̱ moda̍mānaḥ~|  tasya̍ de̱vāḥ pra̍sa̱vaṃ ya̍nti̱ sarve̎~|  pro̱ṣṭha̱padāso̍ a̱mṛta̍sya go̱pāḥ~|  vi̱bhrāja̍mānas samidhā̱ na u̱graḥ~|  ā 'ntari̍kṣam aruha̱daga̱ndyām~|  taguṃ sūrya̍ṃ de̱vam a̱jameka̍-pādam~|  pro̱ṣṭha̱pa̱dāso̱ anu̍yanti̱ sarve̎~\,॥\,25\,॥ \\
+
+uttara  \\
+bhādra ahi̍rbu̱dhniya̱ḥ pratha̍mā na eti~|  śreṣṭho̍ de̱vānā̎m u̱ta mānu̍ṣāṇām~|  tam brā̎hma̱ṇās so̍ma̱pās so̱myāsa̍ḥ~|  pro̱ṣṭha̱pa̱d āso̍ a̱bhira̍kṣanti̱ sarve̎~|  ca̱tvāra̱ eka̍m a̱bhi karma̍ de̱vāḥ~|  pro̱ṣṭha̱pa̱dā sa̱ iti̱ yān vada̍nti~|  te bu̱dhniya̍ṁ pari̱ṣadyagga̍s stu̱vanta̍ḥ~|  ahigu̍ṁ rakṣanti̱ nama̍sopa̱sadya̍~\,॥\,26\,॥ \\
+
+revati  \\
+pū̱ṣā re̱vaty-anve̍ti̱ panthā̎m~|  pu̱ṣṭi̱-patī̍ paśu̱pā vāja̍bastyau~|  i̱māni̍ ha̱vyā praya̍tā juṣā̱ṇā~|  su̱gair no̱ yāna̱ir upa̍yātāṃ ya̱jñam~|  kṣu̱drān pa̱śūn ra̍kṣatu re̱vatī̍ naḥ~|  gāvo̍ no̱ aśvā̱gu̱ṁ anve̍tu pū̱ṣā~|  anna̱gu̱ṁ rakṣa̍ntau bahu̱dhā virū̍pam~|  vājagu̍ṁ sanutā̱ṃ yaja̍mānāya ya̱jñam~\,॥\,27\,॥ \\
+
+aśvini  \\
+tad a̱śvinā̍v aśva̱-yujopa̍yātām~|  śubha̱ṅgam i̍ṣṭhau su̱yame̍bhi̱r aśvai̎ḥ~|  svaṁ nakṣa̍traguṁ ha̱viṣā̱ yaja̍ntau~|  madhvā̱ sampṛ̍ktau̱ yaju̍ṣā̱ sama̍ktau~|  yau de̱vānā̎ṁ bhi̱ṣajau̎ havyavā̱hau~|  viśva̍sya dū̱tāv a̱mṛta̍sya go̱pau~|  tau nakṣa̍traṁ jujuṣā̱ṇopa̍yātāṁ~|  namo̱ ‘śvibhyā̎ṁ kṛṇumo’śva̱ yugbhyā̎ṁ~\,॥\,28\,॥ \\.
+
+bharaṇi  \\
+apa̍ pā̱pmāna̱ṃ bhara̍ṇīr bharantu~|  tad ya̱mo rājā̱ bhaga̍vā̱n vica̍ṣṭām~|  lo̱kasya̱ rājā̍ maha̱to ma̱hān hi~|  su̱gan na̱ḥ panthā̱m abha̍yaṁ kṛṇotu~|  yasmi̱n nakṣa̍tre ya̱ma eti̱ rājā̎~|  yasmi̍n nenam a̱bhyaṣi̍ñcanta de̱vāḥ~|  yad a̍sya ci̱tragum̐ ha̱viṣā̍ yajāma~|  apa̍ pā̱pmāna̱ṃ bhara̍ṇīr bharantu~\,॥\,29\,॥ \\
+
+amavāsya  \\
+ni̱veśa̍nī sa̱ṅgama̍nī̱ vasū̍nā̱ṃ viśvā̍ rū̱pāṇi̱ vasū̎ny-āve̱śaya̍ntī~|  sa̱ha̱sra̱ po̱ṣaguṁ su̱bhagā̱ rarā̍ṇā̱ sā na̱ āga̱n varca̍sā saṃvidā̱nā~|  yatte̍ de̱vā ada̍dhur bhāga̱dheyam amā̍vāsye sa̱ṃvasa̍nto mahi̱tvā~|  sā no̍ ya̱jñaṃ pi̍pṛhi viśvavāre ra̱yin no̍ dhehi subhage su̱vīram̎~\,॥\,30\,॥ \\
+
+\vspace{1.0cm}
+
+ ॥\,oṁ śānti॒ḥ śānti॒ḥ śānti̍ḥ\,॥
+ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% visible / unvisible 
+
+\end{document}

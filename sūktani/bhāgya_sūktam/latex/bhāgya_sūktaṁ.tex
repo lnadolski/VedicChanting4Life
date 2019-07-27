@@ -1,0 +1,78 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=14, pagenumber=head,top, enableddeprecatedfontcommands]{scrartcl}
+\usepackage{fancyhdr} % header
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+%{enableddeprecatedfontcommands}
+
+\usepackage{xcolor} % writing in color
+
+\renewcommand{\baselinestretch}{1.2}% interligne + 20%
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+% add a small title: name of the file + initials
+\pagestyle{fancy}
+\lhead{\color{lightgray} bhāgya sūktam}
+\rhead{\color{lightgray} LSN}
+
+\setkomafont{pagenumber}{\normalfont\bfseries}
+\pagenumbering{roman}
+
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+% see command forfootmark without numbering
+\textbf{{\Huge॥\,~bhāgya sūktam\,~॥\LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font, version 31/07/2016, LSN.}}}
+\end{center}
+\Large
+
+\centering	
+%\raggedright
+
+\small{taittirīya brāhmaṇam, aṣṭakam-2, praśnah-8, anuvāka-9\,~।}\\
+
+\large
+\vspace{1cm}
+
+oṁ prā॒tara॒gniṁ prā॒tarindragṁ̍ havāmahe\\  prā॒tarmi॒trā varu̍ṇā prā॒tara॒śvinā̎\,~।\\
+prā॒tarbhaṁ̍ pū॒ṣaṇa॒ṁ brahma̍ṇa॒spati̍ṁ\\ prā॒tassoma̍mu॒ta ru॒dragṁ hu̍vema\,॥\,1\,॥
+
+prā॒ta॒rjita॒ṁ bhaga̍mu॒gragṁ hu̍vema va॒yaṁ pu॒tra-madi̍te॒ryo vi̍dha॒rtā\,~।\\
+ā॒ddhraści॒dyaṁ manya̍mānastu॒raści॒drājā̍ ci॒dyaṁ bhaga̍ṁ bha॒kṣītyāha̍\,॥\,2\,॥
+
+bhaga॒ praṇe̍ta॒rbhaga॒ satya̍rādho॒ bhage॒māṁ dhiya॒muda̍va॒dada̍nnaḥ\,~।\\
+bhaga॒praṇo̍ janaya॒ gobhi॒raśvai॒rbhaga॒pranṛbhi̍rnṛ॒vanta̍ssyāma\,॥\,3\,॥
+
+u॒tedānī॒ṁ bhaga̍vantassyāmo॒ta prapi॒tva u॒ta madhye॒ ahnā̎m\,~।\\
+u॒todi̍tā maghava॒nthsūrya̍sya va॒yaṁ de॒vānāgṁ̍ suma॒tau syā̍ma\,॥\,4\,॥
+
+bhaga̍ e॒va bhaga̍vāgm astu devā॒stena̍ va॒yaṁ bhaga̍vantassyāma\,~।\\
+taṁ tvā̍ bhaga॒ sarva॒ ijjo̍havīmi॒ sano̍ bhaga pura e॒tā bha̍ve॒ha\,॥\,5\,॥
+
+sama̍dhva॒rāyo॒ṣaso̍'namanta dadhi॒krāve̍va॒ śuca̍ye pa॒dāya̍\,~।\\
+a॒rvā॒cī॒naṁ va̍su॒vida॒ṁ bhaga̍nno॒ ratha̍mi॒vāśvā̍vā॒jina॒ āva̍hantu\,॥\,6\,॥
+
+aśvā̍vatī॒rgoma̍tīrna u॒ṣāso̍ vī॒rava̍tī॒ssada̍-mucchantu bha॒drāḥ\,~।\\
+ghṛ॒taṁ duhā̍nā vi॒śvata॒ḥ prapī̍nāyū॒yaṁ pā̍ta sva॒stibhi॒ssadā̍ naḥ\,॥\,7\,॥
+
+yo mā̎'gne bhā॒ginagṁ̍ sa॒nta-mathā̍bhā॒gaṁ cikī̍ ṛṣati\,~।\\
+abhā॒gama̍gne॒ taṁ ku̍ru॒ māma̍gne bhā॒gina̍ṁ kuru\,॥\,8\,॥
+
+॥\,oṁ śānti॒ḥ śānti॒ḥ śānti̍ḥ\,॥
+
+\end{document}

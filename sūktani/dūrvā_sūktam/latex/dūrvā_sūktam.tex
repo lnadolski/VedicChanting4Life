@@ -1,0 +1,67 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=18]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+
+\usepackage{xcolor} % writing in color
+
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% Requires font Nakula by John Smith,
+% see http://bombay.indology.info/software/fonts/devanagari/indexḥtml
+\newcommand\skt{\catcode`\~=12
+           \fontspec[Script=Devanagari,Mapping=velthuis-sanskrit]{Chandas}}
+\newfontfamily
+  \sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sanskrit 2003}
+%  \sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Sahadeva}
+%\sanskritfont [Script=Devanagari,Mapping=velthuis-sanskrit]{Devanagari Sangam MN}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+\begin{document}
+
+
+\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+\textbf{{\Huge ॥\,dūrvā sūktam\,॥} \LARGE\let\thefootnote\relax\footnote{ \color{lightgray} Document written using \XeLaTeX{} and chandas font, LSN, version 17/01/2016.}}
+\end{center}
+\Large
+
+\centering
+%\raggedright
+
+\vspace{0.5cm}
+
+sa॒ha॒sra॒para̍mā de॒vī॒ śa॒tamū̍lā śa॒tāṅku̍rā | 
+sarvagṁ̍ haratu̍ me
+pā॒pa॒ṁ dū॒rvā du̍svapna॒nāśa̍nī ॥\,1\,॥ \par
+
+kāṇḍā̎t kāṇḍāt pra॒roha̍ntī॒ paru̍ṣaḥ paruṣa॒ḥ pari̍ | e॒vā no̍
+dūrve॒ prata̍nu sa॒hasre̍ṇa śa॒tena̍ ca ॥\,2\,॥ \par
+
+yā śa॒tena̍ prata॒noṣi̍ sa॒hasre̍ṇa vi॒roha̍si | tasyā̎ste devīṣṭake
+vi॒dhema̍ ha॒viṣā̍ va॒yam ॥\,3\,॥ \par
+
+aśva̍krā॒nte ra̍thakrā॒nte॒ vi॒ṣṇukrā̎nte va॒sundha̍rā | śirasā̍
+dhāra̍yiṣyā॒mi॒ ra॒kṣa॒sva mā̎ṁ pade॒pade  ॥\,4\,॥ \par
+%%\vspace{0.5cm}
+
+ 
+\vspace{0.5cm}
+ 
+\begin{center}
+ ॥\,oṁ śānti॒ḥ śānti॒ḥ śānti̍ḥ\,॥
+\end{center}
+
+\vspace{1.5cm}
+
+\end{document}

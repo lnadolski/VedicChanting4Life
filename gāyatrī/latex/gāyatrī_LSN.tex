@@ -1,0 +1,48 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=14]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+
+\usepackage{xcolor} % writing in color
+
+
+%\setmainfont[Ligatures=ṭeX]{Linux Libertine}
+%\setmainfont[Ligatures=ṭeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+\renewcommand{\baselinestretch}{2}% interligne + 20%
+
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+% see command for footmark without numbering
+\textbf{{\Huge\vspace{0.201cm} ॥  śrī gā॒yatrīmantrāḥ॒ ॥\LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font, version 8/09/2016, LSN.}}}
+\end{center}
+\LARGE
+
+%\centering	
+%\raggedright
+
+\vspace{1.001cm} 
+
+॥   sūrya\footnote{\color{lightgray} sūrya gāyatrī mantraḥ}  ॥\par
+  om  । \\
+  bhūrbhuva॒ḥ suva̍ḥ । \\
+  tatsa̍vi॒turvare̎ṇyam । \\
+  bhargo̍ de॒vasya̍ dhīmahi  । \\
+  dhiyo॒ yo na̍ḥ praco॒dayā̎t ॥ \\
+
+
+\end{document}

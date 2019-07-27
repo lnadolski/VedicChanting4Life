@@ -1,0 +1,80 @@
+
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=14]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+\usepackage{fancyhdr} % header
+
+\usepackage{xcolor} % writing in color
+
+\renewcommand{\baselinestretch}{1.2}% interligne + 20%
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+
+% add a small title: name of the file + initials
+\pagestyle{fancy}
+\lhead{\color{lightgray} agni sūktam}
+\rhead{\color{lightgray} LSN}
+
+\setkomafont{pagenumber}{\normalfont\bfseries}
+\pagenumbering{roman}
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+% see command for footmark without numbering
+\LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font,  version 29/06/2019, LSN.}
+
+\vspace{-1.5cm}
+
+\begin{center}
+
+\textbf{\Huge॥\,~agni sūktam\,~॥}
+\end{center}
+\Large
+
+{\centering	
+%\raggedright
+
+\vspace{1cm}
+
+ṛgveda saṁhitā. maṇḍalam 10, aṣṭhakam 8, sūktam 80
+\vspace{1.0cm}
+
+a॒gniḥ saptiṁ̎ vājaṁbha॒raṁ da̍dātya॒gnirvī॒raṁ śrutyaṁ̎ karmani॒ṣṭhām~\,। \\
+a॒gnī roda̍sī॒ vi ca̍rat sama॒ñjanna॒gnirnārīṁ̎ vī॒raku̍kṣi॒ṁ puraṁ̎dhim~॥~1~॥
+
+a॒gnerapna̍saḥ sa॒mida̍stu bha॒drā'gnirma॒hī roda̍sī॒ ā vi̍veśa~\,। \\
+a॒gnirekaṁ̎ codayat sa॒matsva॒gnirvṛ॒trāṇi̍ dayate pu॒rūṇi̍~॥~2~॥
+
+a॒gnirha tyaṁ jara̍ta॒ḥ karṇa̍māvā॒'gnira॒dbhyo nira̍daha॒jjarū̎tham~\,। \\
+a॒gniratriṁ̎ gha॒rma u̍ruṣyada॒ntara॒gnirnṛ॒medhaṁ̎ pra॒jayā̎sṛja॒t sam~॥~3~॥
+
+a॒gnirdā॒ddravi̍ṇaṁ vī॒rape̎śā a॒gnirṛṣi॒ṁ yaḥ sa॒hasrā̎ sa॒noti̍~\,। \\
+a॒gnirdi॒vi ha॒vyamā ta̍tānā॒gnerdhāmā̎ni vibhṛ̍tā puru॒trā~॥~4~॥
+
+a॒gnimu॒kthairṛṣa̍yo॒ vi hva̍yante॒'gniṁ naro॒ yāma̍ni bādhi॒tāsa̍ḥ~\,। \\
+a॒gniṁ vayo̎ a॒ntari̍kṣe॒ patan̎to॒'gniḥ sa॒hasrā॒ pari̍ yāti॒ gonā̎m~॥~5~॥
+
+a॒gniṁ viśa̍ īḷate॒ mānu̍ṣī॒ryā a॒gniṁ manu̍ṣo॒ nahu̍ṣo॒ vi jā॒tāḥ~\,। \\
+a॒gnirgāndha̍rvīṁ pa॒thyā̎mṛ॒tasyā॒'gnergavyū̎tirghṛ॒ta ā niṣa̍ttā~॥~6~॥
+
+\newpage
+
+a॒gnaye॒ brahma̍ ṛ॒bhava̍statakṣura॒gniṁ ma॒hāma̍vocāmā suvṛ॒ktim~\,। \\
+a॒gne prāva̍ jari॒tāraṁ̎ yavi॒ṣṭhā'gne॒ mahi॒ dravi̍ṇa॒mā ya̍jasva~॥~7~॥
+
+\vspace{1.0cm}
+ ॥\,oṁ śānti॒ḥ śānti॒ḥ śānti̍ḥ\,॥
+
+\end{document}

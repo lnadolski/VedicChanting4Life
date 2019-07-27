@@ -1,0 +1,75 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, 12pt, DIV=16, pagenumber=head,top, enableddeprecatedfontcommands]{scrartcl}
+%\documentclass[parskip, DIV=16, pagenumber=head,top, enableddeprecatedfontcommands]{scrartcl}
+\usepackage{fancyhdr} % header
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+%{enableddeprecatedfontcommands}
+
+\usepackage{xcolor} % writing in color
+
+\renewcommand{\baselinestretch}{1.2}% interligne + 20%
+
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+% add a small title: name of the file + initials
+\pagestyle{fancy}
+\lhead{\color{lightgray} saṁjñāna sūktam}
+\rhead{\color{lightgray} LSN}
+
+\setkomafont{pagenumber}{\normalfont\bfseries}
+\pagenumbering{roman}
+
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+\begin{center}
+% see command forfootmark without numbering
+\textbf{{\Huge॥\,~saṁjñāna sūktam\,~॥\LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font, version 09/06/2017, LSN.}}}
+\end{center}
+\Large
+
+\centering	
+%\raggedright
+
+\small
+~ṛgvedasaṁhita śākhala śākhā X.169 1-4\\
+devata agni 1, saṁjñāna 2-4\\
+ṛṣi - saṁvanana\\
+candas 1,2,4 anuṣṭubh, 3 triṣṭubh\\
+
+\vspace{1,5cm}
+\Large
+
+oṁ saṁ sa॒midyu̍vase vṛṣa॒nnagne॒ viśvā̎nya॒rya ā\,~।\\
+i॒ḷaspa॒de sami̍dhyase॒ sa no॒ vasū॒nyā bha̍ra\,॥\,1\,॥
+
+saṁ ga̍cchadhva॒ṁ saṁ va̍dadhva॒ṁ saṁ vo॒ manā̎ṁsi jānatām\,~।\\
+de॒vā bhā॒gaṁ yathā॒ pūrve̎ saṁjānā॒nā u॒pāsa̍te\,॥\,2\,॥
+
+sa॒mā॒no mantra॒ḥ sami̍tiḥ samā॒nī sa̍mā॒naṁ mana̍ḥ sa॒ha ci॒ttame̎ṣām\,~।\\
+sa॒mā॒naṁ mantra̍ma॒bhi man̎traye vaḥ samā॒nena̍ vo ha॒viṣā̎ juhomi\,॥\,3\,॥
+
+sa॒mā॒nī va॒ ākū̎tiḥ samā॒nā hṛda̍yāni vaḥ\,~।\\
+sa॒mā॒nama̍stu vo॒ mano॒ yathā̎ va॒ḥ susa॒hāsa̍ti\,॥\,4\,॥
+
+\vspace{1cm}
+
+oṁ śānti॒śśānti॒śśānti̍ḥ~\,॥
+
+
+
+
+\end{document}

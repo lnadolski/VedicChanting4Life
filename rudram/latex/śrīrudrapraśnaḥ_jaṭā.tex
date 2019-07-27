@@ -1,0 +1,2255 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[parskip, DIV=14]{scrartcl}
+\usepackage{fontspec}
+\usepackage{xltxtra} % a few fixes and extras
+\usepackage{fancyhdr} % header
+
+\usepackage{xcolor} % writing in color
+
+\renewcommand{\baselinestretch}{1.2}% interligne + 20%
+
+%\setmainfont[Ligatures=TeX]{Linux Libertine}
+%\setmainfont[Ligatures=TeX]{Sanskrit 2003}
+\setmainfont[Ligatures=TeX]{Chandas}
+
+% footnote in end of document
+\interfootnotelinepenalty=10000
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} %A sequence of nine symbols, try it and see!
+
+
+% add a small title: name of the file + initials
+\pagestyle{fancy}
+\lhead{\color{lightgray} śrīrudrapraśnaḥ -- jaṭā pāṭhaḥ}
+\rhead{\color{lightgray} LSN}
+
+\setkomafont{pagenumber}{\normalfont\bfseries}
+\pagenumbering{roman}
+\begin{document}
+
+%\pagenumbering{gobble} % remove page numebr
+
+\vspace{-1.5cm}
+
+% see command for footmark without numbering
+\LARGE\let\thefootnote\relax\footnote{\color{lightgray} Document written using \XeLaTeX{} and chandas font,  version 01/12/2018, LSN.}
+
+\Huge
+\begin{center}
+\textbf{॥\,~śrī rudra jaṭā pāṭhaḥ\,~॥}
+\end{center}
+
+\Large
+
+
+%\raggedright
+{\centering	
+
+\vspace{1cm}
+
+om~।
+ga॒ṇānā̎ṁ tvā tvā ga॒ṇānā̎ṁ ga॒ṇānā̎ṁ tvā~।
+tvā॒ ga॒ṇapa̍tiṁ ga॒ṇapa̍tiṁ tvā tvā ga॒ṇapa̍tim~।
+ga॒ṇapa̍tigṁhavāmahe havāmahe ga॒ṇapa̍tiṁ
+ga॒ṇapa̍tigṁhavāmahe~।
+ga॒ṇapa̍ti॒miti̍ ga॒ṇa + pa॒ti॒m~।
+ha॒vā॒ma॒he॒ ka॒viṁ ka॒vigṁha̍vāmahe havāmahe ka॒vim̎~।
+ka॒viṁ ka̍vī॒nāṁ ka̍vī॒nāṁ ka॒viṁ ka॒viṁ ka̍vī॒nām~।
+ka॒vī॒nāmu̍pa॒maśra̍vastamamupa॒maśra̍vastamaṁ
+kavī॒nāṁ ka̍vī॒nāmu̍pa॒maśra̍vastamam~।
+u॒pa॒maśra̍vastama॒mityu̍pa॒maśra̍vaḥ + ta॒ma॒m~।
+
+
+jye॒ṣṭha॒rāja॒ṁ brahma̍ṇā॒ṁ brahma̍ṇāṁ jyeṣṭha॒rāja̍ṁ
+jyeṣṭha॒rāja॒ṁ brahma̍ṇām~।
+jye॒ṣṭha॒rāja॒miti̍ jyeṣṭha + rājam̎~।
+brahma̍ṇāṁ brahmaṇo brahmaṇo॒ brahma̍ṇā॒ṁ
+brahma̍ṇāṁ brahmaṇaḥ~।
+bra॒hma॒ṇa॒spa॒te॒ pa॒te॒ bra॒hma॒ṇo॒ bra॒hma॒ṇa॒spa॒te॒~। 
+pa॒ta॒ ā pa̍te pata॒ ā~।
+āno̍na॒ āna̍ḥ~।
+na॒śśṛ॒ṇvan chṛ॒ṇvanno̍naśśṛ॒ṇvan~।
+śṛ॒ṇvannū॒tibhi̍rū॒tibhi̍śśṛ॒ṇvan chṛ॒ṇvannū॒tibhi̍ḥ~।
+ū॒tibhi̍ssīda sīdo॒tibhi̍rū॒tibhi̍ssīda~।
+ū॒tibhi॒rityū॒ti + bhi॒ḥ~।
+sī॒da॒sāda̍na॒gṁ sāda̍nagṁ sīda sīda॒ sāda̍nam~।
+sāda̍na॒miti॒ + sāda̍nam~॥ 
+
+\vspace{1cm}
+
+oṁ namo bhagavate̍ rudrā॒ya
+
+%%%%%%%%%%%%%%%%%% JATA %%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥\,~jaṭā pāṭhaḥ\,~॥\\
+\vspace{0.5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\LARGE
+॥\,~prathamo'nuvākaḥ\,~॥\\
+%॥~namaka anuvāka 1~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.5cm}
+
+nama̍ste rudra ma॒nyava̍ u॒tota॒ iṣa̍ve॒ nama̍ḥ~।
+nama̍ste astu॒ dhanva̍ne bā॒hubhyā̍mu॒ta te॒ nama̍ḥ~॥~1~॥
+
+oṁ nama̍ste te॒ namo॒ nama̍ste~।
+te॒ ru॒dra॒ ru॒dra॒ te॒ te॒ ru॒dra॒~।
+ru॒dra॒ ma॒nyave̍ ma॒nyave̍ rudra rudra ma॒nyave̎~।
+ma॒nyava̍ u॒to u॒to  ma॒nyave̍ ma॒nyava̍ u॒to~।
+u॒to te̍ ta u॒to u॒to te̎~।
+%u॒to it- yu॒to~।
+u॒to ityu॒to~।
+ta॒ iṣa̍va॒ iṣa̍ve te ta॒  iṣa̍ve~।
+iṣa̍ve॒ namo॒ nama॒ iṣa̍va॒ iṣa̍ve॒ nama̍ḥ~।
+nama॒ iti॒ nama̍ḥ~॥ \\
+
+nama̍ste te॒ namo॒ nama̍ste~।
+te॒ a॒stva॒stu॒ te॒ te॒ a॒stu॒~।
+a॒stu॒ dhanva̍ne॒ dhanva̍ne astvastu॒ dhanva̍ne~।
+dhanva̍ne bā॒hubhyā̎ṁ bā॒hubhyā॒ṁ dhanva̍ne॒ dhanva̍ne bā॒hubhyā̎m~।
+bā॒hubhyā̍mu॒tota bā॒hubhyā̎ṁ bā॒hubhyā̍mu॒ta~।
+bā॒hubhyā॒miti̍ bā॒hu + bhyā॒m~।
+u॒ta te̍ ta u॒tota te̎~।
+te॒ namo॒ nama̍ste te॒ nama̍ḥ~। 
+nama॒ iti॒ nama̍ḥ~॥ \\
+
+\vspace{0.5cm}
+yā ta॒ iṣu̍śśi॒vata̍mā śi॒vaṁ ba॒bhūva̍ te॒ dhanu̍ḥ~।
+śi॒vā śa̍ra॒vyā̍ yā tava॒ tayā̍ no rudra mṛḍaya~॥~2~॥
+
+yā te̍ te॒ yā yā te̎~। 
+ta॒ iṣu॒riṣu̍ste ta॒ iṣu̍ḥ~। 
+iṣu̍śśi॒vata̍mā śi॒vata॒meṣu॒riṣu̍śśi॒vata̍mā~। 
+śi॒vata̍mā śi॒vagṁ śi॒vagṁ śi॒vata̍mā śi॒vata̍mā śi॒vam~।
+śi॒vata॒meti̍ śi॒va + ta॒mā॒~। 
+śi॒va॒ṁ babhūva̍ ba॒bhūva̍ śi॒vagṁ śi॒vaṁ ba॒bhūva̍~। 
+ba॒bhūva̍ te te ba॒bhūva̍ ba॒bhūva̍ te~। 
+te॒ dhanu॒rdhanu̍ste te॒ dhanu̍ḥ~। 
+dhanu॒riti॒  dhanu̍ḥ~॥ \\
+ 
+\vspace{0.5cm}
+śi॒vā śa̍ra॒vyā̍ śara॒vyā̍ śi॒vā śi॒vā śa̍ra॒vyā̎~। 
+śa॒ra॒vyā̍ yā yā śa̍ra॒vyā̍ śara॒vyā̍ yā~। 
+yā tava॒ tava॒ yā yā tava̍~। 
+tava॒ tayā॒ tayā॒ tava॒ tava॒ tayā̎~। 
+tayā̍ no na॒stayā॒ tayā̍ naḥ~। 
+no॒ ru॒dra॒ ru॒dra॒  no॒ no॒ ru॒dra॒~। 
+ru॒dra॒  mṛ॒da॒ya॒ mṛ॒ḍa॒ya॒ ru॒dra॒  ru॒dra॒ mṛ॒ḍa॒ya॒~। 
+mṛ॒ḍa॒yeti̍  mṛḍaya~॥\\ 
+
+\vspace{0.5cm}
+yā te̍ rudra śi॒vā ta॒nūragho॒rā'pā̍pakāśinī~। 
+tayā̍ nasta॒nuvā॒ śanta̍mayā॒ giri̍śantā॒bhi cā̍kaśīhi~॥~3~॥
+
+yā te̍ te॒ yā yā te̎~। 
+te॒ ru॒dra॒ ru॒dra॒ te॒ te॒ ru॒dra॒~। 
+ru॒dra॒ śi॒vā śi॒vā ru̍dra rudra śi॒vā~। 
+śi॒vāta॒nūsta॒nūśśi॒vā śi॒vā ta॒nūḥ~। 
+ta॒nūragho॒rā'gho̍rā ta॒nūsta॒nūragho̍rā~। 
+agho॒rā'pā̍pakāśi॒nyapā̍pakāśi॒nyagho॒rā'gho॒rā'pā̍pakāśinī~। 
+apā̍pakāśi॒nītyapā̍pa + kā॒śi॒nī॒~॥\\
+
+\vspace{0.5cm}
+tayā̍ no na॒stayā॒ tayā̍ naḥ~। 
+na॒sta॒nuvā̍ ta॒nuvā̍ no nasta॒nuvā̎~। 
+ta॒nuvā॒ śanta̍mayā॒ śanta̍mayā ta॒nuvā̍ ta॒nuvā॒ śanta̍mayā~। 
+śanta̍mayā॒ giri̍śaṁta॒ giri̍śaṁta॒ śanta̍mayā॒ śanta̍mayā॒ giri̍śanta~। 
+śanta̍ma॒yeti॒ śaṁ + ta॒ma॒yā॒~। giri̍śantā॒bhya̍bhi giri̍śanta॒ giri̍śantā॒bhi~। 
+giri̍śa॒nteti॒gi̍ri + śa॒nta॒~। 
+a॒bhicā̍kaśīhi cākaśīhya॒bhya̍bhi cā̍kaśīhi~। 
+cā॒ka॒śī॒hīti̍  cākaśīhi~॥\\ 
+
+\vspace{0.5cm}
+yāmiṣu̍ṁgiriśanta॒ haste॒ bibha॒rṣyasta̍ve~।
+śi॒vāṁ gi̍ritra॒ tāṁ ku̍ru॒ mā higṁ̍sī॒ḥ puru̍ṣa॒ṁ jaga̍t~॥~4~॥
+
+yāmiṣu॒miṣu॒yyāyyāmiṣum̎~। iṣu̍ṁgiriśanta giriśa॒nteṣu॒miṣu̍ṁ giriśanta~।
+gi॒ri॒śa॒nta॒ haste॒ haste̍ giriśanta giriśanta॒ haste̎~।
+gi॒ri॒śa॒nteti̍ giri + śa॒nta॒~।
+haste॒ bibha̍rṣi॒ bibha̍rṣi॒ haste॒ haste॒ bibha̍rṣi~।
+bibha॒rṣyasta̍ve॒ asta̍ve॒ bibha̍rṣi॒ bibha॒rṣyasta̍ve~।
+asta̍va॒  ityasta̍ve~।
+śi॒vāṁ gi̍ritra gi̍ritra śi॒vāgṁ śi॒vāṁ gi̍ritra~।
+gi॒ri॒tra॒ tāṁ tāṁ gi̍ritra gi̍ritra॒ tām~।
+gi॒ri॒treti̍ giri + tra॒~॥
+
+tāṁ ku̍ru ku̍ru॒ tāṁ tāṁ ku̍ru~।
+ku॒ru॒ mā mā ku̍ru ku̍ru॒ mā~।
+mā higṁ̍sīrhigṁsī॒rmā mā higṁ̍sīḥ~।
+hi॒gṁ॒sī॒ḥ puru̍ṣa॒ṁ puru̍ṣagṁ higṁsī॒rhigṁsī॒ḥ puru̍ṣam~।
+puru̍ṣa॒ṁ jaga॒jjaga॒t puru̍ṣa॒ṁ puru̍ṣa॒ṁ jaga̍t~।
+jaga॒diti॒ jaga̍t~॥\\ 
+
+\vspace{0.5cm}
+śi॒vena॒ vaca̍sā tvā॒ giri॒śācchā̍ vadāmasi~।
+yathā̍ na॒ssarva॒jjiga̍daya॒kṣmagṁ su॒manā॒ asa̍t~॥~5~॥
+
+śi॒vena॒ vaca̍sā॒ vaca̍sā śi॒vena̍ śi॒vena॒ vaca̍sā~।
+vaca̍sā tvā tvā॒ vaca̍sā॒ vaca̍sā tvā~।
+tvā॒ giri̍śa॒ giri̍śa tvā tvā॒ giri̍śa~।
+gi॒ri॒śācchācchā॒ giri̍śa॒ giri॒śācchā̎~।
+acchā̍ vadāmasi vadāma॒syacchācchā̍ vadāmasi~।
+va॒dā॒ma॒sīti̍  vadāmasi~॥
+
+yathā̍ no no॒ yathā॒ yathā̍ naḥ~।
+na॒ssarva॒gṁ॒ sarva̍nno na॒ssarvam̎~।
+sarva॒midithsarva॒gṁ॒ sarva॒mit~।
+ijjaga॒jjaga॒didijjaga̍t~।
+jaga̍daya॒kṣmama̍ya॒kṣaṁ jaga॒jjaga̍daya॒kṣmam~।
+a॒ya॒kṣmagṁsu॒manā̎ssu॒manā̍ aya॒kṣmama̍ya॒kṣmagṁ su॒manā̎ḥ~।
+su॒manā॒ asa॒dasa̍thsu॒manā̎ssu॒manā॒ asa̍t~।
+su॒manā॒ iti̍ su + manā̎ḥ~।
+asa॒dityasa̍t~॥\\ 
+
+\vspace{0.5cm}
+adhya̍vocadadhiva॒ktā pra̍tha॒mo daivyo̍ bhi॒ṣak~।
+ahīg̍śca॒ sarvā̎ñja॒mbhaya॒ntsarvā̎śca yātudhā॒nya̍ḥ~॥~6~॥
+
+\vspace{0.5cm}
+adhya̍vocadavoca॒dadhyadhya̍vocat~।
+a॒vo॒ca॒da॒dhi॒ va॒ktā'dhi̍va॒ktā'vo̍cadavocadadhiva॒ktā~।
+a॒dhi॒va॒ktā pra̍tha॒maḥ pra̍tha॒mo a̍dhiva॒ktā'dhi̍va॒ktā pra̍tha॒maḥ~।
+a॒dhi॒va॒ktetya̍dhi + va॒ktā~।
+pra॒tha॒mo daivyo॒ daivya̍ḥ pratha॒maḥ pra̍tha॒mo daivya̍ḥ~।
+daivyo̍ bhi॒ṣagbhi॒ṣagdaivyo॒ daivyo̍ bhi॒ṣak~।
+bhi॒ṣagiti̍  bhi॒ṣak~॥
+
+ahīg̍śca॒ cāhī॒nahīg̍śca~।
+ca॒ sarvā॒nthsarvāg̍śca ca॒ sarvān̍~।
+sarvā̎ñja॒mbhaya̍ñja॒mbhaya॒nthsarvā॒nthsarvā̎ñja॒mbhayan̍~।
+ja॒mbhaya॒nthsarvā॒ssarvā̍ ja॒mbhaya̍ñja॒mbhaya॒nthsarvā̎ḥ~।
+sarvā̎śca ca॒ sarvā॒ssarvā̎śca~।
+ca॒ yā॒tu॒dhā॒nyo̍ yātudhā॒nya̍śca ca yātudhā॒nya̍ḥ~।
+yā॒tu॒dhā॒nya̍ iti̍ yātu + dhā॒nya̍ḥ~॥\\
+
+
+\vspace{0.5cm}
+a॒sau yastā॒mro a̍ru॒ṇa u॒ta ba॒bhruḥ su̍ma॒ṅgala̍ḥ~।
+ye ce॒māgṁru॒drā a॒bhito̍ di॒kṣu~।
+ śri॒tāḥ sahasra॒śo'vai̍ṣā॒gṁ॒ heḍa̍ īmahe~॥~7~॥
+
+a॒sau yo yo a॒sāva॒sau yaḥ~।
+yastā॒mrastā॒mro yo yastā॒mraḥ~।
+tā॒mro a̍ru॒ṇo a̍ru॒ṇastā॒mrastā॒mro a̍ru॒ṇaḥ~।
+a॒ru॒ṇa u॒totāru॒ṇo a̍ru॒ṇa u॒ta~।
+u॒ta ba॒bhrurba॒bhruru॒tota ba॒bhruḥ~।
+ba॒bhrussu̍ma॒ṅgala̍ssuma॒ṅgalo̍ ba॒bhrurba॒bhrussu̍ma॒ṅgala̍ḥ~।
+su॒ma॒ṅgala॒ iti̍ su + ma॒ṅgala̍ḥ~॥
+
+ye ca̍ ca॒ ye ye ca̍~।
+ce॒māmi॒mānśca ce॒mām~।
+i॒māgṁru॒drā ru॒drā  i॒māmi॒māgṁru॒drāḥ~।
+ru॒drā a॒bhito̍ a॒bhito̍ ru॒drā ru॒drā a॒bhita̍ḥ~।
+a॒bhito̍ di॒kṣu di॒kṣva̍bhito̍ a॒bhito̍ di॒kṣu~।
+di॒kṣu śri॒tāśśri॒tā di॒kṣu di॒kṣu śri॒tāḥ~।
+%di॒kṣu iti̍ + di॒kṣu~॥
+śri॒tāssa̍hasra॒śassa̍hasra॒śaśśri॒tāśśri॒tāssahasra॒śaḥ~।
+sa॒ha॒sra॒śo'vāva̍ sahasra॒śassa̍hasra॒śo'va̍~।
+sa॒ha॒sra॒śa iti̍ sahasra + śaḥ~।
+avai̍ṣāmeṣā॒mavai̍ṣām~।
+e॒ṣā॒gṁ॒heḍo॒ heḍa̍ eṣāmeṣā॒gṁ॒heḍa̍ḥ~।
+heḍa̍ īmaha īmahe॒ heḍo॒ heḍa̍ īmahe~।
+ī॒ma॒ha॒ itī̍mahe~॥
+
+\vspace{0.5cm}
+a॒sau yo̍'vasarpa̍ti॒ nīla̍grīvo॒ vilo̍hitaḥ~।
+u॒taina̍ṁ go॒pā a̍dṛśa॒nnadṛ̍śannudahā॒rya̍ḥ~।
+u॒taina॒ṁ viśvā̍ bhū॒tāni॒ sa dṛ॒ṣṭo mṛ̍ḍayāti naḥ~॥~8~॥
+
+a॒sau yo yo a॒sāva॒sau yaḥ~।
+yo̍'va॒sarpa̍tyava॒sarpa̍ti॒ yo yo̍'va॒sarpa̍ti~।
+a॒va॒sarpa̍ti॒ nīla̍grīvo॒ nīla̍grīvo'va॒sarpa̍tyava॒sarpa̍ti॒ nīla̍grīvaḥ~।
+a॒va॒sarpa॒tītya̍va + sarpa̍ti~।
+nīla̍grīvo॒ vilo̍hito॒  vilo̍hito॒ nīla̍grīvo॒ nīla̍grīvo॒ vilo̍hitaḥ~।
+nīla̍grīva॒ iti॒ nīla̍ + grī॒va॒ḥ~।
+vilo̍hita॒ iti॒ vi + lo॒hi॒ta॒ḥ~॥
+
+u॒taina̍menamu॒totainam̎~।
+e॒na॒ṁgo॒pā go॒pā e̍namenaṁgo॒pāḥ~।
+go॒pā a̍dṛśannadṛśan go॒pā go॒pā a̍dṛśan~।
+go॒pā iti̍ go + pāḥ~।
+a॒dṛ॒śa॒nnadṛ̍śa॒nnadṛ̍śannadṛśannadṛśa॒nnadṛ̍śan~।
+adṛ̍śannudahā॒rya̍ udahā॒ryo̍ adṛ̍śa॒nnadṛ̍śannudahā॒rya̍ḥ~।
+u॒da॒hā॒rya̍ ityu̍da + hā॒rya̍ḥ~॥
+
+u॒taina̍menamu॒totainam̎~।
+e॒na॒ṁ viśvā॒ viśvai̍namena॒ṁ viśvā̎~।
+viśvā̍ bhū॒tāni̍ bhū॒tāni॒ viśvā॒ viśvā̍ bhū॒tāni̍~।
+bhū॒tāni॒ sa sa bhū॒tāni̍ bhū॒tāni॒ saḥ~।
+sa dṛ॒ṣṭo dṛ॒ṣṭassa sa dṛ॒ṣṭaḥ~।
+dṛ॒ṣṭo mṛ̍ḍayāti mṛḍayāti dṛ॒ṣṭo dṛ॒ṣṭo mṛ̍ḍayāti~।
+mṛ॒ḍa॒yā॒ti॒ no॒ no॒ mṛ॒ḍa॒yā॒ti॒ mṛ॒ḍa॒yā॒ti॒ na॒ḥ~।
+na॒ iti̍ naḥ~॥
+
+\vspace{0.5cm}
+namo̍ astu॒ nīla̍grīvāya sahasrā॒kṣāya̍ mī॒ḍhuṣe̎~।
+atho॒ ye a̍sya॒ sattvā̍no॒'haṁ tebhyo̍'kara॒nnama̍ḥ~॥~9~॥
+
+namo̍ astvastu॒ namo॒ namo̍ astu~।
+a॒stu॒ nīla̍grīvāya॒  nīla̍grīvāyāstvastu॒ nīla̍grīvāya~।
+nīla̍grīvāya sahasrā॒kṣāya̍ sahasrā॒kṣāya॒ nīla̍grīvāya॒ nīla̍grīvāya sahasrā॒kṣāya̍~।
+nīla̍grīvā॒yeti॒ nīla̍ + grī॒vā॒ya॒~।
+sa॒ha॒srā॒kṣāya̍ mī॒ḍhuṣe̍ mī॒ḍhuṣe̍ sahasrā॒kṣāya̍ sahasrā॒kṣāya̍ mī॒ḍhuṣe̎~।
+sa॒ha॒srā॒kṣāyeti̍ sahasra + a॒kṣāya̍~।
+mī॒ḍhuṣa॒ iti̍ mī॒ḍhuṣe̎~॥ 
+
+atho॒ ye ye'tho॒ atho॒ ye~।
+atho॒ ityatho̎~।
+ye a̍syāsya॒ ye ye a̍sya~।
+a॒sya॒ sattvā̍na॒ssattvā̍no asyāsya॒ sattvā̍naḥ~।
+sattvā̍no॒'hama॒hagṁ sattvā̍na॒ssattvā̍no॒'ham~।
+ahantebhya॒stebhyo॒'hama॒hantebhya̍ḥ~।
+tebhyo̍'karamakara॒ntebhya॒stebhyo̍'karam~।
+a॒ka॒ra॒nnamo॒ namo̍'karamakara॒nnama̍ḥ~।
+nama॒ iti॒ nama̍ḥ~॥ \\
+
+\vspace{0.5cm}
+pramu̍ñca॒ dhanva̍na॒stvamu॒bhayo॒rārtni̍yo॒rjyām~।
+yāśca̍ te॒ hasta॒ iṣa̍vaḥ parā॒ tā bha̍gavo vapa~॥~10~॥
+
+pramu̍ñca muñca॒ pra pramu̍ñca ~।
+mu॒ñca॒ dhanva̍no॒ dhanva̍no muñca muñca॒ dhanva̍naḥ~।
+dhanva̍na॒stvantvandhanva̍no॒ dhanva̍na॒stvam~।
+tvamu॒bhayo̍ru॒bhayo॒stvantvamu॒bhayo̎ḥ~।
+u॒bhayo॒rārtni̍yo॒rārtni̍yoru॒bhayo̍ru॒bhayo॒rārtni̍yoḥ~।
+ārtni̍yo॒rjyāñjyāmārtni̍yo॒rārtni̍yo॒rjyām~।
+jyāmiti॒  jyām~॥ 
+
+yāśca̍ ca॒ yā yāśca̍~।
+ca॒ te॒ te॒ ca॒ ca॒ te॒~।
+te॒ haste॒ haste̍ te te॒ haste̎~।
+hasta॒ iṣa̍va॒ iṣa̍vo॒ haste॒ hasta॒ iṣa̍vaḥ~।
+iṣa̍va॒ḥ parā॒ pareṣa̍va॒ iṣa̍va॒ḥ parā̎~।
+parā॒ tāstāḥ parā॒ parā॒ tāḥ~।
+tā bha̍gavo bhagava॒stāstā bha̍gavaḥ~।
+bha॒ga॒vo॒ va॒pa॒ va॒pa॒ bha॒ga॒vo॒ bha॒ga॒vo॒ va॒pa॒~।
+bha॒ga॒va॒ iti̍ bhaga + va॒ḥ~।
+va॒peti̍  vapa~॥ 
+
+\vspace{0.5cm}
+a॒va॒tattya॒ dhanu॒stvagṁsaha̍srākṣa॒ śate̍ṣudhe~।
+ni॒śīrya̍ śa॒lyānā॒ṁ mukhā̍ śi॒vo na̍ḥ su॒manā̍ bhava~॥~11~॥
+
+a॒va॒tattya॒ dhanu॒rdhanu̍rava॒tattyā̍va॒tattya॒ dhanu̍ḥ~।
+a॒va॒tattyetya̍va + tattya̍~।
+dhanu॒stvantvandhanu॒rdhanu॒stvam~।
+tvagṁ saha̍srākṣa॒ saha̍srākṣa॒ tvantvagṁ saha̍srākṣa~।
+saha̍srākṣa॒ śate̍ṣudhe॒ śate̍ṣudhe॒ saha̍srākṣa॒ saha̍srākṣa॒ śate̍ṣudhe~।
+saha̍srā॒kṣeti॒ saha̍sra + a॒kṣa॒~।
+śate̍ṣudha॒ iti॒ śata̍ + i॒ṣu॒dhe॒~॥ 
+
+ni॒śīrya̍ śa॒lyānāgṁ̍ śa॒lyānā̎nni॒śīrya̍ ni॒śīrya̍ śa॒lyānā̎m~।
+ni॒śīryeti̍ ni + śīrya̍~।
+śa॒lyānā॒ṁ mukhā॒ mukhā̍  śa॒lyānāgṁ̍ śa॒lyānā॒ṁ mukhā̎~।
+mukhā̍ śi॒vaśśi॒vo mukhā॒ mukhā̍ śi॒vaḥ~।
+śi॒vo no̍ naśśi॒vaśśi॒vo na̍ḥ~।
+na॒ssu॒manā̎ssu॒manā̍ no nassu॒manā̎ḥ~।
+su॒manā̍ bhava bhava su॒manā̎ssu॒manā̍ bhava~।
+su॒manā॒ iti̍ su + manā̎ḥ~।
+bha॒veti̍ bhava~॥ 
+
+\vspace{0.5cm}
+vijya॒ṁ dhanu̍ḥ kapa॒rdino॒ viśa̍lyo॒ bāṇa̍vāgṁ u॒ta~।
+ane̍śanna॒syeṣa̍va ā॒bhura̍sya niṣa॒ṁgathi̍ḥ~॥~12~॥
+
+vijya॒ṁ dhanu॒rdhanu॒rvijya॒ṁ vijya॒ṁ dhanu̍ḥ~।
+vijya॒miti॒ vi + jya॒m~।
+dhanu̍ḥ kapa॒rdina̍ḥ kapa॒rdino॒ dhanu॒rdhanu̍ḥ kapa॒rdina̍ḥ~।
+ka॒pa॒rdino॒ viśa̍lyo॒ viśa̍lyaḥ kapa॒rdina̍ḥ kapa॒rdino॒ viśa̍lyaḥ~।
+viśa̍lyo॒ bāṇa̍vā॒n bāṇa̍vā॒n viśa̍lyo॒ viśa̍lyo॒ bāṇa̍vān~।
+viśa̍lya॒ iti॒ vi + śa॒lya॒ḥ~।
+bāṇa̍vāgṁ u॒tota bāṇa̍vā॒n bāṇa̍vāgṁ u॒ta~।
+bāṇa̍vā॒n iti॒ bāna̍ + vā॒n॒~।
+u॒tetyu॒ta~॥ 
+
+ane̍śannasyā॒syāne̍śa॒nnane̍śannasya~।
+%aneśannityan + eśan~।
+a॒syeṣa̍va॒ iṣa̍vo asyā॒syeṣa̍vaḥ~।
+iṣa̍va ā॒bhurā॒bhuriṣa̍va॒ iṣa̍va ā॒bhuḥ~।
+ā॒bhura̍syāsyā॒bhurā॒bhura̍sya~।
+%ābhurityā + bhuḥ~।
+a॒sya॒ ni॒ṣa॒ṅgathi̍rniṣa॒ṅgathi̍rasyāsya niṣa॒ṅgathi̍ḥ~।
+ni॒ṣa॒ṅgathi॒riti̍ nisa॒ṅgathi̍ḥ~॥  %% different version %ni॒ṣa॒ṅgathi॒riti̍  + niṣa॒ṅgathi̍ḥ
+ 
+
+\vspace{0.5cm}
+yā te̍ he॒tirmī̍ḍhuṣṭama॒ haste̍ ba॒bhūva̍ te॒ dhanu̍ḥ~।
+tayā॒'smān vi॒śvata॒stvama̍ya॒kṣmayā॒ pari̍bbhuja~॥~13~॥
+
+yā te̍ te॒ yā yā te̎~।
+te॒ he॒tirhe॒tiste̍ te he॒tiḥ~।
+he॒tirmī̍ḍhuṣṭama mīḍhuṣṭama he॒tirhe॒tirmī̍ḍhuṣṭama~।
+mī॒ḍhu॒ṣṭa॒ma॒ haste॒ haste̍ mīḍhuṣṭama mīḍhuṣṭama॒ haste̎~।
+mī॒ḍhu॒ṣṭa॒meti̍ mīḍhuḥ + ta॒ma॒~।
+haste̍ ba॒bhūva̍ ba॒bhūva̍ haste॒ haste̍ ba॒bhūva̍~।
+ba॒bhūva̍ te te ba॒bhūva̍ ba॒bhūva̍ te~।
+te॒ dhanu॒rdha̍nuste te॒ dhanu̍ḥ~।
+dha॒nuriti॒ dhanu̍ḥ~॥ 
+
+tayā॒'smān a॒smān tayā॒ tayā॒'smān~।
+a॒smān vi॒śvato̍ vi॒śvato̍ asmān a॒smān vi॒śvata̍ḥ~।
+vi॒śvata॒stvantvaṁvvi॒śvato̍ vi॒śvata॒stvam~।
+tvama̍ya॒kṣmayā̍'ya॒kṣmayā॒ tvantvama̍ya॒kṣmayā̎~।
+a॒ya॒kṣmayā॒ pari॒ parya̍ya॒kṣmayā̍'ya॒kṣmayā॒ pari̍~।
+%ayakṣmayā itya + yakṣmayā~।
+pari̍bbhuja bhuja॒ pari॒ pari̍bbhuja~।
+bhu॒jeti̍ bhuja~॥ 
+
+\vspace{0.5cm}
+nama̍ste a॒stvāyu̍dhā॒yanā̍tatāya dhṛ॒ṣṇave̎~।
+u॒bhābhyā̍mu॒ta te॒ namo̍ bā॒hubhyā॒ṁ tava॒ dhanva̍ne~॥~14~॥
+
+nama̍ste te॒ namo॒ nama̍ste~।
+te॒ a॒stva॒stu॒ te॒ te॒ a॒stu॒~।
+a॒stvāyu̍dhā॒yāyu̍dhāyāstva॒stvāyu̍dhāya~।
+āyu̍dhā॒yānā̍tatā॒yānā̍tatā॒yāyu̍dhā॒yāyu̍dhā॒yānā̍tatāya~।
+anā̎tatāya dhṛ॒ṣṇave̍ dhṛ॒ṣṇave'nā̍tatā॒yānā̍tatāya dhṛ॒ṣṇave̎~।
+anā̍tatā॒yetyanā̎ + ta॒tā॒yā॒~।
+dhṛ॒ṣṇava iti̍  dhṛ॒ṣṇave̎~॥ 
+
+u॒bhābhyā̍mu॒totobhābhyā̍mu॒bhābhyā̍mu॒ta~।
+u॒ta te̍ ta u॒tota te̎~।
+te॒ namo॒ nama̍ste te॒ nama̍ḥ~।
+namo̍ bā॒hubhyā̎ṁ bā॒hubhyā॒nnamo॒ namo̍  bā॒hubhyā̎m~।
+bā॒hubhyā॒ntava॒ tava̍ bā॒hubhyā̎ṁ bā॒hubhyā॒ntava̍~।
+bā॒hubhyā॒miti̍ bhā॒hu + bhyā॒m~।
+tava॒ dhanva̍ne॒ dhanva̍ne॒ tava॒ tava॒ dhanva̍ne~।
+dhanva̍na॒ iti॒ + dhanva̍ne~॥ 
+
+
+\vspace{0.5cm}
+pari̍ te॒ dhanva̍no he॒tira॒smānvṛ̍ṇaktu vi॒śvata̍ḥ~।
+atho॒ ya i̍ṣu॒dhistavā॒''re a॒smannidhe̍hi॒ tam~॥~15~॥
+
+pari̍ te te॒ pari pari̍ te~।
+te॒ dhanva̍no॒ dhanva̍naste te॒ dhanva̍naḥ~।
+dhanva̍no he॒tirhe॒tirdhanva̍no॒ dhanva̍no he॒tiḥ~।
+he॒tira॒smāna॒smān he॒tirhe॒tira॒smān~।
+a॒smān vṛ̍ṇaktu vṛṇaktva॒smāna॒smān vṛ̍ṇaktu~।
+vṛ॒ṇa॒ktu॒ vi॒śvato̍ vi॒śvato̍ vṛṇaktu vṛṇaktu vi॒śvata̍ḥ~।
+vi॒śvata॒ iti̍  vi॒śvata̍ḥ~॥ 
+
+atho॒ yo yo'tho॒ atho॒ yaḥ~।
+atho॒ ityatho̎~।
+ya i̍ṣu॒dhiri̍ṣu॒dhiryo ya i̍ṣu॒dhiḥ~।
+i॒ṣu॒dhistava॒ tave̍ṣu॒dhiri̍ṣu॒dhistava̍~।
+i॒ṣu॒dhiritī̍ṣu + dhiḥ~।
+tavā॒ra ā॒re tava॒ tavā॒re~।
+ā॒re a॒smada॒smadā॒ra ā॒re a॒smat~।
+a॒smanninya̍smada॒smanni~।
+nidhe̍hi dhehi॒ ni ni dhe̍hi~।
+dhe॒hi॒ tantandhe̍hi dhehi॒ tam~।
+tamiti॒ tam~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 2~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{0.5cm}
+namo॒ hira̍ṇya-bāhave senā॒nye̍ di॒śāṁ ca॒ pata̍ye॒ namo॒~।
+
+namo॒ hira̍ṇyabāhave॒ hira̍ṇyabāhave॒ namo॒ namo॒ hira̍ṇyabāhave~।
+hira̍ṇyabāhave॒ senā॒nye̍ senā॒nye̍ hira̍ṇyabāhave॒ hira̍ṇyabāhave॒ senā॒nye̎~।
+hira̍ṇyabāhava॒ iti॒ hira̍ṇya + bā॒ha॒ve॒~।
+se॒nā॒nye̍ di॒śāṁ di॒śāgṁ se̍nā॒nye̍ senā॒nye̍ di॒śām~।
+se॒nā॒nya̍ iti̍ senā + nye̎~।
+di॒śāṁ ca̍ ca di॒śāṁ di॒śāṁ ca̍~।   
+ca॒ pata̍ye॒ pata̍ye ca ca॒ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍ vṛ॒kṣebhyo॒ hari̍-keśebhyaḥ paśū॒nāṁ pata̍ye॒ namo॒~।
+
+namo̍ vṛ॒kṣebhyo̍ vṛ॒kṣebhyo॒ namo॒ namo̍ vṛ॒kṣebhya̍ḥ~।
+vṛ॒kṣebhyo॒ hari̍keśebhyo॒ hari̍keśebhyo vṛ॒kṣebhyo̍ vṛ॒kṣebhyo॒ hari̍keśebhyaḥ~।
+hari̍keśebhyaḥ paśū॒nāṁ pa̍śū॒nāgṁ hari̍keśebhyo॒ hari̍keśebhyaḥ paśū॒nām~।
+hari̍keśebhya॒ iti॒ hari̍ + ke॒śe॒bhya॒ḥ~।
+pa॒śū॒nāṁ pata̍ye॒ pata̍ye paśū॒nāṁ  pa̍śū॒nāṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+nama̍ḥ sa॒spiñja̍rāya॒ tviṣī̍-mate pathī॒nāṁ  pata̍ye॒ namo॒~।
+
+nama̍ḥ sa॒spiñja̍rāya sa॒spiñja̍rāya॒ namo॒ nama̍ḥ sa॒spiñja̍rāya~।
+sa॒spiñja̍rāya॒ tviṣī̍mate॒ tviṣī̍mate sa॒spiñja̍rāya sa॒spiñja॒rāya॒ tviṣī̍mate~।
+tviṣī̍mate pathī॒nāṁ pa̍thī॒nāntviṣī̍mate॒ tviṣī̍mate pathī॒nām~।
+tviṣī̍mata॒ iti॒ tviṣī̍ + ma॒te॒~।
+pa॒thī॒nāṁ pata̍ye॒ pata̍ye pathī॒nāṁ pa̍thī॒nāṁ pataye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍  babhlu॒śāya̍ vi-vyā॒dhine'nnā̍nā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ babhlu॒śāya̍ babhlu॒śāya॒ namo॒ namo̍ babhlu॒śāya̍~।
+ba॒bhlu॒śāya̍ vivyā॒dhine̍ vivyā॒dhine̍ babhlu॒śāya̍ babhlu॒śāya̍ vivyā॒dhine̎~।
+vi॒vyā॒dhine'nnā̍nā॒mannā̍nāṁ vivyā॒dhine̍ vivyā॒dhine'nnā̍nām~।
+vi॒vyā॒dhina॒ iti̍ vi + vyā॒dhine̎~।
+annā̍nā॒ṁ pata̍ye॒ pata̍ye'nnā̍nā॒mannā̍nā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo॒  hari̍-keṣāyopa-vī॒tine̍ pu॒ṣṭānā॒ṁ pata̍ye॒ namo॒~।
+
+namo॒ hari̍keṣāya॒ hari̍keṣāya॒ namo॒ namo॒ hari̍keṣāya~।
+hari̍keṣāyopavī॒tina̍ upavī॒tine॒ hari̍keṣāya॒ hari̍keṣāyopavī॒tine̎~।
+hari̍keṣā॒yeti॒ hari̍ + ke॒ṣā॒ya॒~।
+u॒pa॒vī॒tine̍ pu॒ṣṭānā̎ṁ pu॒ṣṭānā̍mupavī॒tina̍ upavī॒tine̍ pu॒ṣṭānā̎m~।
+u॒pa॒vī॒tina॒ ityu̍pa + vī॒tine̎~।
+pu॒ṣṭānā॒ṁ pata̍ye॒ pata̍ye pu॒ṣṭānā̎ṁ pu॒ṣṭānā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍ bha॒vasya̍ he॒tyai jagatā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ bha॒vasya̍ bha॒vasya॒ namo॒ namo̍ bha॒vasya̍~।
+bha॒vasya̍ he॒tyai he॒tyai bha॒vasya̍ bha॒vasya̍ he॒tyai~।
+he॒tyai jaga̍tā॒ṁ jaga̍tāgṁ he॒tyai he॒tyai jaga̍tām~।
+jaga̍tā॒ṁ pata̍ye॒ pata̍ye॒ jaga̍tā॒ṁ jaga̍tā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍  ru॒drāyā̍tatā॒vine॒ kṣetrā̍nā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍  ru॒drāya̍  ru॒drāya॒ namo॒ namo̍  ru॒drāya̍~।
+ru॒drāyā̍tatā॒vina̍ ātatā॒vine̍ ru॒drāya̍ ru॒drāyā̍tatā॒vine̎~।
+ā॒ta॒tā॒vine॒ kṣetrā̍ṇā॒ṁ kṣetrā̍ṇāmātatā॒vina̍ ātatā॒vine॒ kṣetrā̍ṇām~।
+ā॒ta॒tā॒vina॒ ityā̎ + tatā॒vine̎~।
+kṣetrā̍ṇā॒ṁ pata̍ye॒ pata̍ye॒ kṣetrā̍ṇā॒ṁ kṣetrā̍ṇā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+nama̍ḥ sū॒tāyāha̍ntyāya॒ vanā̍nā॒ṁ pata̍ye॒ namo॒~।
+
+nama̍ssū॒tāya̍ sū॒tāya॒ namo॒ nama̍ssū॒tāya̍~।
+sū॒tāyāha̍ntyā॒yāha̍ntyāya sū॒tāya̍ sū॒tāyāha̍ntyāya~।
+aha̍ntyāya॒ vanā̍nā॒ṁ vanā̍nā॒maha̍ntyā॒yāha̍ntyāya॒ vanā̍nām~।
+vanā̍nā॒ṁ pata̍ye॒ pata̍ye॒ vanā̍nā॒ṁ vanā̍nā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍ rohi̍tāya sta॒pata̍ye vṛ॒kṣāṇā॒ṁ  pata̍ye॒ namo॒~।
+
+namo॒ rohi̍tāya॒ rohi̍tāya॒ namo॒ namo॒ rohi̍tāya~।
+rohi̍tāya sta॒pata̍ye sta॒pata̍ye॒ rohi̍tāya॒ rohi̍tāya sta॒pata̍ye~।
+sta॒pata̍ye vṛ॒kṣāṇā̎ṁ vṛ॒kṣāṇāgu̍ssta॒pata̍ye sta॒pata̍ye vṛ॒kṣāṇā̎m~।
+vṛ॒kṣāṇā॒ṁ pata̍ye॒ pata̍ye vṛ॒kṣāṇā̎ṁ vṛ॒kṣāṇā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍ ma॒ntriṇe̍ vāṇi॒jāya॒ kakṣā̍ṇā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ ma॒ntriṇe̍ ma॒ntriṇe॒ namo॒ namo̍ ma॒ntriṇe̎~।
+ma॒ntriṇe̍ vāṇi॒jāya̍ vāṇi॒jāya̍ ma॒ntriṇe̍ ma॒ntriṇe̍ vāṇi॒jāya̍~।
+vā॒ṇi॒jāya॒ kakṣā̍ṇā॒ṁ kakṣā̍ṇāṁ vāṇi॒jāya̍ vāṇi॒jāya॒ kakṣā̍ṇām~।
+kakṣā̍ṇā॒ṁ pata̍ye॒ pata̍ye॒ kakṣā̍ṇā॒ṁ kakṣā̍ṇā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+namo̍ bhuva॒ntaye̍ vārivaskṛ॒tāyauṣa̍dhīnā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ bhuva॒ntaye̍ bhuva॒ntaye॒ namo॒ namo̍ bhuva॒ntaye̎~।
+bhu॒va॒ntaye̍ vārivaskṛ॒tāya̍ vārivaskṛ॒tāya̍ bhuva॒ntaye̍ bhuva॒ntaye̍ vārivaskṛ॒tāya̍~।
+vā॒ri॒va॒skṛ॒tāyauṣa̍dhīnā॒moṣa̍dhīnāṁ vārivaskṛ॒tāya̍ vārivaskṛ॒tāyauṣa̍dhīnām~।
+vā॒ri॒va॒skṛ॒tāyeti̍ vārivaḥ + kṛ॒tāya̍~।
+oṣa̍dhīnā॒ṁ pata̍ye॒ pata̍ya॒ oṣa̍dhīnā॒moṣa̍dhīnā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+nama̍ u॒ccaiḥ-gho̍ṣāyā''kra॒ndaya̍te pattī॒nāṁ  pata̍ye॒ namo॒~।
+
+nama̍  u॒ccairgho̍ṣāyo॒ccairgho̍ṣāya॒ namo॒ nama̍ u॒ccairgho̍ṣāya~।
+u॒ccairgho̍ṣāyākra॒ndaya̍ta ākra॒ndaya̍ta u॒ccairgho̍ṣāyo॒ccairgho̍ṣāyākra॒ndaya̍te~।
+u॒ccairgho̍ṣā॒yetyu॒ccaiḥ + gho॒ṣā॒ya॒~।
+ā॒kra॒ndaya̍te pattī॒nāṁ pa̍ttī॒nāmā̎kra॒ndaya̍ta ākra॒ndaya̍te pattī॒nām~।
+ā॒kra॒ndaya̍ta॒ ityā̎ + kra॒ndaya̍te~।
+pa॒ttī॒nāṁ pata̍ye॒ pata̍ye pattī॒nāṁ pa̍ttī॒nāṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+\vspace{0.5cm}
+nama̍ḥ kṛtsnavī॒tāya॒ dhāva̍te॒ sattva̍nā॒ṁ  pata̍ye॒ nama̍ḥ~।
+
+nama̍ḥ kṛtsnavī॒tāya̍ kṛtsnavī॒tāya॒ namo॒ nama̍ḥ kṛtsnavī॒tāya̍~।
+kṛ॒tsna॒vī॒tāya॒ dhāva̍te॒ dhāva̍te kṛtsnavī॒tāya̍ kṛtsnavī॒tāya॒ dhāva̍te~।
+kṛ॒tsna॒vī॒tāyeti̍ kṛtsna + vī॒tāya̍~।
+dhāva̍te॒ sattva̍nā॒gṁ॒ sattva̍nā॒ndhāva̍te॒ dhāva̍te॒ sattva̍nām~।
+sattva̍nā॒ṁ pata̍ye॒ pata̍ye॒ sattva̍nā॒gṁ॒ sattva̍nā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+nama॒ iti॒ nama̍ḥ~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 3~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+nama॒ḥ saha̍mānāya ni-vyā॒dhina̍ ā-vyā॒dhinī̍nā॒ṁ pata̍ye॒ namo॒~।
+
+nama॒ḥ saha̍mānāya॒ saha̍mānāya॒ namo॒ nama॒ḥ saha̍mānāya~।
+saha̍mānāya nivyā॒dhine̍ nivyā॒dhine॒ saha̍mānāya saha̍mānāya nivyā॒dhine̎~।
+ni॒vyā॒dhina̍ āvyā॒dhinī̍nāmāvyā॒dhinī̍nānnivyā॒dhine̍ nivyā॒dhina̍ āvyā॒dhinī̍nām~।
+ni॒vyā॒dhina॒ iti̍ ni + vyā॒dhine̎~।
+ā॒vyā॒dhinī̍nā॒ṁ pata̍ye॒ pata̍ya āvyā॒dhinī̍nāmāvyā॒dhinī̍nā॒ṁ pata̍ye~।
+ā॒vyā॒dhinī̍nā॒mityā̎ + vyā॒dhinī̍nām~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ kaku॒bhāya̍  ni-ṣa॒ṅgiṇe̎ ste॒nānā॒ṁ pata̍ye॒ namo॒~।
+
+nama̍ḥ kaku॒bhāya̍ kaku॒bhāya॒ namo॒ nama̍ḥ kaku॒bhāya̍~।
+ka॒ku॒bhāya̍ niṣa॒ṅgiṇe̍ niṣa॒ṅgiṇe̍ kaku॒bhāya̍ kaku॒bhāya̍ niṣa॒ṅgiṇe̎~।
+ni॒ṣa॒ṅgiṇe̎ste॒nānāgg̍ste॒nānā̎nniṣa॒ṅgiṇe̍ niṣa॒ṅgiṇe̎ste॒nānā̎m~।
+ni॒ṣa॒ṅgiṇa॒ iti̍ ni + sa॒ṅgine̎~।
+ste॒nānā॒ṁ pata̍ye॒ pata̍yeste॒nānāgg̍ste॒nānā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ ni-ṣa॒ṅgiṇa̍ iṣudhi॒-mate॒ taska̍rāṇā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ niṣa॒ṅgiṇe̍ niṣa॒ṅgiṇe॒ namo॒ namo̍ niṣa॒ṅgiṇe̎~।
+ni॒ṣa॒ṅgiṇa̍ iṣudhi॒mata̍ iṣudhi॒mate̍ niṣa॒ṅgiṇe̍ niṣa॒ṅgiṇa̍ iṣudhi॒mate̎~।
+ni॒ṣa॒ṅgiṇa॒ iti̍ ni + sa॒ṅgine̎~।
+i॒ṣu॒dhi॒mate॒ taska̍rāṇā॒ntaska̍rāṇāmiṣudhi॒mata̍ iṣudhi॒mate॒ taska̍rāṇām~।
+i॒ṣu॒dhi॒mata॒ itī̍ṣudhi + mate̎~।
+taska̍rāṇā॒ṁ pata̍ye॒ pata̍ye॒ taska̍rāṇā॒ntaska̍rāṇā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo॒ vañca̍te pari॒-vañca̍te stāyū॒nāṁ pata̍ye॒ namo॒~।
+
+namo॒ vañca̍te॒ vañca̍te॒ namo॒ namo॒ vañca̍te~।
+vañca̍te pari॒vañca̍te pari॒vañca̍te॒ vañca̍te॒ vañca̍te pari॒vañca̍te~।
+pa॒ri॒vañca̍te stāyū॒nāggstā̍yū॒nāṁ pari॒vañca̍te pari॒vañca̍te stāyū॒nām~।
+pa॒ri॒vañca̍ta॒ iti̍ pari + vañca̍te~।
+stā॒yū॒nāṁ pata̍ye॒ pata̍ye stāyū॒nāggstā̍yū॒nāṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ ni-ce॒rave̍ pari-ca॒rāyāra̍ṇyānā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍ nice॒rave̍ nice॒rave॒ namo॒ namo̍ nice॒rave̎~।
+ni॒ce॒rave̍ parica॒rāya̍ parica॒rāya̍ nice॒rave̍ nice॒rave̍ parica॒rāya̍~।
+ni॒ce॒rava॒ iti̍ ni + ce॒rave̎~।
+pa॒ri॒ca॒rāyāra̍ṇyānā॒mara̍ṇyānāṁ parica॒rāya̍ parica॒rāyāra̍ṇyānām~।
+pa॒ri॒ca॒rāyeti̍ pari + ca॒rāya̍~।
+ara̍ṇyānā॒ṁ pata̍ye॒ pata॒ye'ra̍ṇyānā॒mara̍ṇyānā॒ṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ sṛkā॒vibhyo॒ jighāgṁ̍sad-bhyo muṣṇa॒tāṁ pata̍ye॒ namo॒~।
+
+nama̍ssṛkā॒vibhya̍ssṛkā॒vibhyo॒ namo॒ nama̍ssṛkā॒vibhya̍ḥ~।
+sṛ॒kā॒vibhyo॒ jighāgṁ̍sadbhyo॒ jighāgṁ̍sadbhyassṛkā॒vibhya̍ssṛkā॒vibhyo॒ jighāgṁ̍sadbhyaḥ~।
+sṛ॒kā॒vibhya॒ iti̍ sṛkā॒vi + bhya॒ḥ~।
+jighāgṁ̍sadbhyo muṣṇa॒tāṁ mu̍ṣṇa॒tāñjighāgṁ̍sadbhyo॒ jighāgṁ̍sadbhyo muṣṇa॒tām~।
+jighāgṁ̍sadbhya॒ iti॒  jighāgṁ̍sat + bhya॒ḥ~।
+mu॒ṣṇa॒tāṁ pata̍ye॒ pata̍ye muṣṇa॒tāṁ mu̍ṣṇa॒tāṁ pata̍ye~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍'si॒madbhyo॒nakta॒ṁcara̍dbhyaḥ prakṛ॒ntānā॒ṁ pata̍ye॒ namo॒~।
+
+namo̍'si॒madbhyo̍'si॒madbhyo॒ namo॒ namo̍'si॒madbhya̍ḥ~।
+ a॒si॒madbhyo॒ nakta॒nnakta̍masi॒madbhyo̍'si॒madbhyo॒ naktam̎~।
+ a॒si॒madbhya॒ itya̍si॒mat + bhya॒ḥ~।
+ na॒kta॒ñcara̍dbhya॒ścara̍dbhyo॒ nakta॒nnakta॒ñcara̍dbhyaḥ~।
+ cara̍dbhyaḥ prakṛ॒ntānā̎ṁprakṛ॒ntānā॒ñcara̍dbhya॒ścara̍dbhyaḥ prakṛ॒ntānā̎m~।
+ cara̍dbhya॒ iti॒ cara̍t + bhya॒ḥ~।
+ pra॒kṛ॒ntānā॒ṁ pata̍ye॒ pata̍ye prakṛ॒ntānā̎ṁprakṛ॒ntānā॒ṁ pata̍ye~।
+ pra॒kṛ॒ntānā॒miti̍ pra + kṛ॒ntānā̎m~।
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ uṣṇī॒ṣiṇe̍ girica॒rāya̍ kulu॒ñcānā॒ṁ pata̍ye॒ namo॒~। 
+
+nama̍ uṣṇī॒ṣiṇa̍ uṣṇī॒ṣiṇe॒ namo॒ nama̍ uṣṇī॒ṣiṇe̎~। 
+u॒ṣṇī॒ṣiṇe̍ girica॒rāya̍ girica॒rāyo̎ṣṇī॒ṣiṇa̍ uṣṇī॒ṣiṇe̍ girica॒rāya̍~। 
+gi॒ri॒ca॒rāya̍ kulu॒ñcānā̎ṅkulu॒ñcānā̎ṁ girica॒rāya̍ girica॒rāya̍ kulu॒ñcānā̎m~। 
+gi॒ri॒ca॒rāyeti̍ giri + ca॒rāya̍~। 
+ku॒lu॒ñcānā॒ṁ pata̍ye॒ pata̍ye kulu॒ñcānā̎ṅkulu॒ñcānā॒ṁ pata̍ye~। 
+%kulu॒ñcānā॒miti ku + lu॒ñcānā॒ṁ~। 
+pata̍ye॒ namo॒ nama॒spata̍ye॒ pata̍ye॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ iṣu̍mat-bhyo dhanvā॒vibhya̍śca vo॒ namo~।
+
+nama॒ iṣu̍madbhya॒ iṣu̍madbhyo॒ namo॒ nama॒ iṣu̍madbhyaḥ~।
+iṣu̍madbhyo dhanvā॒vibhyo̍ dhanvā॒vibhya॒ iṣu̍madbhya॒ iṣu̍madbhyo dhanvā॒vibhya̍ḥ~।
+iṣu̍madbhya॒ itīṣu̍mat + bhya॒ḥ~।
+dha॒nvā॒vibhya̍śca ca dhanvā॒vibhyo̍ dhanvā॒vibhya̍śca~।
+dha॒nvā॒vibhya॒ iti̍ dhanvā॒vi + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+
+nama̍ ātanvā॒nebhya̍ḥ prati॒dadhā̍nebhyaśca vo॒ namo~।
+
+nama̍ ātanvā॒nebhya̍ ātanvā॒nebhyo॒ namo॒ nama̍ ātanvā॒nebhya̍ḥ~।
+ā॒ta॒nvā॒nebhya̍ḥ prati॒dadhā̍nebhyaḥ prati॒dadhā̍nebhya ātanvā॒nebhya̍ ātanvā॒nebhya̍ḥ prati॒dadhā̍nebhyaḥ~।
+ā॒ta॒nvā॒nebhya॒ ityā̎ + ta॒nvā॒nebhya̍ḥ~।
+pra॒ti॒dadhā̍nebhyaśca ca prati॒dadhā̍nebhyaḥ prati॒dadhā̍nebhyaśca~।
+pra॒ti॒dadhā̍nebhya॒ iti̍ prati + dadhā̍nebhyaḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+
+nama̍ ā॒yaccha̍dbhyo visṛ॒jadbhya̍śca vo॒ namo~।
+
+nama̍ ā॒yaccha̍dbhya ā॒yaccha̍dbhyo॒ namo॒ nama̍ ā॒yaccha̍dbhyaḥ~।
+ā॒yaccha̍dbhyo visṛ॒jadbhyo̍ visṛ॒jadbhya̍ ā॒yaccha̍dbhya ā॒yaccha̍dbhyo visṛ॒jadbhya̍ḥ~।
+ā॒yaccha̍dbhya॒ ityā॒yaccha̍t + bhya॒ḥ~।
+vi॒sṛ॒jadbhya̍śca ca visṛ॒jadbhyo̍ visṛ॒jadbhya̍śca~।
+vi॒sṛ॒jadbhya॒ iti̍ visṛ॒jat + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo'sya̍dbhyo॒ vidhya̍dbhyaśca vo॒ namo~।
+
+namo'sya॒dbhyo'sya̍dbhyo॒ namo॒ namo'sya̍dbhyaḥ~।
+asya̍dbhyo॒ vidhya̍dbhyo॒ vidhya॒dbhyo'sya॒dbhyo'sya̍dbhyo॒ vidhya̍dbhyaḥ~।
+asya̍dbhya॒ ityasya̍t + bhya॒ḥ~।
+vidhya̍dbhyaśca ca॒ vidhya̍dbhyo॒ vidhya̍dbhyaśca~।
+vidhya̍dbhya॒ iti॒ vidhya̍t + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒ āsī̍nebhya॒ḥ śayā̍nebhyaśca vo॒ namo~।
+
+nama॒ āsī̍nebhya॒ āsī̍nebhyo॒ namo॒ nama॒ āsī̍nebhyaḥ~।
+āsī̍nebhya॒śśayā̍nebhya॒śśayā̍nebhya॒ āsī̍nebhya॒ āsī̍nebhya॒śśayā̍nebhyaḥ~।
+śayā̍nebhyaśca ca॒ śayā̍nebhya॒śśayā̍nebhyaśca~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ sva॒padbhyo॒ jāgra̍dbhyaśca vo॒ namo~।
+
+nama̍ssva॒padbhya̍ssva॒padbhyo॒ namo॒ nama̍ssva॒padbhya̍ḥ~।
+sva॒padbhyo॒ jāgra̍dbhyo॒  jāgra̍dbhyassva॒padbhya̍ssva॒padbhyo॒ jāgra̍dbhyaḥ~।
+sva॒padbhya॒ iti̍ sva॒pat + bhya॒ḥ~।
+jāgra̍dbhyaśca ca॒ jāgra̍dbhyo॒ jāgra̍dbhyaśca~।
+jāgra̍dbhya॒ iti॒ jāgra̍t + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒stiṣṭha̍dbhyo॒ dhāva̍dbhyaśca vo॒ namo~।
+
+na॒ma॒stiṣṭha̍dbhya॒stiṣṭha̍dbhyo॒ namo॒ nama॒stiṣṭha̍dbhyaḥ~।
+tiṣṭha̍dbhyo॒ dhāva̍dbhyo॒ dhāva̍dbhya॒stiṣṭha̍dbhya॒stiṣṭha̍dbhyo॒ dhāva̍dbhyaḥ~।
+tiṣṭha̍dbhya॒ iti॒ tiṣṭha̍t + bhya॒ḥ~।
+dhāva̍dbhyaśca ca॒ dhāva̍dbhyo॒ dhāva̍dbhyaśca~।
+dhāva̍dbhya॒ iti॒ dhāva̍t + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ sa॒bhābhya̍ḥ sa॒bhāpa̍tibhyaśca vo॒ namo~।
+
+nama̍ssa॒bhābhya̍ssa॒bhābhyo॒ namo॒ nama̍ssa॒bhābhya̍ḥ~।
+sa॒bhābhya̍ssa॒bhāpa̍tibhyassa॒bhāpa̍tibhyassa॒bhābhya̍ssa॒bhābhya̍ssa॒bhāpa̍tibhyaḥ~।
+sa॒bhāpa̍tibhyaśca ca sa॒bhāpa̍tibhyassa॒bhāpa̍tibhyaśca~।
+sa॒bhāpa̍tibhya॒ iti̍ sa॒bhāpa̍ti + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo॒ aśve॒bhyo'śva̍patibhyaśca vo॒ nama̍ḥ~।
+
+namo॒ aśve॒bhyo'śve̎bhyo॒ namo॒ namo॒ aśve̎bhyaḥ~।
+aśve॒bhyo'śva̍pati॒bhyo'śva̍pati॒bhyo'śve॒bhyo'śve॒bhyo'śva̍patibhyaḥ~।
+aśva̍patibhyaśca॒ cāśva̍pati॒bhyo'śva̍patibhyaśca~।
+aśva̍patibhya॒ ityaśva̍pati + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+nama॒ iti॒ nama̍ḥ~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 4~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+nama̍ ā-vyā॒dhinī̎bhyo vi॒-vidhya̍ntībhyaśca vo॒ namo॒~।
+
+nama̍ āvyā॒dhinī̎bhya āvyā॒dhinī̎bhyo॒ namo॒ nama̍ āvyā॒dhinī̎bhyaḥ~।
+ā॒vyā॒dhinī̎bhyo vi॒vidhya̍ntībhyo vi॒vidhya̍ntībhya āvyā॒dhinī̎bhya āvyā॒dhinī̎bhyo vi॒vidhya̍ntībhyaḥ~।
+ā॒vyā॒dhinī̎bhya॒ ityā̎ + vyā॒dhinī̎bhyaḥ~।
+vi॒vidhya̍ntībhyaśca ca vi॒vidhya̍ntībhyo vi॒vidhya̍ntībhyaśca~।
+vi॒vidhya̍ntībhya॒ iti̍ vi + vidhya̍ntībhyaḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒ uga̍ṇābhyastṛgṁha॒tībhya̍śca vo॒ namo॒~।
+
+nama॒ uga̍ṇābhya॒  uga̍ṇābhyo॒ namo॒ nama॒ uga̍ṇābhyaḥ~।
+uga̍ṇābhyastṛgṁha॒tībhya̍stṛgṁha॒tībhya॒ uga̍ṇābhya॒ uga̍ṇābhyastṛgṁha॒tībhya̍ḥ~।
+stṛ॒gṁ॒ha॒tībhya̍śca ca stṛgṁha॒tībhya̍stṛgṁha॒tībhya̍śca~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ gṛ॒tsebhyo̍ gṛ॒tsapa̍tibhyaśca vo॒ namo॒~।
+
+namo̍  gṛ॒tsebhyo̍ gṛ॒tsebhyo॒ namo॒  namo̍ gṛ॒tsebhya̍ḥ~।
+gṛ॒tsebhyo̍ gṛ॒tsapa̍tibhyo gṛ॒tsapa̍tibhyo gṛ॒tsebhyo̍ gṛ॒tsebhyo̍ gṛ॒tsapa̍tibhyaḥ~।
+gṛ॒tsapa̍tibhyaśca ca gṛ॒tsapa̍tibhyo gṛ॒tsapa̍tibhyaśca~।
+gṛ॒tsapa̍tibhya॒ iti̍ gṛ॒tsapa̍ti + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo॒ vrāte̎bhyo॒ vrāta̍patibhyaśca vo॒ namo॒~।
+
+namo॒ vrāte̎bhyo॒ vrāte̎bhyo॒ namo॒ namo॒ vrāte̎bhyaḥ~।
+vrāte̎bhyo॒ vrāta̍patibhyo॒ vrāta̍patibhyo॒ vrāte̎bhyo̱॒ vrāte̎bhyo̱॒ vrāta̍patibhyaḥ~।
+vrāta̍patibhyaśca ca॒ vrāta̍patibhyo॒ vrāta̍patibhyaśca~।
+vrāta̍patibhya॒ iti॒ vrāta̍pati + bhya॒ḥ ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ ga॒ṇebhyo̍ ga॒ṇapa̍tibhyaśca vo॒ namo॒~।
+
+namo̍ ga॒ṇebhyo̍ ga॒ṇebhyo॒ namo॒ namo̍ ga॒ṇebhya̍ḥ~।
+ga॒ṇebhyo̍ ga॒ṇapa̍tibhyo ga॒ṇapa̍tibhyo ga॒ṇebhyo̍ ga॒ṇebhyo̍ ga॒ṇapa̍tibhyaḥ~।
+ga॒ṇapa̍tibhyaśca ca ga॒ṇapa̍tibhyo ga॒ṇapa̍tibhyaśca~।
+ga॒ṇapa̍tibhya॒ iti̍ ga॒ṇapa̍ti + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo॒ vi-rū̍pebhyo vi॒śva-rū̍pebhyaśca vo॒ namo॒~।
+
+namo॒ virū̍pebhyo॒   virū̍pebhyo॒ namo॒ namo॒ virū̍pebhyaḥ~।
+virū̍pebhyo vi॒śvarū̍pebhyo॒ vi॒śvarū̍pebhyo॒ virū̍pebhyo॒ virū̍pebhyo vi॒śvarū̍pebhyaḥ~।
+virū̍pebhya॒ iti॒ vi + rū॒pe॒bhya॒ḥ~।
+vi॒śvarū̍pebhyaśca ca vi॒śvarū̍pebhyo vi॒śvarū̍pebhyaśca~।
+vi॒śvarū̍pebhya॒ iti̍ vi॒śva + rū॒pe॒bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ ma॒hadbhya̍ḥ kṣulla॒kebhya̍śca vo॒ namo॒~।
+
+namo̍ ma॒hadbhyo̍ ma॒hadbhyo॒ namo॒ namo̍ ma॒hadbhya̍ḥ~।
+ma॒hadbhya̍ḥ kṣulla॒kebhya̍ḥ kṣulla॒kebhyo̍ ma॒hadbhyo̍ ma॒hadbhya̍ḥ kṣulla॒kebhya̍ḥ~।
+ma॒hadbhya॒ iti̍ ma॒hat + bhya॒ḥ~।
+kṣu॒lla॒kebhya̍śca ca kṣulla॒kebhya̍ḥ kṣulla॒kebhya̍śca~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ ra॒thibhyo̍'ra॒thebhya̍śca vo॒ namo॒~।
+
+namo̍ ra॒thibhyo̍ ra॒thibhyo॒ namo॒ namo̍ ra॒thibhya̍ḥ~।
+ra॒thibhyo̍'ra॒thebhyo̍'ra॒thebhyo̍ ra॒thibhyo̍ ra॒thibhyo̍'ra॒thebhya̍ḥ~।
+ra॒thibhya॒ iti̍ ra॒ti + bhya॒ḥ~।
+a॒ra॒thebhya̍śca cāra॒thebhyo̍'ra॒thebhya̍śca~।
+%ara॒thebhya̍ iti ara॒the + bhya̍~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo॒ rathe̎bhyo॒ ratha̍pati-bhyaśca vo॒ namo॒~।
+
+namo॒ rathe̎bhyo॒ rathe̎bhyo॒ namo॒ namo॒ rathe̎bhyaḥ~।
+rathe̎bhyo॒ ratha̍patibhyo॒ ratha̍patibhyo॒ rathe̎bhyo॒ rathe̎bhyo॒ ratha̍patibhyaḥ~।
+ratha̍patibhyaśca ca॒ ratha̍patibhyo॒ ratha̍patibhyaśca~।
+ratha̍patibhya॒ iti॒ ratha̍pati + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒ḥ senā̎bhyaḥ senā॒nibhya̍śca vo॒ namo॒~।
+
+nama॒ssenā̎bhya॒ssenā̎bhyo॒ namo॒ nama॒ssenā̎bhyaḥ~।
+senā̎bhyassenā॒nibhya̍ssenā॒nibhya॒ssenā̎bhya॒ssenā̎bhyassenā॒nibhya̍ḥ~।
+se॒nā॒nibhya̍śca ca senā॒nibhya̍ssenā॒nibhya̍śca~।
+se॒nā॒nibhya॒ iti̍ senā॒ni + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ kṣa॒ttṛbhya̍ḥ saṁgrahī॒tṛbhya̍śca vo॒ namo॒~।
+
+nama̍ḥ kṣa॒ttṛbhya̍ḥ kṣa॒ttṛbhyo॒ namo॒ nama̍ḥ kṣa॒ttṛbhya̍ḥ~।
+kṣa॒ttṛbhya̍ssaṁgrahī॒tṛbhya̍ssaṁgrahī॒tṛbhya̍ḥ kṣa॒ttṛbhya̍ḥ kṣa॒ttṛbhya̍ssaṁgrahī॒tṛbhya̍ḥ~।
+kṣa॒ttṛbhya॒ iti̍ kṣa॒ttṛ + bhya॒ḥ~।
+sa॒ṁgra॒hī॒tṛbhya̍śca ca  saṁgrahī॒tṛbhya̍ssaṁgrahī॒tṛbhya̍śca~।
+sa॒ṁgra॒hī॒tṛbhya॒ iti̍ saṁgrahī॒tṛ + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒stakṣa̍bhyo rathakā॒rebhya̍śca vo॒ namo॒~।
+
+nama॒stakṣa̍bhya॒stakṣa̍bhyo॒ namo॒ nama॒stakṣa̍bhyaḥ~।
+takṣa̍bhyo rathakā॒rebhyo̍ rathakā॒rebhya॒stakṣa̍bhya॒stakṣa̍bhyo rathakā॒rebhya̍ḥ~।
+takṣa̍bhya॒ iti̍ takṣa̍ + bhya॒ḥ~।
+ra॒tha॒kā॒rebhya̍śca ca rathakā॒rebhyo̍ rathakā॒rebhya̍śca~।
+ra॒tha॒kā॒rebhya॒ iti̍ ratha + kā॒rebhya̍ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒ḥ kulā̍lebhyaḥ ka॒rmāre̎bhyaśca vo॒ namo॒~।
+
+nama॒ḥ kulā̍lebhya॒ḥ kulā̍lebhyo॒ namo॒ nama॒ḥ kulā̍lebhyaḥ~।
+kulā̍lebhyaḥ ka॒rmāre̎bhyaḥ ka॒rmāre̎bhya॒ḥ kulā̍lebhya॒ḥ kulā̍lebhyaḥ ka॒rmāre̎bhyaḥ~।
+ka॒rmāre̎bhyaśca ca ka॒rmāre̎bhyaḥ ka॒rmāre̎bhyaśca~।
+%ka॒rmāre̎bhya iti ka॒rmāre̎ + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ḥ pu॒ñjiṣṭe̎bhyo niṣā॒debhya̍śca vo॒ namo॒~।
+
+nama̍ḥ pu॒ñjiṣṭe̎bhyaḥ pu॒ñjiṣṭe̎bhyo॒ namo॒ nama̍ḥ pu॒ñjiṣṭe̎bhyaḥ~।
+pu॒ñjiṣṭe̎bhyo niṣā॒debhyo̍ niṣā॒debhya̍ḥ pu॒ñjiṣṭe̎bhyaḥ pu॒ñjiṣṭe̎bhyo niṣā॒debhya̍ḥ~।
+%pu॒ñjiṣṭe̎bhya iti pu॒ñjiṣṭe̎ + bhya॒ḥ~।
+ni॒ṣā॒debhya̍śca ca niṣā॒debhyo̍ niṣā॒debhya̍śca~।
+%ni॒ṣā॒debhya̍ iti niṣā॒de + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama̍ iṣu॒kṛdbhyo̍ dhanva॒kṛdbhya̍śca vo॒ namo॒~।
+
+nama̍ iṣu॒kṛdbhya̍ iṣu॒kṛdbhyo॒ namo॒ nama̍ iṣu॒kṛdbhya̍ḥ~।  
+i॒ṣu॒kṛdbhyo̍ dhanva॒kṛdbhyo̍ dhanva॒kṛdbhya̍  iṣu॒kṛdbhya̍ iṣu॒kṛdbhyo̍ dhanva॒kṛdbhya̍ḥ~।
+i॒ṣu॒kṛdbhya॒ itī̍ṣu॒kṛt + bhya॒ḥ~।
+dha॒nva॒kṛdbhya̍śca ca dhanva॒kṛdbhyo̍ dhanva॒kṛdbhya̍śca~।
+dha॒nva॒kṛdbhya॒ iti̍ dhanva॒kṛt + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+namo̍ mṛga॒yubhya̍ḥ śva॒nibhya̍śca vo॒ namo̱॒~।
+
+namo̍ mṛga॒yubhyo̍ mṛga॒yubhyo॒ namo॒ namo̍ mṛga॒yubhya̍ḥ~।
+mṛ॒ga॒yubhya̍śśva॒nibhya̍śva॒nibhyo̍ mṛga॒yubhyo̍ mṛga॒yubhya̍śśva॒nibhya̍ḥ~।
+mṛ॒ga॒yubhya॒ iti̍ mṛga॒yu + bhya॒ḥ~।
+śva॒nibhya̍śca caśva॒nibhya̍śśva॒nibhya̍śca~।
+śva॒nibhya॒ iti̍ śva॒ni + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+namo॒ nama̍ḥ~॥ 
+
+nama॒ḥ śvabhya॒ḥ śvapa̍tibhyaśca vo॒ nama̍ḥ~।
+
+nama॒śśvabhya॒śśvabhyo॒ namo॒ nama॒śśvabhya̍ḥ~।
+śvabhya॒śśvapa̍tibhya॒śśvapa̍tibhyaśśvabhya॒śśvabhya॒śśvapa̍tibhyaḥ~।
+śvabhya॒ iti॒śva + bhya॒ḥ~।
+śvapa̍tibhyaśca ca॒ śvapa̍tibhya॒śśvapa̍tibhyaśca~।
+śvapa̍tibhya॒ iti॒ śvapa̍ti + bhya॒ḥ~।
+ca॒ vo॒ va॒śca॒ ca॒ va॒ḥ~।
+vo॒ namo॒ namo̍ vo vo॒ nama̍ḥ~।
+nama॒ iti॒ nama̍ḥ~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 5~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+namo̍ bha॒vāya̍ ca ru॒drāya̍ ca॒~।
+
+namo̍ bha॒vāya̍ bha॒vāya॒ namo॒ namo̍ bha॒vāya̍~।
+bha॒vāya̍ ca ca bha॒vāya̍ bha॒vāya̍ ca~।
+ca॒ ru॒drāya̍ ru॒drāya̍ ca ca ru॒drāya̍~।
+ru॒drāya̍ ca ca ru॒drāya̍ ru॒drāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śa॒rvāya̍ ca paśu॒-pata̍ye ca॒~।
+
+nama̍śśa॒rvāya̍ śa॒rvāya॒ namo॒ nama̍śśa॒rvāya̍~।
+śa॒rvāya̍ ca ca śa॒rvāya̍ śa॒rvāya̍ ca~।
+ca॒ pa॒śu॒pata̍ye paśu॒pata̍ye ca ca paśu॒pata̍ye~।
+pa॒śu॒pata̍ye ca ca paśu॒pata̍ye paśu॒pata̍ye ca~।
+pa॒śu॒pata̍ya॒ iti̍ paśu + pata̍ye~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ nīla̍grīvāya ca śiti॒-kaṇṭhā̍ya ca॒~।
+
+namo॒ nīla̍grīvāya॒ nīla̍grīvāya॒ namo॒ namo॒ nīla̍grīvāya~।
+nīla̍grīvāya ca ca॒ nīla̍grīvāya॒ nīla̍grīvāya ca~।
+nīla̍grīvā॒yeti॒ nīla̍ + grī॒vā॒ya॒~।
+ca॒ śi॒ti॒kaṇṭhā̍ya  śiti॒kaṇṭhā̍ya  ca ca śiti॒kaṇṭhā̍ya~।
+śi॒ti॒kaṇṭhā̍ya ca ca śiti॒kaṇṭhā̍ya śiti॒kaṇṭhā̍ya ca~।
+śi॒ti॒kaṇṭhā॒yeti̍ śiti + kaṇṭhā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ kapa॒rdine̍ ca॒ vyu̍ptakeśāya ca॒~।
+
+nama̍ḥ kapa॒rdine̍ kapa॒rdine॒ namo॒ nama̍ḥ kapa॒rdine̎~।
+ka॒pa॒rdine̍ ca ca kapa॒rdine̍ kapa॒rdine̍ ca~।
+ca॒ vyu̍ptakeśāya॒ vyu̍ptakeśāya ca ca॒  vyu̍ptakeśāya~।
+vyu̍ptakeśāya ca ca॒  vyu̍ptakeśāya॒ vyu̍ptakeśāya ca~।
+vyu̍ptakeśā॒yeti॒ vyu̍pta + ke॒śā॒ya॒~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ sahasrā॒kṣāya̍ ca śa॒tadha̍nvane ca॒~।
+
+nama̍ssahasrā॒kṣāya̍ sahasrā॒kṣāya॒ namo॒ nama̍ssahasrā॒kṣāya̍~।
+sa॒ha॒srā॒kṣāya̍ ca ca  sahasrā॒kṣāya̍ sahasrā॒kṣāya̍ ca~।
+sa॒ha॒srā॒kṣāyeti̍ sahasra + a॒kṣāya̍~।
+ca॒ śa॒tadha̍nvane śa॒tadha̍nvane ca ca śa॒tadha̍nvane~।
+śa॒tadha̍nvane ca ca śa॒tadha̍nvane śa॒tadha̍nvane ca~।
+śa॒tadha̍nvana॒ iti̍ śa॒ta + dha॒nva॒ne॒~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ giri॒śāya̍ ca śipivi॒ṣṭāya̍ ca॒~।
+
+namo̍ giri॒śāya̍ giri॒śāya॒ namo॒ namo̍ giri॒śāya̍~।
+gi॒ri॒śāya̍ ca ca giri॒śāya̍ giri॒śāya̍ ca~।
+ca॒ śi॒pi॒vi॒ṣṭāya̍ śipivi॒ṣṭāya̍ ca ca śipivi॒ṣṭāya̍~।
+śi॒pi॒vi॒ṣṭāya̍ ca ca śipivi॒ṣṭāya̍ śipivi॒ṣṭāya̍ ca~।
+śi॒pi॒vi॒ṣṭāyeti̍ śipi + vi॒ṣṭāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ mī॒ḍhuṣṭa̍māya॒ ceṣu̍mate ca॒~।
+
+namo̍ mī॒ḍhuṣṭa̍māya mī॒ḍhuṣṭa̍māya॒ namo॒ namo̍ mī॒ḍhuṣṭa̍māya~।
+mī॒ḍhuṣṭa̍māya ca ca  mī॒ḍhuṣṭa̍māya mī॒ḍhuṣṭa̍māya ca~।
+mī॒ḍhuṣṭa̍mā॒yeti̍ mī॒ḍhuḥ + ta॒mā॒ya॒~।
+ceṣu̍mata॒ iṣu̍mate ca॒ ceṣu̍mate~।
+iṣu̍mate  ca॒ ceṣu̍mata॒ iṣu̍mate ca~।
+iṣu̍mata॒ itīṣu̍ + ma॒te॒~। 
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̎ hra॒svāya̍ ca vāma॒nāya̍ ca॒~।
+
+namo̎ hra॒svāya̍ hra॒svāya॒ namo॒ namo̎ hra॒svāya̍~।
+hra॒svāya̍ ca ca hra॒svāya̍ hra॒svāya̍ ca~।
+ca॒ vā॒ma॒nāya̍ vāma॒nāya̍ ca ca vāma॒nāya̍~।
+vā॒ma॒nāya̍ ca ca vāma॒nāya̍ vāma॒nāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ bṛha॒te ca॒ varṣī̍yase ca॒~।
+
+namo̍ bṛha॒te bṛ̍ha॒te namo॒ namo̍ bṛha॒te~।
+bṛ॒ha॒te ca̍ ca bṛha॒te bṛ̍ha॒te ca̍~।
+ca॒ varṣī̍yase॒ varṣī̍yase ca ca॒ varṣī̍yase~।
+varṣī̍yase ca ca॒  varṣī̍yase॒ varṣī̍yase ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ vṛ॒ddhāya̍ ca sa॒ṁ-vṛdhva̍ne ca~।
+
+namo̍ vṛ॒ddhāya̍ vṛ॒ddhāya॒ namo॒ namo̍ vṛ॒ddhāya̍~।
+vṛ॒ddhāya̍ ca ca vṛ॒ddhāya̍ vṛ॒ddhāya̍ ca~।
+ca॒ sa॒ṁvṛdhva̍ne sa॒ṁvṛdhva̍ne ca ca sa॒ṁvṛdhva̍ne~।
+sa॒ṁvṛdhva̍ne ca ca sa॒ṁvṛdhva̍ne sa॒ṁvṛdhva̍ne ca~।
+sa॒ṁvṛdhva̍na॒ iti̍ saṁ + vṛdhva̍ne~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ agri̍yāya ca pratha॒māya̍ ca॒~।
+
+namo॒ agri̍yā॒yāgri̍yāya॒ namo॒ namo॒ agri̍yāya~।
+agri̍yāya ca॒ cāgri̍yā॒yāgri̍yāya ca~।
+ca॒ pra॒tha॒māya̍ pratha॒māya̍ ca ca pratha॒māya̍~।
+pra॒tha॒māya̍ ca ca pratha॒māya̍ pratha॒māya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+
+nama̍ ā॒śave̍ cāji॒rāya̍ ca॒~।  
+
+nama̍ ā॒śava̍ ā॒śave॒ namo॒ nama̍ ā॒śave̎~।
+ā॒śave̍ ca cā॒śava̍ ā॒śave̍ ca ~।
+cā॒ji॒rāyā̍ji॒rāya̍ ca cāji॒rāya̍~।
+a॒ji॒rāyā̍ji॒rāya̍ ca cāji॒rāyā̍ji॒rāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ śīghri̍yāya ca॒ śībhyā̍ya ca~। 
+
+nama॒śśīghri̍yāya॒ śīghri̍yāya॒  namo॒ nama॒śśīghri̍yāya~।
+śīghri̍yāya ca ca॒  śīghri̍yāya॒ śīghri̍yāya ca~।
+ca॒ śībhyā̍ya॒ śībhyā̍ya ca ca॒ śībhyā̍ya~।
+śībhyā̍ya ca ca॒ śībhyā̍ya॒ śībhyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ū॒rmyā̍ya cāva-sva॒nyā̍ya ca॒~।
+
+nama̍ ū॒rmyā̍yo॒rmyā̍ya॒ namo॒ nama̍ ū॒rmyā̍ya~।
+ū॒rmyā̍ya ca co॒rmyā̍yo॒rmyā̍ya ca~।
+cā॒va॒sva॒nyā̍yāvasva॒nyā̍ya ca cāvasva॒nyā̍ya~।
+a॒va॒sva॒nyā̍ya ca cāvasva॒nyā̍yāvasva॒nyā̍ya ca~।
+a॒va॒sva॒nyā̍yetya̍va + sva॒nyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ srota॒syā̍ya ca॒ dvīpyā̍ya ca~।
+
+nama̍ssrota॒syā̍ya srota॒syā̍ya॒ namo॒ nama̍ḥ srota॒syā̍ya~।
+sro॒ta॒syā̍ya ca ca srota॒syā̍ya srota॒syā̍ya ca~।
+ca॒ dvīpyā̍ya॒ dvīpyā̍ya ca ca॒ dvīpyā̍ya~।
+dvīpyā̍ya ca ca॒ dvīpyā̍ya॒ dvīpyā̍ya ca~।
+%ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+ceti̍ ca~।
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 6~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+namo̎ jye॒ṣṭhāya̍ ca kani॒ṣṭhāya̍ ca॒~।
+
+namo̎ jye॒ṣṭhāya̍ jye॒ṣṭhāya॒  namo॒ namo̎ jye॒ṣṭhāya̍~।
+jye॒ṣṭhāya̍ ca ca jye॒ṣṭhāya̍ jye॒ṣṭhāya̍ ca~।
+ca॒ ka॒ni॒ṣṭhāya̍ kani॒ṣṭhāya̍ ca ca kani॒ṣṭhāya̍~।
+ka॒ni॒ṣṭhāya̍ ca॒ ca kani॒ṣṭhāya̍ kani॒ṣṭhāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ pūrva॒-jāya̍ cāpara॒-jāya̍ ca॒~।
+
+nama̍ḥ pūrva॒jāya̍ pūrva॒jāya॒ namo॒ nama̍ḥ pūrva॒jāya̍~।
+pū॒rva॒jāya̍ ca ca pūrva॒jāya̍ pūrva॒jāya̍ ca~।
+pū॒rva॒jāyeti̍ pūrva + jāya̍~।
+cā॒pa॒ra॒jāyā̍para॒jāya̍ ca cāpara॒jāya̍~।
+a॒pa॒ra॒jāya̍ ca cāpara॒jāyā̍para॒jāya̍ ca~।
+a॒pa॒ra॒jāyetya̍para + jāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ madhya॒māya̍ cāpa-ga॒lbhāya̍ ca॒~।
+
+namo̍ madhya॒māya̍ madhya॒māya॒ namo॒ namo̍ madhya॒māya̍~।
+ma॒dhya॒māya̍ ca ca madhya॒māya̍ madhya॒māya̍ ca~।
+cā॒pa॒ga॒lbhāyā̍paga॒lbhāya̍ ca cāpaga॒lbhāya̍~।
+a॒pa॒ga॒lbhāya̍ ca cāpaga॒lbhāyā̍paga॒lbhāya̍ ca~।
+a॒pa॒ga॒lbhāyetya̍pa + ga॒lbhāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ jagha॒nyā̍ya ca॒ budhni̍yāya ca॒~।
+
+namo̍ jagha॒nyā̍ya jagha॒nyā̍ya॒ namo॒ namo̍ jagha॒nyā̍ya~।
+ja॒gha॒nyā̍ya ca ca jagha॒nyā̍ya jagha॒nyā̍ya ca~।
+ca॒ budhni̍yāya॒ budhni̍yāya ca ca॒ budhni̍yāya~।
+budhni̍yāya ca ca॒ budhni̍yāya॒ budhni̍yāya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ so॒bhyā̍ya ca pratisa॒ryā̍ya ca॒~।
+
+nama̍sso॒bhyā̍ya so॒bhyā̍ya॒ namo॒ nama̍sso॒bhyā̍ya~।
+so॒bhyā̍ya ca ca so॒bhyā̍ya so॒bhyā̍ya ca~।                                                                                                                                  
+ca॒ pra॒ti॒sa॒ryā̍ya pratisa॒ryā̍ya ca ca pratisa॒ryā̍ya~।
+pra॒ti॒sa॒ryā̍ya ca ca pratisa॒ryā̍ya pratisa॒ryā̍ya ca~।
+pra॒ti॒sa॒ryā̍yeti̍ prati + sa॒ryā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ yāmyā̍ya ca॒ kṣemyā̍ya ca॒~।
+
+namo॒ yāmyā̍ya॒ yāmyā̍ya॒ namo॒ namo॒ yāmyā̍ya~।
+yāmyā̍ya ca ca॒ yāmyā̍ya॒ yāmyā̍ya ca~।
+ca॒ kṣemyā̍ya॒ kṣemyā̍ya ca ca॒ kṣemyā̍ya~।
+kṣemyā̍ya ca ca॒ kṣemyā̍ya॒ kṣemyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+                                                                                                                                                               
+nama̍ urva॒ryā̍ya ca॒ khalyā̍ya ca॒~।
+
+nama̍ urva॒ryā̍yorva॒ryā̍ya॒ namo॒ nama̍ urva॒ryā̍ya~।
+u॒rva॒ryā̍ya ca corva॒ryā̍yorva॒ryā̍ya ca~।
+ca॒ khalyā̍ya॒ khalyā̍ya ca ca॒ khalyā̍ya~।
+khalyā̍ya ca ca॒ khalyā̍ya॒ khalyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ ślokyā̍ya cā̍vasā॒nyā̍ya ca॒~।
+
+nama॒śślokyā̍ya॒ ślokyā̍ya॒ namo॒ nama॒śślokyā̍ya~।
+ślokyā̍ya ca ca॒ ślokyā̍ya॒ ślokyā̍ya ca~।
+cā॒va॒sā॒nyā̍yāvasā॒nyā̍ya ca  cāvasā॒nyā̍ya~।
+a॒va॒sā॒nyā̍ya ca cāvasā॒nyā̍yāvasā॒nyā̍ya ca~।
+a॒va॒sā॒nyā̍yetya̍va + sā॒nyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ vanyā̍ya ca॒ kakṣyā̍ya ca॒~।
+
+namo॒ vanyā̍ya॒ vanyā̍ya॒  namo॒ namo॒ vanyā̍ya~।
+vanyā̍ya ca ca॒ vanyā̍ya॒ vanyā̍ya ca~।
+ca॒ kakṣyā̍ya॒ kakṣyā̍ya ca ca॒ kakṣyā̍ya~।
+kakṣyā̍ya ca ca॒ kakṣyā̍ya॒ kakṣyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śra॒vāya̍ ca prati-śra॒vāya̍ ca॒~।
+
+nama̍śśra॒vāya̍ śra॒vāya॒ namo॒ nama̍śśra॒vāya̍~।
+śra॒vāya̍ ca ca śra॒vāya̍ śra॒vāya̍ ca~।
+ca॒ pra॒ti॒śra॒vāya̍ pratiśra॒vāya̍ ca ca pratiśra॒vāya̍~।
+pra॒ti॒śra॒vāya̍ ca ca pratiśra॒vāya̍ pratiśra॒vāya̍ ca~।
+pra॒ti॒śra॒vāyeti̍ prati + śra॒vāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ā॒śu-ṣe̍ṇāya cā॒śu-ra̍thāya ca॒~।
+
+nama̍ ā॒śuṣe̍ṇāyā॒''śuṣe̍ṇāya॒ namo॒ nama̍ ā॒śuṣe̍ṇāya~।
+ā॒śuṣe̍ṇāya ca cā॒''śuṣe̍ṇāyā॒''śuṣe̍ṇāya ca~।
+ā॒śuṣe̍ṇā॒yetyā॒śu + se॒nā॒ya॒~।
+cā॒''śura̍thāyā॒śura̍thāya ca cā॒''śura̍thāya~।
+ā॒śura̍thāya ca cā॒''śura̍thāyā॒''śura̍thāya ca~।
+āśura̍thā॒yetyā॒śu + ra॒thā॒ya॒~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ śūrā̍ya cāva-bhinda॒te ca॒~।
+
+nama॒śśūrā̍ya॒ śūrā̍ya॒ namo॒ nama॒śśūrā̍ya~।
+śūrā̍ya ca ca॒ śūrā̍ya॒ śūrā̍ya ca~।
+cā॒va॒bhi॒nda॒te̍'vabhinda॒te  ca̍ cāvabhinda॒te~।
+a॒va॒bhi॒nda॒te ca̍ cāvabhinda॒te̍'vabhinda॒te ca̍~।
+a॒va॒bhi॒nda॒ta itya̍va + bhi॒nda॒te~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+
+namo̍ va॒rmiṇe̍ ca varū॒thine̍ ca~।
+
+namo̍ va॒rmiṇe̍ va॒rmiṇe॒ namo॒ namo̍ va॒rmiṇe̎~।
+va॒rmiṇe̍ ca ca va॒rmiṇe̍ va॒rmiṇe̍ ca~।
+ca॒ va॒rū॒thine̍ varū॒thine̍ ca ca varū॒thine̎~।
+va॒rū॒thine̍ ca ca varū॒thine̍ varū॒thine̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ bi॒lmine̍ ca kava॒cine̍ ca॒~।
+
+namo̍ bi॒lmine̍ bi॒lmine॒ namo॒ namo̍ bi॒lmine̎~।
+bi॒lmine̍ ca ca bi॒lmine̍ bi॒lmine̍ ca~।
+ca॒ ka॒va॒cine̍ kava॒cine̍ ca ca kava॒cine̎~।
+ka॒va॒cine̍ ca ca kava॒cine̍ kava॒cine̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śru॒tāya̍ ca śrutase॒nāya̍ ca~।
+
+nama̍śśru॒tāya̍ śru॒tāya॒ namo॒ nama̍śśru॒tāya̍~।
+śru॒tāya̍ ca ca śru॒tāya̍ śru॒tāya̍ ca~।
+ca॒ śru॒ta॒se॒nāya̍  śrutase॒nāya̍ ca ca śrutase॒nāya̍~।
+śru॒ta॒se॒nāya̍ ca ca śrutase॒nāya̍ śrutase॒nāya̍ ca~।
+śru॒ta॒se॒nāyeti̍ śruta + se॒nāya̍~।
+ceti̍ ca~॥
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 7~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+namo̍ dundu॒bhyā̍ya cāhana॒nyā̍ya ca॒~।
+
+namo̍ dundu॒bhyā̍ya dundu॒bhyā̍ya॒ namo॒ namo̍ dundu॒bhyā̍ya~।
+du॒ndu॒bhyā̍ya ca ca dundu॒bhyā̍ya dundu॒bhyā̍ya ca~।
+cā॒ha॒na॒nyā̍yāhana॒nyā̍ya ca cāhana॒nyā̍ya~।
+ā॒ha॒na॒nyā̍ya ca cāhana॒nyā̍yāhana॒nyā̍ya ca~।
+ā॒ha॒na॒nyā̍yetyā̎ + ha॒na॒nyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ dhṛ॒ṣṇave̍ ca pra-mṛ॒śāya̍ ca॒~।
+
+namo̍ dhṛ॒ṣṇave̍ dhṛ॒ṣṇave॒ namo॒ namo̍ dhṛ॒ṣṇave̎~।
+dhṛ॒ṣṇave̍ ca ca dhṛ॒ṣṇave̍ dhṛ॒ṣṇave̍ ca~।
+ca॒ pra॒mṛ॒śāya̍ pramṛ॒śāya̍ ca ca pramṛ॒śāya̍~।
+pra॒mṛ॒śāya̍ ca ca pramṛ॒śāya̍ pramṛ॒śāya̍ ca~।
+pra॒mṛ॒śāyeti̍ pra + mṛ॒śāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ dū॒tāya̍ ca॒ prahi̍tāya ca॒~।
+
+namo̍ dū॒tāya̍ dū॒tāya॒ namo॒ namo̍ dū॒tāya̍~।
+dū॒tāya̍ ca ca dū॒tāya̍ dū॒tāya̍ ca~।
+ca॒ prahi̍tāya॒ prahi̍tāya ca ca॒ prahi̍tāya~।
+prahi̍tāya ca ca॒ prahi̍tāya॒ prahi̍tāya ca~।
+prahi̍tā॒yeti॒ pra + hi॒tā॒ya॒~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ ni-ṣa॒ṅgiṇe̍ ceṣudhi॒-mate̍ ca॒~।
+
+namo̍ niṣa॒ṅgiṇe̍ niṣa॒ṅgiṇe॒ namo॒ namo̍ niṣa॒ṅgiṇe̎~।
+ ni॒ṣa॒ṅgiṇe̍ ca ca niṣa॒ṅgiṇe̍ niṣa॒ṅgiṇe̍ ca~।
+ ni॒ṣa॒ṅgiṇa॒ iti̍ ni +  sa॒ṅgiṇe̎~।
+ ce॒ṣu॒dhi॒mata̍ iṣudhi॒mate̍ ca ceṣudhi॒mate̎ ~।
+ i॒ṣu॒dhi॒mate̍ ca ceṣudhi॒mata̍ iṣudhi॒mate̍ ca~।
+ i॒ṣu॒dhi॒mata॒ itī̍ṣudhi + mate̎~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍stī॒kṣṇeṣa̍ve cāyu॒dhine̍ ca॒~।
+
+nama̍stī॒kṣṇeṣa̍ve tī॒kṣṇeṣa̍ve॒ namo॒ nama̍stī॒kṣṇeṣa̍ve~।
+tī॒kṣṇeṣa̍ve ca ca tī॒kṣṇeṣa̍ve tī॒kṣṇeṣa̍ve ca~।
+tī॒kṣṇeṣa̍va॒ iti̍ tī॒kṣṇa + i॒ṣa॒ve॒ ~।
+cā॒yu॒dhina̍ āyu॒dhine̍ ca cāyu॒dhine̎~।
+ā॒yu॒dhine̍ ca cāyu॒dhina̍ āyu॒dhine̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ su-āyu॒dhāya̍ ca su॒-dhanva̍ne ca॒~।
+
+nama̍ssvāyu॒dhāya̍ svāyu॒dhāya॒ namo॒ nama̍ssvāyu॒dhāya̍~।
+svā॒yu॒dhāya̍ ca ca svāyu॒dhāya̍ svāyu॒dhāya̍ ca~।
+svā॒yu॒dhāyeti̍ su + ā॒yu॒dhāya̍~।
+ca॒ su॒dhanva̍ne su॒dhanva̍ne ca ca su॒dhanva̍ne~।
+su॒dhanva̍ne ca ca su॒dhanva̍ne su॒dhanva̍ne ca~।
+su॒dhanva̍na॒ iti̍  su + dhanva̍ne~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ srutyā̍ya ca॒ pathyā̍ya ca॒~।
+
+nama॒ssrutyā̍ya॒ srutyā̍ya॒ namo॒ nama॒ssrutyā̍ya~।
+srutyā̍ya ca ca॒ srutyā̍ya॒ srutyā̍ya ca~।
+ca॒ pathyā̍ya॒ pathyā̍ya ca ca॒ pathyā̍ya~।
+pathyā̍ya ca ca॒ pathyā̍ya॒ pathyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ kā॒ṭyā̍ya ca nī॒pyā̍ya ca॒~।
+
+nama̍ḥ kā॒ṭyā̍ya kā॒ṭyā̍ya॒ namo॒ nama̍ḥ kā॒ṭyā̍ya~।
+kā॒ṭyā̍ya ca ca kā॒ṭyā̍ya kā॒ṭyā̍ya ca~।
+ca॒ nī॒pyā̍ya nī॒pyā̍ya ca ca nī॒pyā̍ya~।
+nī॒pyā̍ya ca ca nī॒pyā̍ya nī॒pyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ sūdyā̍ya ca sara॒syā̍ya ca॒~।
+
+nama॒ssūdyā̍ya॒ sūdyā̍ya॒ namo॒ nama॒ssūdyā̍ya~।
+sūdyā̍ya ca ca॒ sūdyā̍ya॒ sūdyā̍ya ca~।
+ca॒ sa॒ra॒syā̍ya sara॒syā̍ya ca ca sara॒syā̍ya~।
+sa॒ra॒syā̍ya ca ca sara॒syā̍ya sara॒syā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ nā॒dyāya̍ ca vaiśa॒ntāya̍ ca॒~।
+
+namo̍ nā॒dyāya̍ nā॒dyāya॒ namo॒ namo̍ nā॒dyāya̍~।
+nā॒dyāya̍ ca ca nā॒dyāya̍ nā॒dyāya̍ ca~।
+ca॒ vai॒śa॒ntāya̍ vaiśa॒ntāya̍ ca ca vaiśa॒ntāya̍~।
+vai॒śa॒ntāya̍ ca ca vaiśa॒ntāya̍ vaiśa॒ntāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ kūpyā̍ya cāva॒ṭyā̍ya ca॒~।
+
+nama॒ḥ kūpyā̍ya॒ kūpyā̍ya॒ namo॒ namaḥ̱ kūpyā̍ya~।
+kūpyā̍ya ca ca॒ kūpyā̍ya॒ kūpyā̍ya ca~।
+cā॒va॒ṭyā̍yāva॒ṭyā̍ya ca cāva॒ṭyā̍ya~।
+a॒va॒ṭyā̍ya ca cāva॒ṭyā̍yāva॒ṭyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ varṣyā̍ya cāva॒rṣyāya̍ ca॒~।
+
+namo॒ varṣyā̍ya॒ varṣyā̍ya॒ namo॒ namo॒ varṣyā̍ya~।
+varṣyā̍ya ca ca॒ varṣyā̍ya॒ varṣyā̍ya ca~।
+cā॒va॒rṣyāyā̍va॒rṣyāya̍ ca cāva॒rṣyāya̍~।
+a॒va॒rṣyāya̍ ca cāva॒rṣyāyā̍va॒rṣyāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ me॒ghyā̍ya ca vi-dyu॒tyā̍ya ca॒~।
+
+namo̍ me॒ghyā̍ya me॒ghyā̍ya॒ namo॒ namo̍ me॒ghyā̍ya~।
+me॒ghyā̍ya ca ca me॒ghyā̍ya me॒ghyā̍ya ca~।
+ca॒ vi॒dyu॒tyā̍ya vidyu॒tyā̍ya ca ca vidyu॒tyā̍ya~।
+vi॒dyu॒tyā̍ya ca ca vidyu॒tyā̍ya vidyu॒tyā̍ya ca~।
+vi॒dyu॒tyā̍yeti̍ vi + dyu॒tyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ī॒dhriyā̍ya cāta॒pyā̍ya ca॒~।
+
+nama̍ ī॒dhriyā̍ye॒dhriyā̍ya॒ namo॒ nama̍ ī॒dhriyā̍ya~।
+ī॒dhriyā̍ya ca ce॒dhriyā̍ye॒dhriyā̍ya ca~।
+cā॒ta॒pyā̍yāta॒pyā̍ya ca cāta॒pyā̍ya~।
+ā॒ta॒pyā̍ya ca cāta॒pyā̍yāta॒pyā̍ya ca~।
+ā॒ta॒pyā̍yetyā̎ + ta॒pyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ vātyā̍ya ca॒ reṣmi̍yāya ca॒~।
+
+namo॒ vātyā̍ya॒ vātyā̍ya॒ namo॒ namo॒ vātyā̍ya~।
+vātyā̍ya ca ca॒ vātyā̍ya॒ vātyā̍ya ca~।
+ca॒ reṣmi̍yāya॒  reṣmi̍yāya  ca ca॒ reṣmi̍yāya~।
+reṣmi̍yāya  ca ca॒ reṣmi̍yāya॒ reṣmi̍yāya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ vāsta॒vyā̍ya ca vāstu॒pāya̍ ca~।
+
+namo̍ vāsta॒vyā̍ya vāsta॒vyā̍ya॒ namo॒ namo̍ vāsta॒vyā̍ya~।
+vā॒sta॒vyā̍ya ca ca vāsta॒vyā̍ya vāsta॒vyā̍ya ca~।
+ca॒ vā॒stu॒pāya̍ vāstu॒pāya̍ ca ca vāstu॒pāya̍~।
+vā॒stu॒pāya̍ ca ca vāstu॒pāya̍ vāstu॒pāya̍ ca~।
+vā॒stu॒pāyeti vāstu + pāya̍~।
+ceti̍ ca~॥
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 8~॥ 
+\Large
+
+nama॒ḥ somā̍ya ca ru॒drāya̍ ca॒~।
+
+nama॒ssomā̍ya॒ somā̍ya॒ namo॒ nama॒ssomā̍ya~।
+somā̍ya ca ca॒ somā̍ya॒ somā̍ya ca~।
+ca॒ ru॒drāya̍ ru॒drāya̍ ca ca ru॒drāya̍~।
+ru॒drāya̍ ca ca ru॒drāya̍ ru॒drāya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ stā॒mrāya̍ cāru॒ṇāya̍ ca॒~।
+
+nama̍stā॒mrāya̍ tā॒mrāya॒ namo॒ nama̍stā॒mrāya̍~।
+tā॒mrāya̍ ca ca  tā॒mrāya̍ tā॒mrāya̍ ca~।
+cā॒ru॒ṇāyā̍ru॒ṇāya̍ ca cāru॒ṇāya̍~। 
+a॒ru॒ṇāyā̍ ca cāru॒ṇāyā̍ru॒ṇāya̍ ca~। 
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śa॒ṅgāya̍ ca paśu॒pata̍ye ca॒~।
+
+nama̍śśa॒ṅgāya̍ śa॒ṅgāya॒ namo॒ nama̍śśa॒ṅgāya̍~।
+śa॒ṅgāya̍ ca ca śa॒ṅgāya̍ śa॒ṅgāya̍ ca~।
+ca॒ pa॒śu॒pata̍ye paśu॒pata̍ye ca ca  paśu॒pata̍ye~।
+pa॒śu॒pata̍ye ca ca paśu॒pata̍ye paśu॒pata̍ye ca~।
+pa॒śu॒pata̍ya॒ iti̍ paśu + pata̍ye~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ u॒grāya̍ ca bhī॒māya̍ ca॒~।
+
+nama̍ u॒grāyo॒grāya॒ namo॒ nama̍ u॒grāya̍~।
+u॒grāya̍ ca co॒grāyo॒grāya̍ ca~।
+ca॒ bhī॒māya̍ bhī॒māya̍ ca ca bhī॒māya̍~।
+bhī॒māya̍ ca ca bhī॒māya̍ bhī॒māya̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ agreva॒dhāya̍ ca dūreva॒dhāya̍ ca॒~।
+
+namo̍ agreva॒dhāyā̎greva॒dhāya॒ namo॒ namo̍ agreva॒dhāya̍~।
+a॒gre॒va॒dhāya̍ ca cāgreva॒dhāyā̎greva॒dhāya̍ ca~।
+a॒gre॒va॒dhāyetya̍gre + va॒dhāya̍~।
+ca॒ dū॒re॒va॒dhāya̍ dūreva॒dhāya̍ ca ca dūreva॒dhāya̍~।
+dū॒re॒va॒dhāya̍ ca ca dūreva॒dhāya̍ dūreva॒dhāya̍ ca~।
+dū॒re॒va॒dhāyeti̍ dūre + va॒dhāya̍~। 
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ ha॒ntre ca॒ hanī̍yase ca॒~।
+
+namo̍ ha॒ntre ha॒ntre namo॒ namo̍ ha॒ntre~।
+ha॒ntre ca̍ ca ha॒ntre ha॒ntre ca̍~।
+ca॒ hanī̍yase॒ hanī̍yase ca ca॒ hanī̍yase~।
+hanī̍yase ca ca॒ hanī̍yase॒ hanī̍yase ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ vṛ॒kṣebhyo॒ hari̍keśebhyo॒~।
+
+namo̍ vṛ॒kṣebhyo̍ vṛ॒kṣebhyo॒ namo॒ namo̍ vṛ॒kṣebhya̍ḥ~।
+vṛ॒kṣebhyo॒ hari̍keśebhyo॒ hari̍keśebhyo vṛ॒kṣebhyo̍ vṛ॒kṣebhyo॒ hari̍keśebhyaḥ~।
+hari̍keśebhyo॒  namo॒ namo॒ hari̍keśebhyo॒ hari̍keśebhyo॒ nama̍ḥ~।
+hari̍keśebhya॒ iti॒ hari̍ + ke॒śe॒bhya॒ḥ
+
+nama̍stā॒rāya̍ nama̍śśa॒ṁbhave̍ ca mayo॒bhave̍ ca॒~।
+
+nama̍stā॒rāya̍ tā॒rāya॒ namo॒ nama̍stā॒rāya̍~।
+tā॒rāya॒ namo॒ nama̍stā॒rāya̍ tā॒rāya॒ nama̍ḥ~।
+nama̍śśa॒ṁbhave̍ śa॒ṁbhave॒ namo॒ nama̍śśa॒ṁbhave̎~।
+śa॒ṁbhave̍ ca ca śa॒ṁbhave̍ śa॒ṁbhave̍ ca~।
+śa॒ṁbhava॒ iti̍ śaṁ + bhave̎~।
+ca॒ ma॒yo॒bhave̍ mayo॒bhave̍ ca ca mayo॒bhave̎~।
+ma॒yo॒bhave̍ ca ca mayo॒bhave̍ mayo॒bhave̍ ca~।
+ma॒yo॒bhava॒ iti̍ mayaḥ + bhave̎~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śaṅka॒rāya̍ ca mayaska॒rāya̍ ca॒~।
+
+nama̍śśaṅka॒rāya̍ śaṅka॒rāya॒ namo॒ nama̍śśaṅka॒rāya̍~। 
+śa॒ṅka॒rāya̍ ca ca śaṅka॒rāya̍ śaṅka॒rāya̍ ca~। 
+śa॒ṅka॒rāyeti̍ śaṁ + ka॒rāya̍~। 
+ca॒ ma॒ya॒ska॒rāya̍ mayaska॒rāya̍ ca ca mayaska॒rāya̍~।
+ma॒ya॒ska॒rāya̍ ca ca mayaska॒rāya̍ mayaska॒rāya̍ ca~।
+ma॒ya॒ska॒rāyeti̍ mayaḥ + ka॒rāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ śi॒vāya̍ ca śi॒vata̍rāya ca॒~।
+
+nama̍śśi॒vāya̍ śi॒vāya॒ namo॒ nama̍śśi॒vāya̍~।
+śi॒vāya̍ ca ca śi॒vāya̍ śi॒vāya̍ ca~।
+ca॒ śi॒vata̍rāya śi॒vata̍rāya ca ca śi॒vata̍rāya~।
+śi॒vata̍rāya ca ca śi॒vata̍rāya śi॒vata̍rāya ca~।
+śi॒vata̍rā॒yeti̍ śi॒va + ta॒rā॒ya॒~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒stīrthyā̍ya ca॒ kūlyā̍ya ca॒~।
+
+nama॒stīrthyā̍ya॒ tīrthyā̍ya॒ namo॒ nama॒stīrthyā̍ya~।
+tīrthyā̍ya ca ca॒ tīrthyā̍ya॒ tīrthyā̍ya ca~।
+ca॒ kūlyā̍ya॒ kūlyā̍ya ca ca॒ kūlyā̍ya~।
+kūlyā̍ya ca ca॒ kūlyā̍ya॒ kūlyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ pā॒ryā̍ya cāvā॒ryā̍ya ca॒~।
+
+nama̍ḥ pā॒ryā̍ya pā॒ryā̍ya॒ namo॒ nama̍ḥ pā॒ryā̍ya~।
+pā॒ryā̍ya ca ca pā॒ryā̍ya pā॒ryā̍ya ca~।
+cā॒vā॒ryā̍yāvā॒ryā̍ya ca cāvā॒ryā̍ya~।
+ā॒vā॒ryā̍ya ca cāvā॒ryā̍yāvā॒ryā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ pra॒-tara̍ṇāya co॒ttara̎ṇāya ca॒~।
+
+nama̍ḥ pra॒tara̍ṇāya pra॒tara̍ṇāya॒ namo॒ nama̍ḥ pra॒tara̍ṇāya~।
+pra॒tara̍ṇāya ca ca  pra॒tara̍ṇāya pra॒tara̍ṇāya ca~।
+pra॒tara̍ṇā॒yeti̍ pra + tara̍ṇāya~।
+co॒ttara̍ṇāyo॒ttara̍ṇāya ca co॒ttara̍ṇāya~।
+u॒ttara̍ṇāya ca co॒ttara̍ṇāyo॒ttara̍ṇāya ca~।
+u॒ttara̍ṇā॒yetyu̍t + tara̍ṇāya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ātā॒ryā̍ya cālā॒dyā̍ya ca॒~।
+
+nama̍ ātā॒ryā̍yātā॒ryā̍ya॒ namo॒ nama̍ ātā॒ryā̍ya~।
+ā॒tā॒ryā̍ya ca cātā॒ryā̍yātā॒ryā̍ya ca~।
+ā॒tā॒ryā̍yetyā̎ + tā॒ryā̍ya~।
+cā॒lā॒dyā̍yālā॒dyā̍ya ca  cālā॒dyā̍ya~।
+ā॒lā॒dyā̍ya ca cālā॒dyā̍yālā॒dyā̍ya ca~।
+ā॒lā॒dyā̍yetyā̎ + lā॒dyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ śaṣpyā̍ya ca॒ phenyā̍ya ca॒~।
+
+nama॒śśaṣpyā̍ya॒ śaṣpyā̍ya॒ namo॒ nama॒śśaṣpyā̍ya~।
+śaṣpyā̍ya ca ca॒ śaṣpyā̍ya॒ śaṣpyā̍ya ca~।
+ca॒ phenyā̍ya॒ phenyā̍ya ca ca॒ phenyā̍ya~।
+phenyā̍ya ca ca॒ phenyā̍ya॒ phenyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ sika॒tyā̍ya ca pravā॒hyā̍ya ca~।
+
+nama̍ssika॒tyā̍ya sika॒tyā̍ya॒ namo॒ nama̍ssika॒tyā̍ya~।
+si॒ka॒tyā̍ya ca ca sika॒tyā̍ya sika॒tyā̍ya ca~।
+ca॒ pra॒vā॒hyā̍ya pravā॒hyā̍ya ca ca pravā॒hyā̍ya~।
+pra॒vā॒hyā̍ya ca ca pravā॒hyā̍ya pravā॒hyā̍ya ca~।
+pra॒vā॒hyā̍yeti̍ pra + vā॒hyā̍ya~।
+ceti̍ ca~॥
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 9~॥ 
+\Large
+
+nama̍ iri॒ṇyā̍ya ca pra-pa॒thyā̍ya ca॒~।
+
+nama̍ iri॒ṇyā̍yeri॒ṇyā̍ya॒ namo॒ nama̍ iri॒ṇyā̍ya~।
+i॒ri॒ṇyā̍ya ca ceri॒ṇyā̍yeri॒ṇyā̍ya ca~।
+ca॒ pra॒pa॒thyā̍ya prapa॒thyā̍ya ca ca prapa॒thyā̍ya~।
+pra॒pa॒thyā̍ya ca ca prapa॒thyā̍ya prapa॒thyā̍ya ca~।
+pra॒pa॒thyā̍yeti̍ pra + pa॒thyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ kigṁśi॒lāya̍ ca॒ kṣaya̍ṇāya ca॒~।
+
+nama̍ḥ kigṁśi॒lāya̍ kigṁśi॒lāya॒ namo॒ nama̍ḥ kigṁśi॒lāya̍~।
+ki॒gṁ॒śi॒lāya̍ ca ca kigṁśi॒lāya̍ kigṁśi॒lāya̍ ca~।
+ca॒ kṣaya̍ṇāya॒ kṣaya̍ṇāya ca ca॒ kṣaya̍ṇāya~।
+kṣaya̍ṇāya ca ca॒ kṣaya̍ṇāya॒ kṣaya̍ṇāya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ kapa॒rdine̍ ca pula॒staye̍ ca॒~।
+
+nama̍ḥ kapa॒rdine̍ kapa॒rdine॒ namo॒ nama̍ḥ kapa॒rdine̎~।
+ka॒pa॒rdine̍ ca ca kapa॒rdine̍ kapa॒rdine̍ ca~।
+ca॒ pu॒la॒staye̍ pula॒staye̍ ca  ca  pula॒staye̎~।
+pu॒la॒staye̍ ca ca pula॒staye̍ pula॒staye̍ ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ go-ṣṭhyā̍ya ca॒ gṛhyā̍ya ca॒~।
+
+namo॒ goṣṭhyā̍ya॒ goṣṭhyā̍ya॒ namo॒ namo॒ goṣṭhyā̍ya~।
+goṣṭhyā̍ya ca ca॒ goṣṭhyā̍ya॒  goṣṭhyā̍ya ca~।
+goṣṭhyā॒yeti॒ go + sthyā॒ya॒~।
+ca॒ gṛhyā̍ya॒ gṛhyā̍ya ca ca॒ gṛhyā̍ya~।
+gṛhyā̍ya ca ca॒  gṛhyā̍ya॒ gṛhyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒stalpyā̍ya ca॒ gehyā̍ya ca॒~।
+
+nama॒stalpyā̍ya॒ talpyā̍ya॒ namo॒ nama॒stalpyā̍ya~।
+talpyā̍ya ca ca॒ talpyā̍ya॒ talpyā̍ya ca~।
+ca॒ gehyā̍ya॒ gehyā̍ya ca ca॒ gehyā̍ya~।
+gehyā̍ya ca ca॒ gehyā̍ya॒ gehyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ kā॒ṭyā̍ya ca gahvare॒-ṣṭhāya̍ ca॒~।
+
+nama̍ḥ kā॒ṭyā̍ya kā॒ṭyā̍ya॒ namo॒ nama̍ḥ kā॒ṭyā̍ya~।
+kā॒ṭyā̍ya ca ca kā॒ṭyā̍ya kā॒ṭyā̍ya ca~।
+ca॒ ga॒hva॒re॒ṣṭhāya̍ gahvare॒ṣṭhāya̍  ca ca gahvare॒ṣṭhāya̍~।                                                                               
+ga॒hva॒re॒ṣṭhāya̍ ca ca gahvare॒ṣṭhāya̍ gahvare॒ṣṭhāya̍ ca~। 
+ga॒hva॒re॒ṣṭhāyeti̍ gahvare + sthāya̍~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̎ hrada॒yyā̍ya ca ni-ve॒ṣpyā̍ya ca॒~।
+
+namo̎hrada॒yyā̍ya hrada॒yyā̍ya॒ namo॒ namo̎hrada॒yyā̍ya~।
+hra॒da॒yyā̍ya ca ca hrada॒yyā̍ya hrada॒yyā̍ya ca~।
+ca॒ ni॒ve॒ṣpyā̍ya nive॒ṣpyā̍ya ca ca nive॒ṣpyā̍ya~।
+ni॒ve॒ṣpyā̍ya ca ca nive॒ṣpyā̍ya nive॒ṣpyā̍ya ca~।
+ni॒ve॒ṣpyā̍yeti̍ ni + ve॒ṣpyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ pāgṁsa॒vyā̍ya ca raja॒syā̍ya ca~।
+
+nama̍ḥ pāgṁsa॒vyā̍ya pāgṁsa॒vyā̍ya॒ namo॒ nama̍ḥ pāgṁsa॒vyā̍ya~।
+pā॒gṁ॒sa॒vyā̍ya ca ca pāgṁsa॒vyā̍ya pāgṁsa॒vyā̍ya ca~।
+ca॒ ra॒ja॒syā̍ya raja॒syā̍ya ca ca raja॒syā̍ya~।
+ra॒ja॒syā̍ya ca ca raja॒syā̍ya raja॒syā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama॒ḥ śuṣkyā̍ya ca hari॒tyā̍ya ca॒~।
+
+nama॒śśuṣkyā̍ya॒ śuṣkyā̍ya॒ namo॒ nama॒śśuṣkyā̍ya~।
+śuṣkyā̍ya ca ca॒ śuṣkyā̍ya॒ śuṣkyā̍ya ca~।
+ca॒ ha॒ri॒tyā̍ya hari॒tyā̍ya ca ca hari॒tyā̍ya~।
+ha॒ri॒tyā̍ya ca ca hari॒tyā̍ya hari॒tyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo॒ lopyā̍ya cola॒pyā̍ya ca॒~।
+
+namo॒ lopyā̍ya॒ lopyā̍ya॒ namo॒ namo॒ lopyā̍ya~।
+lopyā̍ya ca ca॒ lopyā̍ya॒ lopyā̍ya ca~।
+co॒la॒pyā̍yola॒pyā̍ya ca॒ cola॒pyā̍ya~।
+u॒la॒pyā̍ya ca cola॒pyā̍yola॒pyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ū॒rvyā̍ya ca sū॒rmyā̍ya ca~।
+
+nama̍ ū॒rvyā̍yo॒rvyā̍ya॒ namo॒ nama̍ ū॒rvyā̍ya~।
+ū॒rvyā̍ya ca co॒rvyā̍yo॒rvyā̍ya ca~।
+ca॒ sū॒rmyā̍ya sū॒rmyā̍ya ca ca sū॒rmyā̍ya~।
+sū॒rmyā̍ya ca ca sū॒rmyā̍ya sū॒rmyā̍ya ca~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ḥ pa॒rṇyā̍ya ca parṇa-śa॒dyā̍ya ca॒~।
+
+nama̍ḥ pa॒rṇyā̍ya pa॒rṇyā̍ya॒ namo॒ nama̍ḥ pa॒rṇyā̍ya~।
+pa॒rṇyā̍ya ca ca pa॒rṇyā̍ya pa॒rṇyā̍ya ca~।
+ca॒ pa॒rṇa॒śa॒dyā̍ya parṇaśa॒dyā̍ya ca ca parṇaśa॒dyā̍ya~।
+pa॒rṇa॒śa॒dyā̍ya ca ca parṇaśa॒dyā̍ya parṇaśa॒dyā̍ya ca~।
+pa॒rṇa॒śa॒dyā̍yeti̍ parṇa + śa॒dyā̍ya~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍'pagu॒ramā̍ṇāya cābhi-ghna॒te ca॒~।
+
+namo̍'pagu॒ramā̍ṇāyāpagu॒ramā̍ṇāya॒ namo॒ namo̍'pagu॒ramā̍ṇāya~।
+a॒pa॒gu॒ramā̍ṇāya ca cāpagu॒ramā̍ṇāyāpagu॒ramā̍ṇāya ca~।
+a॒pa॒gu॒ramā̍ṇā॒yetya̍pa + gu॒ramā̍ṇāya~।
+cā॒bhi॒ghna॒te̍'bhighna॒te ca̍ cābhighna॒te~।
+a॒bhi॒ghna॒te ca̍ cābhighna॒te̍'bhighna॒te ca̍~।
+a॒bhi॒ghna॒ta itya̍bhi + ghna॒te~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+nama̍ ā-khkhida॒te ca̍ pra-khkhida॒te ca~।
+
+nama̍ ākhkhida॒ta ā̎khkhida॒te namo॒ nama̍ ākhkhida॒te~।
+ā॒khkhi॒da॒te ca̍ cākhkhida॒ta ā̎khkhida॒te ca̍~।
+ā॒khkhi॒da॒ta ityā̎ + khi॒da॒te~।
+ca॒ pra॒khkhi॒da॒te pra̍khkhida॒te ca̍  ca prakhkhida॒te~।
+pra॒khkhi॒da॒te ca̍ ca prakhkhida॒te pra̍khkhida॒te ca̍~।
+pra॒khkhi॒da॒ta iti̍ pra + khi॒da॒te~।
+ca॒ namo॒ nama̍śca ca॒ nama̍ḥ~।
+
+namo̍ vaḥ kiri॒kebhyo̍ de॒vānā॒gṁ॒ hṛda̍yebhyo॒~।
+
+namo̍ vo vo॒ namo॒ namo̍ vaḥ~।
+va॒ḥ ki॒ri॒kebhya̍ḥ kiri॒kebhyo̍ vo vaḥ kiri॒kebhya̍ḥ~।
+ki॒ri॒kebhyo̍ de॒vānā̎ṁ de॒vānā̎ṁ kiri॒kebhya̍ḥ kiri॒kebhyo̍ de॒vānā̎m~।
+de॒vānā॒gṁ॒ hṛda̍yebhyo॒ hṛda̍yebhyo de॒vānā̎ṁ de॒vānā॒gṁ॒ hṛda̍yebhyaḥ~।
+hṛda̍yebhyo॒ namo॒ namo॒ hṛda̍yebhyo॒ hṛda̍yebhyo॒ nama̍ḥ~।
+
+namo̍ vi-kṣīṇa॒kebhyo namo̍ vi-cinva॒tkebhyo॒~।
+
+namo̍ vikṣīṇa॒kebhyo̍ vikṣīṇa॒kebhyo॒ namo॒ namo̍ vikṣīṇa॒kebhya̍ḥ~।
+vi॒kṣī॒ṇa॒kebhyo namo॒ namo̍ vikṣīṇa॒kebhyo̍ vikṣīṇa॒kebhyo॒ nama̍ḥ~।
+vi॒kṣī॒ṇa॒kebhya॒ iti̍ vi + kṣī॒ṇa॒kebhya̍ḥ~।
+namo̍ vicinva॒tkebhyo̍ vicinva॒tkebhyo॒ namo॒ namo̍ vicinva॒tkebhya̍ḥ~।
+vi॒ci॒nva॒tkebhyo॒ namo॒ namo̍ vicinva॒tkebhyo̍ vicinva॒tkebhyo॒ nama̍ḥ~।
+vi॒ci॒nva॒tkebhya॒ iti̍ vi + ci॒nva॒tkebhya̍ḥ~।
+
+nama̍ ānir-ha॒tebhyo॒ nama̍ ā-mīva॒tkebhya̍ḥ~।
+
+nama̍ ānirha॒tebhya̍ ānirha॒tebhyo॒  namo॒ nama̍ ānirha॒tebhya̍ḥ~।
+ā॒ni॒rha॒tebhyo॒ namo॒ nama̍ ānirha॒tebhya̍ ānirha॒tebhyo॒ nama̍ḥ~।
+ā॒ni॒rha॒tebhya ityā̍niḥ + ha॒tebhya̍ḥ~।
+nama̍ āmīva॒tkebhya̍ āmīva॒tkebhyo॒ namo॒ nama̍ āmīva॒tkebhya̍ḥ~।
+ā॒mī॒va॒tkebhya॒ ityā̎ + mī॒va॒tkebhya̍ḥ~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 10~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+drāpe॒ andha̍saspate॒ dari̍dra॒nnīla̍-lohita~।
+
+drāpe॒ andha̍so॒ andha̍so॒ drāpe॒ drāpe॒ andha̍saḥ~।
+andha̍saspate pa॒te'ndha̍so॒ andha̍saspate~।
+pa॒te॒ dari̍dra॒ddari̍drat pate pate॒ dari̍drat~।
+dari̍dra॒nnīla̍lohita॒ nīla̍lohita॒ dari̍dra॒ddari̍dra॒nnīla̍lohita~।
+nīla̍lohi॒teti॒ nīla̍ + lo॒hi॒ta॒~॥ 
+%nīla̍lohita e॒ṣāṁ e॒ṣānnīla̍lohita nīla̍lohita e॒ṣāṁ~।
+
+
+e॒ṣāṁ puru̍ṣāṇāme॒ṣāṁ pa̍śū॒nāṁ mā bhermā'ro॒ mo e̍ṣā॒ṁ kiṁca॒nāma̍mat~।
+
+e॒ṣāṁ puru̍ṣāṇā॒ṁ puru̍ṣāṇāme॒ṣāme॒ṣāṁ  puru̍ṣāṇām~।
+puru̍ṣāṇāme॒ṣāme॒ṣāṁ puru̍ṣāṇā॒ṁ puru̍ṣāṇāme॒ṣām~।
+e॒ṣāṁ pa̍śū॒nāṁ pa̍śū॒nāme॒ṣāme॒ṣāṁ pa̍śū॒nām~।
+pa॒śū॒nāṁ mā mā pa̍śū॒nāṁ pa̍śū॒nāṁ mā~।
+mā bherbhermā mā bheḥ~।
+bhermā mā bherbhermā~।
+mā'ro̍ aro॒ mā mā'ra̍ḥ~।
+a॒ro॒ mo mo a̍ro aro॒ mā~।
+mo e̍ṣāmeṣā॒ṁ mo mo e̍ṣām~।
+mo iti॒ mo~।
+e॒ṣā॒ṅkiṅkime̍ṣāmeṣā॒ṅkim~।
+ki॒ñca॒na ca॒na  kiṅkiñca॒na~।
+ca॒nāma̍madāma̍cca॒na ca॒nāma̍mat~।
+ā॒ma॒ma॒dityā̍mamat~॥ 
+  
+yāte̍ rudra śi॒vā ta॒nūḥ śi॒vā vi॒śvāha̍bheṣajī~।
+
+yāte̍ te॒ yā yāte̎~।
+te॒ ru॒dra॒ ru॒dra॒ te॒ te॒ ru॒dra॒~।
+ru॒dra॒ śi॒vā śi॒vā ru̍dra rudra śi॒vā~।
+śi॒vā ta॒nūsta॒nūśśi॒vā śi॒vā ta॒nūḥ~।
+ta॒nūśśi॒vā śi॒vā  ta॒nūsta॒nūśśi॒vā~।
+śi॒vā vi॒śvāha̍bheṣajī vi॒śvāha̍bheṣajī śi॒vā śi॒vā vi॒śvāha̍bheṣajī~।
+vi॒śvāha̍bheṣa॒jīti̍ vi॒śvāha̍ + bhe॒ṣa॒jī॒~॥ 
+
+śi॒vāru॒drasya̍ bheṣa॒jī tayā̍ no mṛḍa jī॒vase̎~।
+
+śi॒vā ru॒drasya̍ ru॒drasya̍ śi॒vā śi॒vā ru॒drasya̍~।
+ru॒drasya̍ bheṣa॒jī bhe̍ṣa॒jī ru॒drasya̍ ru॒drasya̍ bheṣa॒jī~।
+bhe॒ṣa॒jī tayā॒ tayā̍ bheṣa॒jī bhe̍ṣa॒jī tayā̎~।
+tayā̍ no na॒stayā॒ tayā̍ naḥ~।
+no॒ mṛ॒ḍa॒ mṛ॒ḍa॒ no॒ no॒ mṛ॒ḍa॒~।
+mṛ॒ḍa॒ jī॒vase̍ jī॒vase̍ mṛḍa mṛḍa jī॒vase̎~।
+jī॒vasa॒ iti̍ jī॒vase̎~॥ 
+
+i॒māgm ru॒drāya̍ ta॒vase̍ kapa॒rdine̎ kṣa॒yat-vī̍rāya॒ pra bha̍rāmahe ma॒tim~।
+
+i॒māgm ru॒drāya̍ ru॒drāye॒māmi॒māgṁ ru॒drāya̍~।
+ru॒drāya̍ ta॒vase̍ ta॒vase̍ ru॒drāya̍ ru॒drāya̍ ta॒vase̎~।
+ta॒vase̍ kapa॒rdine̍ kapa॒rdine̍ ta॒vase̍ ta॒vase̍ kapa॒rdine̎~।
+ka॒pa॒rdine̎ kṣa॒yadvī̍rāya kṣa॒yadvī̍rāya kapa॒rdine̍ kapa॒rdine̎ kṣa॒yadvī̍rāya~।
+kṣa॒yadvī̍rāya॒ pra pra kṣa॒yadvī̍rāya kṣa॒yadvī̍rāya॒ pra~।
+kṣa॒yadvī̍rā॒yeti̍ kṣa॒yat + vī॒rā॒ya॒~।
+pra bha̍rāmahe bharāmahe॒ pra pra bha̍rāmahe~।
+bha॒rā॒ma॒he॒ ma॒tiṁ ma॒tiṁ bha̍rāmahe bharāmahe ma॒tim~।
+ma॒timiti̍ ma॒tim~॥ 
+
+yathā̍ na॒ḥ śamasa̍d dvi॒-pade॒ catu̍ḥ-pade॒ viśvaṁ̍ pu॒ṣṭaṁ grāme̍ a॒sminnan-ā̍turam~।
+
+yathā̍ no no॒ yathā॒ yathā̍ naḥ~।
+na॒śśagṁ śaṁ no̍ na॒śśam~।
+śamasa॒dasa॒cchaśagṁ śamasa̍t~।
+asa̍ddvi॒pade̎ dvi॒pade॒ asa॒dasa̍ddvi॒pade̎~।
+dvi॒pade॒ catu̍ṣpade॒ catu̍ṣpade dvi॒pade̎ dvi॒pade॒ catu̍ṣpade~।
+dvi॒pada॒ iti̍ dvi + pade̎~।
+catu̍ṣpade॒ viśva॒ṁ viśva॒ṁ catu̍ṣpade॒ catu̍ṣpade॒ viśvam̎~।
+catu̍ṣpada॒ iti॒ catu̍ḥ + pa॒de॒~।
+viśva̍ṁ pu॒ṣṭaṁ pu॒ṣṭaṁ viśva॒ṁ viśva̍ṁ pu॒ṣṭam~।
+pu॒ṣṭaṁ grāme॒ grāme̍ pu॒ṣṭaṁ pu॒ṣṭaṁ grāme̎~।
+grāme̍ a॒sminna॒smin grāme॒ grāme̍ a॒smin~।
+a॒sminnanā̍tura॒manā̍turama॒sminna॒sminnanā̍turam~।
+anā̍tura॒mityanā̎ + tu॒ra॒m~॥ 
+
+mṛ̱ḍā no̍ rudro॒ta no॒ maya̍skṛdhi kṣa॒yad-vī̍rāya॒ nama̍sā vidhema te~।
+
+mṛ̱ḍā no̍ no mṛ̱ḍa mṛ̱ḍā na̍ḥ~।
+no॒ ru॒dra॒ ru॒dra॒ no॒ no॒ ru॒dra॒~।
+ru॒dro॒tota ru̍dra rudro॒ta~।
+u॒ta no̍ na u॒tota na̍ḥ~।
+no॒ mayo॒ mayo̍ no no॒ maya̍ḥ~।
+maya̍skṛdhi kṛdhi॒ mayo॒ maya̍skṛdhi~।
+kṛ॒dhi॒ kṣa॒yatvī̍rāya kṣa॒yatvī̍rāya kṛdhi  kṛdhi kṣa॒yatvī̍rāya~।
+kṣa॒yatvī̍rāya॒ nama̍sā॒ nama̍sā kṣa॒yatvī̍rāya kṣa॒yatvī̍rāya॒ nama̍sā~।
+kṣa॒yatvī̍rā॒yeti̍ kṣa॒yat + vī॒rā॒ya॒~।
+nama̍sā vidhema vidhema॒ nama̍sā॒ nama̍sā vidhema~।
+vi॒dhe॒ma॒ te॒ te॒ vi॒dhe॒ma॒ vi॒dhe॒ma॒ te॒~।
+ta॒ iti te~॥ 
+
+yacchaṁ ca॒ yośca॒ manu̍rā-ya॒je pi॒tā tada̍śyāma॒ tava̍ rudra॒ pra-ṇī̍tau~।
+
+yacchagṁ śayyadyaccham~।
+śaṁ ca̍ ca॒ śagṁśaṁ ca̍~।
+ca॒ yoryośca̍ ca॒ yoḥ~।
+yośca̍ ca॒ yoryośca̍~।
+ca॒ manu॒rmanu̍śca ca॒ manu̍ḥ~।
+manu̍rāya॒ja ā̍ya॒je manu॒rmanu̍rāya॒je~।
+ā॒ya॒je pi॒tā pi॒tā''ya॒ja ā̍ya॒je pi॒tā~।
+ā॒ya॒ja ityā̎ + ya॒je~।
+pi॒tā tat tat pi॒tā pi॒tā tat~।
+tada̍śyāmāśyāma॒ tattada̍śyāma~।
+a॒śyā॒ma॒ tava॒ tavā̎śyāmāśyāma॒ tava̍~।
+tava̍ rudra rudra॒ tava॒ tava̍ rudra~।
+ru॒dra॒ praṇī̍tau॒ praṇī̍tau rudra rudra॒ praṇī̍tau~।
+praṇī̍tā॒viti॒ pra + nī॒tau॒~॥ 
+
+mā no̍ ma॒hānta̍mu॒ta mā no̍ arbha॒kaṁ mā na॒ ukṣa̍ntamu॒ta mā na̍ ukṣi॒tam~।
+
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ ma॒hānta̍ṁ ma॒hānta̍nno  no ma॒hāntam̎~।
+ma॒hānta̍mu॒tota ma॒hānta̍ṁ ma॒hānta̍mu॒ta~।
+u॒ta mā motota mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ a॒rbha॒kama̍rbha॒kanno̍ no arbha॒kam~।
+a॒rbha॒kaṁ mā mā'rbha॒kama̍rbha॒kaṁ mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+na॒ ukṣa̍nta॒mukṣa̍ntanno na॒ ukṣa̍ntam~।
+ukṣa̍ntamu॒totokṣa̍nta॒mukṣa̍ntamu॒ta~।
+u॒ta mā motota mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+na॒ u॒kṣi॒tamu̍kṣi॒tanno̍ na ukṣi॒tam~।
+u॒kṣi॒tamityukṣi॒tam~॥
+
+mā no̍ vadhīḥ pi॒taraṁ mota mā॒tara̍ṁ pri॒yā mā na̍sta॒nuvo̍ rudra rīriṣaḥ~।
+
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ va॒dhī॒rva॒dhī॒rno॒ no॒ va॒dhī॒ḥ॒~।
+va॒dhī॒ḥ pi॒tara̍ṁ pi॒tara̍ṁ vadhīrvadhīḥ pi॒taram̎~।
+pi॒tara॒ṁ mā mā pi॒tara̍ṁ pi॒tara॒ṁ mā~।
+motota mā mota~।
+u॒ta mā॒tara̍ṁ mā॒tara̍mu॒tota mā॒taram̎~।
+mā॒tara̍ṁ pri॒yāḥ pri॒yā mā॒tara̍ṁ mā॒tara̍ṁ pri॒yāḥ~।
+pri॒yā mā mā pri॒yāḥ pri॒yā mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+na॒sta॒nuva̍sta॒nuvo̍ no nasta॒nuva̍ḥ~।
+ta॒nuvo̍ rudra rudra ta॒nuva̍sta॒nuvo̍ rudra~।
+ru॒dra॒ rī॒ri॒ṣo॒ rī॒ri॒ṣo॒ ru॒dra॒ ru॒dra॒ rī॒ri॒ṣa॒ḥ॒~।
+rī॒ri॒ṣa॒ iti̍ rīriṣaḥ~॥
+
+māna̍sto॒ke tana̍ye॒ mā na॒ āyu̍ṣi॒ mā no॒ goṣu॒ mā no॒ aśveṣu rīriṣaḥ~।
+
+mā no̍ no॒ mā mā na̍ḥ~।
+na॒sto॒ke to॒ke no̍ nasto॒ke~।
+to॒ke tana̍ye॒ tana̍ye to॒ke to॒ke tana̍ye~।
+tana̍ye॒ mā mā tana̍ye॒ tana̍ye॒ mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+na॒ āyu॒ṣyāyu̍ṣi no na॒ āyu̍ṣi~।
+āyu̍ṣi॒ mā mā"yu॒ṣyāyu̍ṣi॒ mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ goṣu॒ goṣu̍ no no॒ goṣu̍~।
+goṣu॒ mā mā goṣu॒ goṣu॒ mā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ aśve॒śvaśve̍ṣu no no॒ aśve̍ṣu~।
+aśve̍ṣu rīriṣo rīriṣo॒ aśve॒śvaśve̍ṣu rīriṣaḥ~।
+rī॒ri॒ṣa॒ iti̍ rīriṣaḥ~॥ 
+
+vī॒rānmā no̍ rudra bhāmi॒to va̍dhīr ha॒viṣma̍nto॒ nama̍sā vidhema te~।
+
+vī॒rānmā mā vī॒rān vī॒rānmā~।
+mā no̍ no॒ mā mā na̍ḥ~।
+no॒ ru॒dra॒ ru॒dra॒ no॒ no॒ ru॒dra॒~।
+ru॒dra॒ bhā॒mi॒to bhā̍mi॒to ru̍dra rudra bhāmi॒taḥ~।
+bhā॒mi॒to va̍dhīrvadhīrbhāmi॒to bhā̍mi॒to va̍dhīḥ~।
+va॒dhī॒rha॒viṣma̍nto ha॒viṣma̍nto vadhīrvadhīrha॒viṣma̍ntaḥ~।
+ha॒viṣma̍nto॒ nama̍sā॒ nama̍sā ha॒viṣma̍nto ha॒viṣma̍nto॒ nama̍sā~।
+nama̍sā vidhema vidhema॒ nama̍sā॒ nama̍sā vidhema~।
+vi॒dhe॒ma॒ te॒ te॒ vi॒dhe॒ma॒ vi॒dhe॒ma॒ te॒~।
+ta॒ iti̍ te~॥ 
+
+ā॒rāt te̍ go॒-ghna u॒ta pū̍ruṣa॒-ghne kṣa॒yad-vī̍rāya su॒mnama॒sme te̍ astu~।
+
+ā॒rāt te̍ ta ā॒rādā॒rāt te̎ ~।
+te॒ go॒gdne go॒ghne te̍ te go॒ghne~।
+go॒ghna u॒tota go॒ghne go॒ghna u॒ta~।
+go॒ghna iti̍ go + ghne~।
+u॒ta pū̍ruṣa॒ghne pū̍ruṣa॒ghna u॒tota pū̍ruṣa॒ghne~।
+pū॒ru॒ṣa॒ghne kṣa॒yadvī̍rāya kṣa॒yadvī̍rāya pūruṣa॒ghne pūruṣa॒ghne kṣa॒yadvī̍rāya~।
+pū॒ru॒ṣa॒ghna iti̍ pūruṣa + ghne~।
+kṣa॒yadvī̍rāya su॒mnagṁ su॒mnaṁ kṣa॒yadvī̍rāya kṣa॒yadvī̍rāya su॒mnam~।
+kṣa॒yadvī̍rā॒yeti̍ kṣa॒yat + vī॒rā॒ya॒~।
+su॒mnama॒sme a॒sme su॒mnagṁ su॒mna॒masme~।
+%su॒mnamiti su + nam~।
+a॒sme te̍ te a॒sme a॒sme te̎~।
+a॒sme itya॒me~।
+te॒ a॒stva॒stu॒ te॒ te॒ a॒stu॒~।
+a॒stvitya̍stu~॥ 
+
+rakṣā̍ ca no॒ adhi̍ ca deva brū॒hyadhā̍ ca na॒ḥ śarma̍ yaccha dvi॒-barhā̎ḥ~।
+
+rakṣā̍ ca ca॒ rakṣa॒ rakṣā̍ ca~।
+ca॒ no॒ na॒śca॒ ca॒ na॒ḥ॒~।
+no॒ adhyadhi̍ no no॒ adhi̍~।
+adhi̍ ca॒ cādhyadhi̍ ca~।
+ca॒ de॒va॒ de॒va॒ ca॒ ca॒ de॒va॒~।
+de॒va॒ brū॒hi॒ brū॒hi॒ de॒va॒ de॒va॒ brū॒hi॒~।
+brū॒hyadhādhā̍ brūhi brū॒hyadhā̎~।
+adhā ca॒ cādhādhā̍ ca~।
+ca॒ no॒ na॒śca॒ ca॒ na॒ḥ॒~।
+na॒śśarma॒ śarma̍ no na॒śśarma̍~।
+śarma̍ yaccha yaccha॒ śarma॒ śarma̍ yaccha~।
+ya॒ccha॒ dvi॒barhā̎ dvi॒barhā̍ yaccha yaccha dvi॒barhā̎ḥ~।
+dvi॒barhā॒ iti dvi + barhā̎ḥ~॥ 
+
+
+stu॒hi śru॒taṁ ga̍rta॒-sadaṁ yuvā̍naṁ mṛ॒gan na bhī॒mam u̍pa-ha॒tnumu॒gram~।
+
+stu॒hi śru॒tagṁ śru॒tagṁ stu॒hi stu॒hi śru॒tam~।
+śru॒taṁ ga̍rta॒sada̍ṁ garta॒sadagṁ̍ śru॒tagṁ śru॒taṁ ga̍rta॒sadam̎~।
+ga॒rta॒sada॒ṁ yuvā̍na॒yyuvā̍naṁ garta॒sada̍ṁ garta॒sada॒yyuvā̍nam~।
+ga॒rta॒sada॒miti̍ garta + sadam̎~।
+yuvā̍naṁ mṛ॒gaṁ mṛ॒gayyuvā̍naṁ yuvā̍naṁ mṛ॒gam~।
+mṛ॒gan na na mṛ॒gaṁ mṛ॒gan na~।
+na bhī॒maṁ bhī॒manna na bhī॒mam~।
+bhī॒mamu̍paha॒tnumu̍paha॒tnuṁ bhī॒maṁ bhī॒mamu̍paha॒tnum~।
+u॒pa॒ha॒tnumu॒gramu॒gramu̍paha॒tnumu̍paha॒tnumu॒gram~।
+%u̍paha॒tnumiti u̍pa + ha॒tnum~।
+u॒gramityu॒gram~॥ 
+
+
+mṛ̱ḍā ja̍ri॒tre ru̍dra॒ stavā̍no a॒nyan te̍ a॒smanni va̍pantu॒ senā̎ḥ~।
+
+mṛ̱ḍā ja̍ri॒tre ja̍ri॒tre mṛ̱ḍa mṛ̱ḍā ja̍ri॒tre~।
+ja॒ri॒tre ru̍dra rudra jari॒tre ja̍ri॒tre ru̍dra~।
+ru॒dra॒ stavā̍na॒sstavā̍no rudra rudra॒ stavā̍naḥ~।
+stavā̍no a॒nyama॒nyagṁ stavā̍na॒sstavā̍no a॒nyam~।
+a॒nyan te̍ te a॒nyama॒nyan te̎~।
+te॒ a॒smada॒smatte̍ te a॒smat~।
+a॒smanninya̍smada॒smanni~।
+ni va̍pantu vapantu॒ ni ni va̍pantu~।
+va॒pa॒ntu॒ senā॒ssenā̍ vapantu vapantu॒ senā̎ḥ~।
+senā॒ iti॒ senā̎ḥ~॥ 
+
+pari̍ṇo ru॒drasya̍ he॒tirvṛ̍ṇaktu॒ pari̍ tve॒ṣasya̍ dur-ma॒tira̍ghā॒-yoḥ~।
+
+pari̍ṇo na॒ḥ pari॒ pari̍ṇaḥ~।
+no॒ ru॒drasya̍ ru॒drasya̍ no no ru॒drasya̍~।
+ru॒drasya̍ he॒tirhe॒tī ru॒drasya̍ ru॒drasya̍ he॒tiḥ~।
+he॒tirvṛ̍ṇaktu vṛṇaktu he॒tirhe॒tirvṛ̍ṇaktu~।
+vṛ॒ṇa॒ktu॒ pari॒ pari̍ vṛṇaktu vṛṇaktu॒ pari̍~।
+pari̍ tve॒ṣasya̍ tve॒ṣasya॒ pari॒ pari̍ tve॒ṣasya̍~।
+tve॒ṣasya̍ durma॒tirdu̍rma॒tistve॒ṣasya̍ tve॒ṣasya̍ durma॒tiḥ~।
+du॒rma॒tira̍ghā॒yara̍ghā॒yordu̍rma॒tirdu̍rma॒tira̍ghā॒yoḥ~।
+du॒rma॒tiriti̍ duḥ  + ma॒tiḥ~।
+a॒ghā॒yoritya̍gha + yoḥ~॥ 
+
+ava̍ sthi॒rā ma॒ghava̍t-bhyastanuṣva॒ mīḍhva̍sto॒kāya॒ tana̍yāya mṛḍaya~।
+
+ava̍ sthi॒rā sthi॒rā'vāva̍ sthi॒rā~।
+sthi॒rā ma॒ghava̍dbhyo ma॒ghava̍dbhyassthi॒rā sthi॒rā ma॒ghava̍dbhyaḥ~।
+%ma॒ghava̍dbhya mīḍhva̍ mīḍhva̍ ma॒ghava̍dbhya ma॒ghava̍dbhya mīḍhva̍~।
+ma॒ghava̍dbhyastanuṣva tanuṣva ma॒ghava̍dbhyo ma॒ghava̍dbhyastanuṣva~।
+ma॒ghava̍dbhya॒ iti̍ ma॒ghavat + bhya॒ḥ॒~।
+ta॒nu॒ṣva॒ mīḍhvo॒mīḍhva̍stanuṣvastanuṣva॒ mīḍhva̍ḥ~।
+mīḍhva̍sto॒kāya̍ to॒kāya॒ mīḍhvo॒ mīḍhva̍sto॒kāya̍~।
+to॒kāya॒ tana̍yāya॒ tana̍yāya to॒kāya̍ to॒kāya॒ tana̍yāya~।
+tana̍yāya mṛḍaya mṛḍaya॒ tana̍yāya॒ tana̍yāya mṛḍaya~।
+mṛ॒ḍa॒yeti̍ mṛḍaya~॥ 
+
+mīḍhu̍ḥ-ṭama॒ śiva̍-tama śi॒vo na̍ḥ su॒-manā̍ bhava~।
+
+mīḍhu̍ṣṭama॒ śiva̍tama॒ śiva̍tama॒ mīḍhu̍ṣṭama॒ mīḍhu̍ṣṭama॒ śiva̍tama~।
+mīḍhu̍ṣṭa॒meti॒ mīḍhu̍ḥ + ta॒ma॒~।
+śiva̍tama śi॒vaśśi॒vaśśiva̍tama॒ śiva̍tama śi॒vaḥ~।
+śiva̍ta॒meti॒ śiva̍ + ta॒ma॒~।
+śi॒vo no̍ naśśi॒vaśśi॒vo na̍ḥ~।
+na॒ssu॒manā̎ssu॒manā̍ no nassu॒manā̎ḥ~।
+su॒manā̍ bhava bhava su॒manā̎ssu॒manā̍ bhava~।
+su॒manā॒ iti̍ su + manā̎ḥ~।
+bha॒veti̍ bhava~॥ 
+
+pa॒ra॒me vṛ॒kṣa āyu̍dhan ni-dhāya॒ kṛttiṁ vasā̍na॒ ā ca̍ra॒ pinā̍ka॒ṁ bibhra॒dā ga̍hi~।
+
+pa॒ra॒me vṛ॒kṣe vṛ॒kṣe pa̍ra॒me pa̍ra॒me vṛ॒kṣe~।
+vṛ॒kṣa āyu̍dha॒māyu̍dhaṁ vṛ॒kṣe vṛ॒kṣa āyu̍dham~।
+āyu̍dhanni॒dhāya̍ ni॒dhāyāyu̍dha॒māyu̍dhanni॒dhāya̍~।
+ni॒dhāya॒ kṛtti॒ṁ kṛtti̍nni॒dhāya̍ ni॒dhāya॒ kṛttim̎~।
+ni॒dhāyeti̍ ni + dhāya̍~।
+kṛtti॒ṁ vasā̍no॒ vasā̍na॒ḥ  kṛtti॒ṁ kṛtti॒ṁ vasā̍naḥ~।
+vasā̍na॒ ā vasā̍no॒ vasā̍na॒ ā~।
+ā ca̍ra ca॒rā ca̍ra~।
+ca॒ra॒ pinā̍ka॒ṁ pinā̍kaṁ cara cara॒ pinā̍kam~।
+pinā̍ka॒ṁ bibhra॒dbibhra॒t pinā̍ka॒ṁ pinā̍ka॒ṁ bibhra̍t~।
+bibhra॒dā bibhra॒dbibhra॒dā~।
+āga̍hi ga॒hyāga̍hi~।
+gahīti̍ gahi~॥ 
+
+vi-ki̍rida॒ vi-lo̍hita॒ nama̍s-te astu bhaga-vaḥ~।
+
+viki̍rida॒ vilo̍hita॒ vilo̍hita॒ viki̍rida॒ viki̍rida॒ vilo̍hita~।
+viki̍ri॒deti॒ vi + ki॒ri॒da॒~। 
+vilo̍hita॒ namo॒ namo॒ vilo̍hita॒ vilo̍hita॒ nama̍ḥ~।
+vilo̍hi॒teti॒ vi + lo॒hi॒ta॒~।
+nama̍ste te॒ namo॒ nama̍ste~।
+te॒ a॒stva॒stu॒ te॒ te॒ a॒stu॒~।
+%nama̍sta iti nama̍ḥ + te~।
+a॒stu॒ bha॒ga॒vo॒ bha॒ga॒vo॒ a॒stva॒stu॒ bha॒ga॒va॒ḥ॒~।
+bha॒ga॒va॒ iti̍ bhaga + va॒ḥ॒~॥ 
+
+yāste̍ sa॒hasragṁ̍ he॒tayo॒'nyama॒smanni va̍pantu॒ tāḥ~।
+
+yāste̍ te॒ yā yāste̎~।
+te॒ sa॒hasragṁ̍ sa॒hasra̍nte te sa॒hasram̎~।
+sa॒hasragṁ̍ he॒tayo̍ he॒taya̍ssa॒hasragṁ̍ sa॒hasragṁ̍ he॒tayaḥ~।
+he॒tayo॒'nyama॒nyagṁ he॒tayo̍ he॒tayo॒'nyam~।
+a॒nyama॒smada॒smada॒nyama॒nyama॒smat~।
+a॒smanni nya̍smada॒smanni~।
+ni va̍pantu va̍pantu॒ ni ni va̍pantu~।
+va॒pa॒ntu॒ tāstā va̍pantu va̍pantu॒ tāḥ~।
+tā iti॒ tāḥ~॥ 
+
+sa॒hasrā̍ṇi sahasra॒-dhā bā̍hu॒vostava̍ he॒taya̍ḥ~।
+
+sa॒hasrā̍ṇi sahasra॒dhā sa̍hasra॒dhā sa॒hasrā̍ṇi sa॒hasrā̍ṇi sahasra॒dhā~।
+sa॒ha॒sra॒dhā bā̍hu॒vorbā̍hu॒vossa̍hasra॒dhā sa̍hasra॒dhā bā̍hu॒voḥ~।
+sa॒ha॒sra॒dheti̍ sahasra + dhā~।
+bā॒hu॒vostava॒ tava̍ bāhu॒vorbā̍hu॒vostava̍~।
+tava̍ he॒tayo̍he॒taya॒stava॒  tava̍ he॒taya̍ḥ~।
+he॒taya॒ iti̍ he॒taya̍ḥ~॥ 
+
+tāsā॒mīśā̍no bhaga-vaḥ parā॒cīnā॒ mukhā̍ kṛdhi~॥ 
+
+tāsā॒mīśā̍na॒ īśā̍na॒stāsā॒ṁ tāsā॒mīśā̍naḥ~।
+īśā̍no bhagavo bhagava॒ īśā̍na॒ īśā̍no bhagavaḥ~।
+bha॒ga॒va॒ḥ pa॒rā॒cīnā̍ parā॒cīnā̍ bhagavo bhagavaḥ parā॒cīnā̎~।
+bha॒ga॒va॒ iti̍ bhaga + va॒ḥ॒~।
+pa॒rā॒cīnā॒ mukhā॒ mukhā̍ parā॒cīnā̍ parā॒cīnā॒ mukhā̎~।
+mukhā̍ kṛdhi kṛdhi॒ mukhā॒ mukhā̍ kṛdhi~।
+kṛ॒dhīti̍ kṛdhi~॥ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\LARGE
+॥~namaka anuvāka 11~॥ 
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+sa॒hasrā̍ṇi sahasra॒-śo ye ru॒drā adhi॒ bhūmyā̎m~॥
+
+sa॒hasrā̍ṇi sahasra॒śassa̍hasra॒śassa॒hasrā̍ṇi sa॒hasrā̍ṇi sahasra॒śaḥ~।
+sa॒ha॒sra॒śo ye ye sa̍hasra॒śassa̍hasra॒śo ye~।
+sa॒ha॒sra॒śa iti̍ sahasra + śaḥ~।
+ye ru॒drā ru॒drā ye ye ru॒drāḥ~।
+ru॒drā adhyadhi̍ ru॒drā ru॒drā adhi̍~।
+adhi॒ bhūmyā॒ṁ bhūmyā॒madhyadhi॒ bhūmyā̎m~।
+bhūmyā॒miti॒ bhūmyā̎m~॥ 
+
+teṣāgṁ̍ sahasra-yoja॒ne'va॒dhanvā̍ni tanmasi~॥
+
+teṣāgṁ̍ sahasrayoja॒ne  sa̍hasrayoja॒ne teṣā॒ṁ teṣāgṁ̍ sahasrayoja॒ne~।
+sa॒ha॒sra॒yo॒ja॒ne'vāva̍ sahasrayoja॒ne sa̍hasrayoja॒ne'va̍~।
+sa॒ha॒sra॒yo॒ja॒na iti̍ sahasra + yo॒ja॒ne~।
+ava॒ dhanvā̍ni॒ dhanvā॒nyavāva॒ dhanvā̍ni~।
+dhanvā̍ni tanmasi tanmasi॒ dhanvā̍ni॒ dhanvā̍ni tanmasi~।
+ta॒nmasīti tanmasi~॥ 
+
+a॒sminma̍ha॒tya̍rṇa॒ve'ntari̍kṣe bha॒vā adhi̍~॥
+
+a॒smin ma̍ha॒ti ma̍ha॒tya̍smina॒smin ma̍ha॒ti~।
+ma॒hatya̍rṇa॒ve̎'rṇa॒ve ma̍ha॒ti ma̍ha॒tya̍rṇa॒ve~।
+a॒rṇa॒ve̎'ntari̍kṣe॒'ntari̍kṣe'rṇa॒ve̎'rṇa॒ve̎'ntari̍kṣe~।
+a॒ntari̍kṣe bha॒vā bha॒vā antari̍kṣe॒'ntari̍kṣe bha॒vāḥ~।
+bha॒vā adhyadhi̍ bha॒vā bha॒vā adhi̍~।
+adhītya̍dhi~॥
+
+
+nīla̍-grīvāśśiti॒-kaṇṭhā̎śśa॒rvā a॒dhaḥ kṣa̍māca॒rāḥ~॥
+
+nīla̍grīvāśśiti॒kaṇṭhā̎śśiti॒kaṇṭhā॒ nīla̍grīvā॒ nīla̍grīvāśśiti॒kaṇṭhā̎ḥ~।
+nīla̍grīvā॒ iti॒ nīla̍ + grī॒vā॒ḥ॒~।
+śi॒ti॒kaṇṭhā̎śśa॒rvāśśa॒rvāśśiti॒kaṇṭhā̎śśiti॒kaṇṭhā̎śśa॒rvāḥ~।
+śi॒ti॒kaṇṭhā॒ iti̍ śiti + kaṇṭhā̎ḥ~।
+śa॒rvā a॒dho̍'dhaśśa॒rvāśśa॒rvā a॒dhaḥ~।
+a॒dhaḥ kṣa̍māca॒rāḥ kṣa̍māca॒rā a॒dho̍dhaḥ kṣa̍māca॒rāḥ~।
+kṣa॒mā॒ca॒rā iti̍ kṣamāca॒rāḥ~॥
+
+nīla̍-grīvāśśiti॒-kaṇṭhā॒ divagṁ̍ru॒drā upa̍śritāḥ~॥
+
+nīla̍grīvāśśiti॒kaṇṭhā̎śśiti॒kaṇṭhā॒ nīla̍grīvā॒ nīla̍grīvāśśiti॒kaṇṭhā̎ḥ~।
+nīla̍grīvā॒ iti॒ nīla̍ + grī॒vā॒ḥ॒~।
+śi॒ti॒kaṇṭhā॒ diva॒ṁ divagṁ̍ śiti॒kaṇṭhā̎śśiti॒kaṇṭhā॒ divam̎~।
+śi॒ti॒kaṇṭhā॒ iti̍ śiti + kaṇṭhā̎ḥ~।
+divagṁ̍ru॒drā ru॒drā diva॒ṁ divagṁ̍ru॒drāḥ~।
+ru॒drā upa̍śritā॒ upa̍śritā ru॒drā ru॒drā upa̍śritāḥ~।
+upa̍śritā॒ ityupa̍ + śri॒tā॒ḥ॒~॥
+
+ye vṛ॒kṣeṣu̍ sa॒spiñja̍rā॒ nīla̍grīvā॒ vi-lo̍hitāḥ~॥
+
+ye vṛ॒kṣeṣu̍ vṛ॒kṣeṣu॒ ye ye vṛ॒kṣeṣu̍~।
+vṛ॒kṣeṣu̍ sa॒spiñja̍rāssa॒spiñja̍rā vṛ॒kṣeṣu̍ vṛ॒kṣeṣu̍ sa॒spiñja̍rāḥ~।
+sa॒spiñja̍rā॒ nīla̍grīvā॒ nīla̍grīvāssa॒spiñja̍rāssa॒spiñja̍rā॒ nīla̍grīvāḥ~।
+nīla̍grīvā॒ vilo̍hitā॒ vilo̍hitā॒ nīla̍grīvā॒ nīla̍grīvā॒ vilo̍hitāḥ~।
+nīla̍grīvā॒ iti॒ nīla̍ + grī॒vā॒ḥ॒~।
+vilo̍hitā॒ iti॒ vi + lo॒hi॒tā॒ḥ॒~॥
+
+ye bhū॒tānā॒madhi̍-patayo vi-śi॒khāsa̍ḥ kapa॒rdina̍ḥ~॥
+
+ye bhū॒tānā̎ṁ bhū॒tānā॒yye ye bhū॒tānā̎m~।
+bhū॒tānā॒madhi̍pata॒yo'dhi̍patayo bhū॒tānā̎ṁ bhū॒tānā॒madhi̍patayaḥ~।
+adhi̍patayo viśi॒khāso̍ viśi॒khāso'dhi̍patayo'dhi̍patayo viśi॒khāsa̍ḥ~।
+adhi̍pataya॒ ityadhi̍ + pa॒ta॒ya॒ḥ॒~।
+vi॒śi॒khāsa̍ḥ kapa॒rdina̍ḥ kapa॒rdino̍ viśi॒khāso̍ viśi॒khāsa̍ḥ kapa॒rdina̍ḥ~।
+vi॒śi॒khāsa॒ iti̍ vi + śi॒khāsa̍ḥ~।
+ka॒pa॒rdina॒ iti̍ kapa॒rdina̍ḥ~॥
+
+ye anne̍ṣu vi॒-vidhya̍nti॒ pātre̍ṣu॒ piba̍to॒ janān̍~॥
+
+ye anne॒ṣvanne̍ṣu॒ ye ye anne̍ṣu~।
+anne̍ṣu vi॒vidhya̍nti vi॒vidhya॒ntyanne॒ṣvanne̍ṣu vi॒vidhya̍nti~।
+vi॒vidhya̍nti॒ pātre̍ṣu॒ pātre̍ṣu vi॒vidhya̍nti vi॒vidhya̍nti॒ pātre̍ṣu~।
+vi॒vidhya॒ntīti̍ vi + vidhya̍nti~।
+pātre̍ṣu॒ piba̍ta॒ḥ piba̍ta॒ḥ pātre̍ṣu॒ pātre̍ṣu॒ piba̍taḥ~।
+piba̍to॒ janā॒n janā॒n piba̍ta॒ḥ piba̍to॒ janān̍~।
+janā॒niti॒ janān̍~॥
+
+ye pa॒thāṁ pa̍thi॒-rakṣa̍ya ailabṛ॒dā yavyudha̍ḥ
+
+ye pa॒thāṁ pa॒thāyye ye pa॒thām~।
+pa॒thāṁ pa̍thi॒rakṣa̍yaḥ pathi॒rakṣa̍yaḥ pa॒thāṁ pa॒thāṁ pa̍thi॒rakṣa̍yaḥ~।
+pa॒thi॒rakṣa̍ya ailabṛ॒dā ai̍labṛ॒dāḥ pa̍thi॒rakṣa̍yaḥ pathi॒rakṣa̍ya ailabṛ॒dāḥ~।
+pa॒thi॒rakṣa̍ya॒ iti̍ pathi + rakṣa̍yaḥ~।
+ai॒la॒bṛ॒dā ya॒vyudho̍ ya॒vyudha̍ ailabṛ॒dā ai̍labṛ॒dā ya॒vyudha̍ḥ~।
+ya॒vyudha॒ iti̍ ya॒vyudha̍ḥ~॥
+
+ye tī॒rthāni̍ pra॒-cara̍nti sṛ॒kā-va̍nto ni-ṣa॒ṅgiṇa̍ḥ~॥
+
+ye tī॒rthāni̍ tī॒rthāni॒ ye ye tī॒rthāni̍~।
+tī॒rthāni̍ pra॒cara̍nti pra॒cara̍nti tī॒rthāni̍ tī॒rthāni̍ pra॒cara̍nti~।
+pra॒cara̍nti sṛ॒kāva̍ntassṛ॒kāva̍ntaḥ pra॒cara̍nti pra॒cara̍nti sṛ॒kāva̍ntaḥ~।
+pra॒cara॒ntīti̍ pra + cara̍nti~।
+sṛ॒kāva̍nto niṣa॒ṅgiṇo̍ niṣa॒ṅgiṇa̍ssṛ॒kāva̍ntassṛ॒kāva̍nto niṣa॒ṅgiṇa̍ḥ~।
+sṛ॒kāva̍nta॒ iti̍ sṛ॒kā + va॒nta॒ḥ॒~।
+ni॒ṣa॒ṅgiṇa॒ iti̍ ni + sa॒ṅgiṇa̍ḥ~॥
+
+ya e॒tāva̍ntaśca॒ bhūyāgṁ̍saśca॒ diśo̍ ru॒drā vi̍-tasthi॒re~॥
+
+ya e॒tāva̍nta e॒tāva̍nto॒ ye ya e॒tāva̍ntaḥ~।
+e॒tāva̍ntaśca cai॒tāva̍nta e॒tāva̍ntaśca~।
+ca॒ bhūyāgṁ̍so॒ bhūyāgṁ̍saśca ca॒ bhūyāgṁ̍saḥ~।
+bhūyāgṁ̍saśca ca॒ bhūyāgṁ̍so॒ bhūyāgṁ̍saśca~।
+ca॒ diśo॒ diśa̍śca ca॒ diśa̍ḥ~।
+diśo̍ ru॒drā ru॒drā diśo॒ diśo̍ ru॒drāḥ~।
+ru॒drā vi̍tasthi॒re vi̍tasthi॒re ru॒drā ru॒drā vi̍tasthi॒re~।
+vi॒ta॒sthi॒ra iti̍ vi + ta॒sthi॒re~॥
+
+teṣāgṁ̍ sahasra-yoja॒ne'va॒ dhanvā̍ni tanmasi~॥
+
+teṣāgṁ̍ sahasrayoja॒ne sa̍hasrayoja॒ne teṣā॒ṁ teṣāgṁ̍ sahasrayoja॒ne~।
+sa॒ha॒sra॒yo॒ja॒ne'vāva̍ sahasrayoja॒ne sa̍hasrayoja॒ne'va̍~।
+sa॒ha॒sra॒yo॒ja॒na iti̍ sahasra + yo॒ja॒ne~।
+ava॒ dhanvā̍ni॒ dhanvā॒nyavāva॒ dhanvā̍ni~।
+dhanvā̍ni tanmasi tanmasi॒ dhanvā̍ni॒ dhanvā̍ni tanmasi~।
+ta॒nma॒sīti̍ tanmasi~॥
+
+namo̍ ru॒drebhyo॒ ye pṛ̍thi॒vyāṁ ye̎'ntari̍kṣe॒ ye di॒vi yeṣā॒manna॒ṁ vāto̍ va॒rṣamiṣa̍va॒stebhyo॒ daśa॒ prācī॒rdaśa̍ dakṣi॒ṇādaśa̍ pra॒tīcī॒rdaśodī̍cī॒rdaśo॒rdhvāstebhyo॒ nama॒ste no̍ mṛḍayantu॒ te yaṁ dvi॒ṣmo yaśca̍ no॒ dveṣṭi॒ taṁ vo॒ jambhe̍ dadhāmi~॥
+
+namo̍ ru॒drebhyo̍ ru॒drebhyo॒ namo॒ namo̍ ru॒drebhya̍ḥ~।
+ru॒drebhyo॒ ye ye ru॒drebhyo̍ ru॒drebhyo॒ ye~।
+ye pṛ̍thi॒vyāṁ pṛ̍thi॒vyāyye ye pṛ̍thi॒vyām~।
+pṛ॒thi॒vyāyye ye pṛ̍thi॒vyāṁ pṛ̍thi॒vyāyye~।
+ye̎'ntari̍kṣe॒'ntari̍kṣe॒ ye ye̎'ntari̍kṣe~।
+a॒ntari̍kṣe॒ ye ye̎'ntari̍kṣe॒'ntari̍kṣe॒ ye~।
+ye di॒vi di॒vi ye ye di॒vi~।
+di॒vi yeṣā॒yyeṣā̎ṁ di॒vi di॒vi yeṣā̎m~।
+yeṣā॒manna॒manna॒yyeṣā॒yyeṣā॒mannam̎~।
+anna॒ṁ vāto॒ vāto'nna॒manna॒ṁ vāta̍ḥ~।
+vāto̍ va॒rṣaṁ va॒rṣaṁ vāto॒ vāto̍ va॒rṣam~।
+va॒rṣamiṣa̍va॒ iṣa̍vo va॒rṣaṁ va॒rṣamiṣa̍vaḥ~।
+iṣa̍va॒stebhya॒stebhya॒ iṣa̍va॒ iṣa̍va॒stebhya̍ḥ~।
+tebhyo॒ daśa॒ daśa॒ tebhya॒stebhyo॒ daśa̍~।
+daśa॒ prācī॒ḥ prācī॒rdaśa॒ daśa॒ prācī̎ḥ~।
+prācī॒rdaśa॒ daśa॒ prācī॒ḥ prācī॒rdaśa̍~।
+daśa̍ dakṣi॒ṇā da̍kṣi॒ṇā daśa॒ daśa̍ dakṣi॒ṇā~।
+da॒kṣi॒ṇā daśa॒ daśa̍ dakṣi॒ṇā da̍kṣi॒ṇā daśa̍~।
+daśa̍ pra॒tīcī̎ḥ pra॒tīcī॒rdaśa॒ daśa̍ pra॒tīcī̎ḥ~।
+pra॒tīcī॒rdaśa॒ daśa̍ pra॒tīcī̎ḥ pra॒tīcī॒rdaśa̍~।
+daśodī̍cī॒rudī̍cī॒rdaśa॒ daśodī̍cīḥ~।
+udī̍cī॒rdaśa॒ daśodī̍cī॒rudī̍cī॒rdaśa̍~।
+daśo॒rdhvā ū॒rdhvā daśa॒ daśo॒rdhvāḥ~।
+ū॒rdhvāstebhya॒stebhya̍ ū॒rdhvā ū॒rdhvāstebhya̍ḥ~।
+tebhyo॒ namo॒ nama॒stebhya॒stebhyo॒ nama̍ḥ~।
+nama॒ste te namo॒ nama॒ste~।
+te no̍ na॒ste te na̍ḥ~।
+no॒ mṛ॒ḍa॒ya॒ntu॒ mṛ॒ḍa॒ya॒ntu॒ no॒ no॒ mṛ॒ḍa॒ya॒ntu॒~।
+mṛ॒ḍa॒ya॒ntu॒ te te mṛ̍ḍayantu mṛḍayantu॒ te~।
+te yayyaṁ te te yam~।
+yaṁ dvi॒ṣmo dvi॒ṣmo yayyaṁ dvi॒ṣmaḥ~।
+dvi॒ṣmo yo yo dvi॒ṣmo dvi॒ṣmo yaḥ~।
+yaśca̍ ca॒ yo  yaśca̍~।
+ca॒ no॒ na॒śca॒ ca॒ na॒ḥ॒~।
+no॒ dveṣṭi॒ dveṣṭi̍ no no॒ dveṣṭi̍~।
+dveṣṭi॒ taṁ taṁ dveṣṭi॒ dveṣṭi॒ tam~।
+taṁ vo̍ va॒staṁ taṁ va̍ḥ~।
+vo॒ jambhe॒ jambhe̍ vo vo॒ jambhe̎~।
+jambhe̍ dadhāmi dadhāmi॒ jambhe॒ jambhe̍ dadhāmi~।
+da॒dhā॒mīti̍ dadhāmi~॥
+
+\vspace{1cm}
+
+om~।
+trya̍ṁbakaṁ yajāmahe yajāmahe॒ trya̍ṁbaka॒ṁ
+trya̍ṁbakaṁ yajāmahe~।
+trya̍ṁbaka॒miti॒ tri - a॒ṁba॒ka॒m~।
+ya॒jā॒ma॒he॒ su॒ga॒ndhigṁ su̍ga॒ndhiṁ ya̍jāmahe yajāmahe
+suga॒ndhim~।
+su॒ga॒ndhiṁ pu̍ṣṭi॒vardha̍naṁ puṣṭi॒vardha̍nagṁ
+suga॒ndhigṁ su̍ga॒ndhiṁ pu̍ṣṭi॒vardha̍nam~।
+su॒ga॒ndhimiti̍ su - ga॒ndhim~।
+pu॒ṣṭi॒vardha̍na॒miti̍ puṣṭi - vardha̍nam~॥ 
+
+u॒rvā॒ru॒kami̍vevorvāru॒kamu̍rvāru॒kamiva̍~।
+i॒va॒ bandha̍nā॒dbandha̍nādiveva॒ bandha̍nāt~। bandha̍nānmṛ॒tyormṛ॒tyorbandha̍nā॒dbandha̍nānmṛ॒tyoḥ~। mṛ॒tyormu̍kṣīya mukṣīya mṛ॒tyormṛ॒tyormu̍kṣīya~।
+mu॒kṣī॒ya॒ mā mā mu̍kṣīya mukṣīya॒ mā~। mā'mṛtā̍da॒mṛtā॒nmā mā'mṛtā̎t~।
+a॒mṛtā॒ditya॒mṛtā̎t~॥
+
+\vspace{1cm}
+
+oṁ yo ru॒dro ru॒dro yo yo ru॒draḥ~।
+ru॒dro a॒gnāva॒gnau ru॒dro ru॒dro a॒gnau~।
+a॒gnau yo yo a॒gnāva॒gnau yaḥ~।
+yo a॒psva̍psu yo yo a॒psu~।
+a॒psu yo yo a॒psva̍psu yaḥ~।
+a॒psvitya̍p - su~।
+ya oṣa̍dhī॒ṣvoṣa̍dhīṣu॒ yo ya oṣa̍dhīṣu~।
+oṣa̍dhīṣu॒ yo ya oṣa̍dhī॒ṣvoṣa̍dhīṣu॒ yaḥ~।
+yo ru॒dro ru॒dro yo yo ru॒draḥ~।
+ru॒dro viśvā॒ viśvā̍ ru॒dro ru॒dro viśvā̎~।
+viśvā̱ bhuva̍nā॒ bhuva̍nā॒ viśvā॒ viśvā॒ bhuva̍nā~।
+bhuva̍nāvi॒veśā̍vi॒veśa॒ bhuva̍nā॒  bhuva̍nāvi॒veśa̍~।
+ā॒vi॒veśa॒ tasmai॒ tasmā̍ āvi॒veśā̍vi॒veśa॒ tasmai̎~।
+ā॒vi॒veśetyā̎ - vi॒veśa̍~।
+tasmai̍ ru॒drāya̍ ru॒drāya̍ tasmai॒ tasmai̍ ru॒drāya̍~।
+ru॒drāya॒ namo॒ namo̍ ru॒drāya̍ ru॒drāya॒ nama̍ḥ~।
+namo̍ astvastu॒ namo॒ namo̍ astu~।
+a॒stvitya̍stu~॥
+
+
+\Large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
