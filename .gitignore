@@ -1,12 +1,34 @@
+# to know wich pattern and file make a particular file ignored
+# use: git check-ignore -v relative path to file
+
 #exclude those directories
 LaTeX4Devanagari/
 **old/
+00-cours/
+.debris/
 
-#Ignore all directories
-**/
+#Ignore specific file ath the project root
+/*.pdf
+/*.doc[x]
 
-#except latex directories
-!**/latex
+#Ignore file everywhere in the project
+*.ttf
+skt*
+*.dvi
+**/Audio/
+*.m4a
+*.mp3
+*.docx
+*.doc
+*.txt
+*.lnk
+*.skt
+*.html
+*/
 
-#Ignore all files at the root
-*
+#except latex source and pdf files
+#!/rudram/latex/*.tex
+#!rudram/
+#rudram/*
+#!rudram/latex/
+
